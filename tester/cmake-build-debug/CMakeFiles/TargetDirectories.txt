@@ -1,0 +1,4 @@
+/Users/wojciechkonury/Downloads/tester/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wojciechkonury/Downloads/tester/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wojciechkonury/Downloads/tester/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir
+/Users/wojciechkonury/Downloads/tester/cmake-build-debug/CMakeFiles/pamsi_tester.dir

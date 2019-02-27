@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -Wall -pedantic -Wextra -Werror -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pamsi_tester_example.dir/src/main.cpp.o  -o pamsi_tester_example libpamsi_tester.a 
