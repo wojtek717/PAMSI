@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/wojciechkonury/Downloads/tester/src/Timer.cpp" "/Users/wojciechkonury/Downloads/tester/cmake-build-debug/CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o"
+  "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/src/Timer.cpp" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/cmake-build-debug/CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
