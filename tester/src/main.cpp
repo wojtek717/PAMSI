@@ -8,8 +8,11 @@
 #include <numeric>
 #include <vector>
 
+
+// THIS CLASS EXIST ONLY TO OVERRIDE OPERATOR << FOR VECTOR<>
 class Matrix : public std::vector<int> {};
 
+// Override << operator
 std::ostream &operator<<(std::ostream &wyjscie,  Matrix elements){
     for(int i: elements){
         wyjscie << i << " ";
@@ -17,23 +20,13 @@ std::ostream &operator<<(std::ostream &wyjscie,  Matrix elements){
     return wyjscie;
 }
 
-//class MatriciesElements{
-//    std::vector<int> elements;
-//
-//public:
-//    MatriciesElements(std::vector<int> elements){
-//        this->elements = std::move(elements);
-//    }
-//
-//};
-
-
+// Stores informations about matriecies
 class Matriecies{
     int n;
     int m;
-    int size;
+    int size;   //amount of elements in one matrix
 
-    std::vector<int> matricies;
+    std::vector<int> matricies; //all elements from matrix A and matrix B
 
 public:
     Matriecies(int n, int m, std::vector<int> matricies){
@@ -44,6 +37,7 @@ public:
         this->size = n*m;
     }
 
+    //Add matrix A to matrix B
     Matrix Sum(){
         Matrix result;
 
@@ -66,7 +60,7 @@ class SumMatriciesTester : public Tester<Matrix, std::vector<int>>
 
 Matrix SumMatriciesTester::runAlgorithm(const std::vector<int>& inputData)
 {
-    std::vector<int> matriciesElements = std::vector<int>(inputData.begin() + 2, inputData.end());
+    std::vector<int> matriciesElements = std::vector<int>(inputData.begin() + 2, inputData.end());  //cut two first elements
     Matriecies matriecies = Matriecies(inputData[0], inputData[1], matriciesElements);
 
     return matriecies.Sum();
