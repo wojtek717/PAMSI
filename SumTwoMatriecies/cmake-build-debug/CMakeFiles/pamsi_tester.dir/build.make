@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester"
+CMAKE_SOURCE_DIR = "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pamsi_tester.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/pamsi_tester.dir/flags.make
 
 CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o: CMakeFiles/pamsi_tester.dir/flags.make
 CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o: ../src/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o -c "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/src/Timer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o -c "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/src/Timer.cpp"
 
 CMakeFiles/pamsi_tester.dir/src/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pamsi_tester.dir/src/Timer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/src/Timer.cpp" > CMakeFiles/pamsi_tester.dir/src/Timer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/src/Timer.cpp" > CMakeFiles/pamsi_tester.dir/src/Timer.cpp.i
 
 CMakeFiles/pamsi_tester.dir/src/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pamsi_tester.dir/src/Timer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/src/Timer.cpp" -o CMakeFiles/pamsi_tester.dir/src/Timer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/src/Timer.cpp" -o CMakeFiles/pamsi_tester.dir/src/Timer.cpp.s
 
 # Object files for target pamsi_tester
 pamsi_tester_OBJECTS = \
@@ -80,7 +80,7 @@ pamsi_tester_EXTERNAL_OBJECTS =
 libpamsi_tester.a: CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o
 libpamsi_tester.a: CMakeFiles/pamsi_tester.dir/build.make
 libpamsi_tester.a: CMakeFiles/pamsi_tester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpamsi_tester.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpamsi_tester.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pamsi_tester.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pamsi_tester.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/pamsi_tester.dir/clean:
 .PHONY : CMakeFiles/pamsi_tester.dir/clean
 
 CMakeFiles/pamsi_tester.dir/depend:
-	cd "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/cmake-build-debug" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/cmake-build-debug" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/cmake-build-debug/CMakeFiles/pamsi_tester.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/cmake-build-debug" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/cmake-build-debug" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/pamsi_tester.dir/depend
 

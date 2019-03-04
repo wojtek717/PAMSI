@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -pedantic -Wextra -Werror -g   -std=c++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/tester/include" 
+CXX_INCLUDES = -I"/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/SumTwoMatriecies/include" 
 
