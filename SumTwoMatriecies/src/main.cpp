@@ -22,16 +22,14 @@ std::ostream &operator<<(std::ostream &wyjscie,  Matrix elements){
 
 // Stores informations about matriecies
 class Matriecies{
-    int n;
-    int m;
+
     int size;   //amount of elements in one matrix
 
     std::vector<int> matricies; //all elements from matrix A and matrix B
 
 public:
     Matriecies(int n, int m, std::vector<int> matricies){
-        this->n = n;
-        this->m = m;
+
         this->matricies = std::move(matricies);
 
         this->size = n*m;
