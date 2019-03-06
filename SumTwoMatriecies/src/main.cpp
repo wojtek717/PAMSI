@@ -13,34 +13,34 @@
 class Matrix : public std::vector<int> {};
 
 // Override << operator
-std::ostream &operator<<(std::ostream &wyjscie,  Matrix elements){
+std::ostream &operator<<(std::ostream &output,  Matrix elements){
     for(int i: elements){
-        wyjscie << i << " ";
+        output << i << " ";
     }
-    return wyjscie;
+    return output;
 }
 
 // Stores informations about matriecies
-class Matriecies{
+class Matrices{
 
     int size;   //amount of elements in one matrix
 
-    std::vector<int> matricies; //all elements from matrix A and matrix B
+    std::vector<int> matrices; //all elements from matrix A and matrix B
 
 public:
-    Matriecies(int n, int m, std::vector<int> matricies){
+    Matrices(int n, int m, std::vector<int> matrices){
 
-        this->matricies = std::move(matricies);
+        this->matrices = std::move(matrices);
 
         this->size = n*m;
     }
 
     //Add matrix A to matrix B
-    Matrix Sum(){
+    Matrix Sum() const{
         Matrix result;
 
         for (int i = 0; i < size; ++i) {
-            result.push_back(matricies[i] + matricies[size + i]);
+            result.push_back(matrices[i] + matrices[size + i]);
         }
 
         return result;
@@ -49,22 +49,22 @@ public:
 
 
 
-class SumMatriciesTester : public Tester<Matrix, std::vector<int>>
+class SumMatriciesTester : public Tester<Matrix, Matrices>
 {
   protected:
-    Matrix runAlgorithm(const std::vector<int>& inputData) override;
-    std::vector<int> readSingleInput(std::istream& inputStream) override;
+    Matrix runAlgorithm(const Matrices& inputData) override;
+    Matrices readSingleInput(std::istream& inputStream) override;
 };
 
-Matrix SumMatriciesTester::runAlgorithm(const std::vector<int>& inputData)
+Matrix SumMatriciesTester::runAlgorithm(const Matrices& inputData)
 {
-    std::vector<int> matriciesElements = std::vector<int>(inputData.begin() + 2, inputData.end());  //cut two first elements
-    Matriecies matriecies = Matriecies(inputData[0], inputData[1], matriciesElements);
+    //std::vector<int> matriciesElements = std::vector<int>(inputData.begin() + 2, inputData.end());  //cut two first elements
+   // Matrices matriecies = Matrices(inputData[0], inputData[1], matriciesElements);
 
-    return matriecies.Sum();
+    return inputData.Sum();
 }
 
-std::vector<int> SumMatriciesTester::readSingleInput(std::istream& inputStream)
+Matrices SumMatriciesTester::readSingleInput(std::istream& inputStream)
 {
     int nSize = 0;
     int mSize = 0;
@@ -74,10 +74,7 @@ std::vector<int> SumMatriciesTester::readSingleInput(std::istream& inputStream)
     inputStream >> mSize;
     amountOfData = 2*nSize*mSize;
 
-    std::vector<int> result;
-
-    result.push_back(nSize);
-    result.push_back(mSize);
+    std::vector<int> matricesElements((u_long)amountOfData);
 
 
     for(auto i = 0; i < amountOfData; ++i)
@@ -86,10 +83,12 @@ std::vector<int> SumMatriciesTester::readSingleInput(std::istream& inputStream)
 
         inputStream >> dataElement;
 
-        result.push_back(dataElement);
+        matricesElements.push_back(dataElement);
     }
 
-    return result;
+    Matrices matrices = Matrices(nSize, mSize, matricesElements);
+
+    return matrices;
 }
 
 int main(int /*argc*/, char* /*argv*/[])
