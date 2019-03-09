@@ -41,7 +41,16 @@ void List<T>::pushBack(const T &newElement) {
 
 template<typename T>
 void List<T>::pushFront(const T &newElement) {
+    if(head == nullptr){
+        head = new ListElement<T>(newElement);
+        tail = head;
+    } else{
+        ListElement<T>* tmp;
+        tmp = new ListElement<T>(newElement);
 
+        tmp->nextElement = head;
+        head = tmp;
+    }
 }
 
 

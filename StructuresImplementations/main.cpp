@@ -9,6 +9,7 @@ int main() {
     list.pushBack(2);
     list.pushBack(3);
     list.pushBack(4);
+    list.pushFront(5);
 
 
     return 0;
