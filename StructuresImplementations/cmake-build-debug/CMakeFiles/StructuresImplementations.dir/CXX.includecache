@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/List.h
+iostream
+-
 ListElement.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/ListElement.h
 

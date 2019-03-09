@@ -6,10 +6,13 @@ int main() {
 
     List<int> list;
 
-    list.pushBack(2);
-    list.pushBack(3);
-    list.pushBack(4);
-    list.pushFront(5);
+    list.pushBack(1);   //0
+    list.pushBack(2);   //1
+    list.pushBack(3);   //2
+    list.pushBack(4);   //3
+    list.pushBack(5);   //4
+
+    list.insert(99, 3);
 
 
     return 0;
