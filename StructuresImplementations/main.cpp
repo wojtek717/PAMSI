@@ -11,8 +11,14 @@ int main() {
     list.pushBack(3);   //2
     list.pushBack(4);   //3
     list.pushBack(5);   //4
+    list.pushBack(2);
 
-    list.insert(99, 3);
+    //list.remove(2);
+
+    std::cout << list[6];
+    std::cout << "dasdas";
+
+    //list.insert(99, 3);
 
 
     return 0;
