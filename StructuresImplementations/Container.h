@@ -7,17 +7,17 @@
 
 
 template <typename T>
-struct ListElement {
+struct Container {
     T data;
-    ListElement* nextElement;
+    Container* nextElement;
 
 public:
 
-    ListElement(){
+    Container(){
 
     }
 
-    ListElement(T element){
+    Container(T element){
         data = element;
         nextElement = nullptr;
     }

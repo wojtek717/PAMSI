@@ -82,10 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Container.h">
+			<Option target="StructuresImplementations"/>
+		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/List.h">
 			<Option target="StructuresImplementations"/>
 		</Unit>
-		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/ListElement.h">
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Stack.h">
 			<Option target="StructuresImplementations"/>
 		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/main.cpp">

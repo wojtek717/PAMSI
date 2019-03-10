@@ -3,4 +3,4 @@ project(StructuresImplementations)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(StructuresImplementations main.cpp ListElement.h List.h)
+add_executable(StructuresImplementations main.cpp Container.h List.h Stack.h)

@@ -6,13 +6,13 @@
 #define STRUCTURESIMPLEMENTATIONS_LIST_H
 
 #include <iostream>
-#include "ListElement.h"
+#include "Container.h"
 
 template <typename T>
 class List {
 private:
-    ListElement<T> *head;
-    ListElement<T> *tail;
+    Container<T> *head;
+    Container<T> *tail;
 
 public:
     List(){
@@ -32,11 +32,11 @@ public:
 template<typename T>
 void List<T>::pushBack(const T &newElement) {
     if(head == nullptr){
-        head = new ListElement<T>(newElement);
+        head = new Container<T>(newElement);
         tail = head;
     } else{
-        ListElement<T>* tmp;
-        tmp = new ListElement<T>(newElement);
+        Container<T>* tmp;
+        tmp = new Container<T>(newElement);
         tail->nextElement = tmp;
 
         tail = tmp;
@@ -47,11 +47,11 @@ void List<T>::pushBack(const T &newElement) {
 template<typename T>
 void List<T>::pushFront(const T &newElement) {
     if(head == nullptr){
-        head = new ListElement<T>(newElement);
+        head = new Container<T>(newElement);
         tail = head;
     } else{
-        ListElement<T>* tmp;
-        tmp = new ListElement<T>(newElement);
+        Container<T>* tmp;
+        tmp = new Container<T>(newElement);
 
         tmp->nextElement = head;
         head = tmp;
@@ -66,7 +66,7 @@ void List<T>::insert(const T &newElement, int index) {
         return;
     }
 
-    ListElement<T>* listElement = head;
+    Container<T>* listElement = head;
 
     // get element at index-1 in list
     for (int i = 0; i < index - 1; i++){
@@ -85,22 +85,22 @@ void List<T>::insert(const T &newElement, int index) {
         return;
     }
 
-    ListElement<T>* nextElement;
+    Container<T>* nextElement;
     nextElement = listElement->nextElement;
 
-    ListElement<T>* tmp;
-    tmp = new ListElement<T>(newElement);
+    Container<T>* tmp;
+    tmp = new Container<T>(newElement);
     listElement->nextElement = tmp;
     tmp->nextElement = nextElement;
 }
 
 template<typename T>
 void List<T>::remove(const T &element) {
-    ListElement<T>* tmp;
-    tmp = new ListElement<T>(element);
+    Container<T>* tmp;
+    tmp = new Container<T>(element);
 
-    ListElement<T>* listElement = head;
-    ListElement<T>* previousListElement = nullptr;
+    Container<T>* listElement = head;
+    Container<T>* previousListElement = nullptr;
 
     while (listElement != nullptr){
 
@@ -127,7 +127,7 @@ void List<T>::remove(const T &element) {
 
 template<typename T>
 T &List<T>::operator[](int index) {
-    ListElement<T>* listElement = head;
+    Container<T>* listElement = head;
 
 
     for(int i = 0; i < index; i++){

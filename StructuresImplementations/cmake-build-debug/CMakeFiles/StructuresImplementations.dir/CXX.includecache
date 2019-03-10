@@ -6,17 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Container.h
+
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/List.h
 iostream
 -
-ListElement.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/ListElement.h
+Container.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Container.h
 
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/ListElement.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Stack.h
+Container.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Container.h
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/main.cpp
 iostream
 -
 List.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/List.h
+Stack.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Stack.h
 
