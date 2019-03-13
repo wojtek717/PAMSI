@@ -1,12 +1,14 @@
 #include <iostream>
 #include "List.h"
 #include "Stack.h"
+#include "Queue.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
     List<int> list;
     Stack<int> stack;
+    Queue<int> queue;
 
     list.pushBack(1);   //0
     list.pushBack(2);   //1
@@ -25,6 +27,17 @@ int main() {
     stack.push(12);
     stack.push(13);
     std::cout <<  stack.pop();
+    std::cout << stack.getTop();
+
+    std::cout << "#########" << std::endl;
+    queue.enqueue(12);
+    queue.enqueue(13);
+    queue.enqueue(14);
+
+    std::cout << queue.dequeue() << std::endl;
+    std::cout << queue.dequeue() << std::endl;
+    queue.enqueue(99);
+    std::cout << queue.dequeue();
 
 
     return 0;

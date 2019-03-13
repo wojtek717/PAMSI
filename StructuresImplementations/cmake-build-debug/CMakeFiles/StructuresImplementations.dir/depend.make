@@ -3,6 +3,7 @@
 
 CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../Container.h
 CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../List.h
+CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../Queue.h
 CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../Stack.h
 CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../main.cpp
 

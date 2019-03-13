@@ -20,6 +20,7 @@ public:
 
     void push(const T& newElement);
     T pop();
+    T getTop();
 };
 
 template<typename T>
@@ -45,6 +46,14 @@ T Stack<T>::pop() {
     top = top->nextElement;
 
     return tmp->data;
+}
+
+template<typename T>
+T Stack<T>::getTop() {
+    if(top == nullptr){
+        //TODO zwrocic wyjatek!
+    }
+    return top->data;
 }
 
 
