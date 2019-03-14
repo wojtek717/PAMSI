@@ -14,6 +14,12 @@ iostream
 Container.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Container.h
 
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/PriorityContainer.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/PriorityQueue.h
+PriorityContainer.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/PriorityContainer.h
+
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Queue.h
 Container.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Container.h
@@ -31,4 +37,6 @@ Stack.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Stack.h
 Queue.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Queue.h
+PriorityQueue.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/PriorityQueue.h
 

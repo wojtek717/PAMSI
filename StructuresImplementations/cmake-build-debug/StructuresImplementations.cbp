@@ -88,6 +88,12 @@
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/List.h">
 			<Option target="StructuresImplementations"/>
 		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/PriorityContainer.h">
+			<Option target="StructuresImplementations"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/PriorityQueue.h">
+			<Option target="StructuresImplementations"/>
+		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Queue.h">
 			<Option target="StructuresImplementations"/>
 		</Unit>
