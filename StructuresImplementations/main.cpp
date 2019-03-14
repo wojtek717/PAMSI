@@ -50,6 +50,14 @@ int main() {
     priorityQueue.enqueue(6, 1);
     priorityQueue.enqueue(7, 7);
 
+    std::cout << priorityQueue.dequeue() << std::endl;
+    std::cout << priorityQueue.dequeue() << std::endl;
+    std::cout << priorityQueue.dequeue() << std::endl;
+    std::cout << priorityQueue.dequeue() << std::endl;
+    std::cout << priorityQueue.dequeue() << std::endl;
+    std::cout << priorityQueue.dequeue() << std::endl;
+    std::cout << priorityQueue.dequeue() << std::endl;
+
 
     return 0;
 }

@@ -21,6 +21,7 @@ public:
     }
 
     void enqueue(const T& newElement, int priority);
+    T dequeue();
 };
 
 template<typename T>
@@ -32,9 +33,9 @@ void PriorityQueue<T>::enqueue(const T &newElement, int priority) {
         first = tmp;
         last = first;
     } else{
-        //find last element with this priority value or higher
         PriorityContainer<T>* queueElement = first;
 
+        //find last element with this priority value or lower
         while (tmp->priority < queueElement->priority){
 
             queueElement = queueElement->nextElement;
@@ -55,8 +56,15 @@ void PriorityQueue<T>::enqueue(const T &newElement, int priority) {
             tmp->nextElement = queueElement->nextElement;
             queueElement->nextElement = tmp;
         }
-
     }
+}
+
+template<typename T>
+T PriorityQueue<T>::dequeue() {
+    PriorityContainer<T>* tmp = first;
+    first = first->nextElement;
+
+    return tmp->data;
 }
 
 
