@@ -3,6 +3,7 @@
 #include "Stack.h"
 #include "Queue.h"
 #include "PriorityQueue.h"
+#include "Map.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -11,6 +12,8 @@ int main() {
     Stack<int> stack;
     Queue<int> queue;
     PriorityQueue<int> priorityQueue;
+    Map<std::string, std::string> map;
+    Map<int, int> mapi;
 
     list.pushBack(1);   //0
     list.pushBack(2);   //1
@@ -57,6 +60,16 @@ int main() {
     std::cout << priorityQueue.dequeue() << std::endl;
     std::cout << priorityQueue.dequeue() << std::endl;
     std::cout << priorityQueue.dequeue() << std::endl;
+    std::cout << "#########" << std::endl;
+
+    map.insert("Marka", "BMW");
+    map.insert("Model", "A4");
+    std::cout << map["Model"]<< std::endl;
+
+    mapi.insert(99,3);
+    std::cout << mapi[99] << std::endl;
+
+    std::cout << std::endl<< std::endl<< std::endl <<  typeid(2).name();
 
 
     return 0;

@@ -3,6 +3,7 @@
 
 CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../Container.h
 CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../List.h
+CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../Map.h
 CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../PriorityContainer.h
 CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../PriorityQueue.h
 CMakeFiles/StructuresImplementations.dir/main.cpp.o: ../Queue.h

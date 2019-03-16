@@ -5,7 +5,6 @@
 #ifndef STRUCTURESIMPLEMENTATIONS_PRIORITYQUEUE_H
 #define STRUCTURESIMPLEMENTATIONS_PRIORITYQUEUE_H
 
-
 #include "PriorityContainer.h"
 
 template <typename T>
@@ -66,6 +65,9 @@ T PriorityQueue<T>::dequeue() {
 
     return tmp->data;
 }
+
+
+
 
 
 #endif //STRUCTURESIMPLEMENTATIONS_PRIORITYQUEUE_H
