@@ -103,6 +103,9 @@
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Stack.h">
 			<Option target="StructuresImplementations"/>
 		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/catch.hpp">
+			<Option target="StructuresImplementations"/>
+		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/main.cpp">
 			<Option target="StructuresImplementations"/>
 		</Unit>

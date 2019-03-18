@@ -23,6 +23,7 @@ public:
     Map(){}
 
     void insert(const KeyType& key, const ValueType& value);
+    void remove(const KeyType& key);
 
     ValueType& operator [] (const KeyType& key);
 
@@ -57,6 +58,11 @@ int Map<KeyType, ValueType>::hash(std::string Key) {
 template<typename KeyType, typename ValueType>
 int Map<KeyType, ValueType>::hash(int Key) {
     return Key % SIZE;
+}
+
+template<typename KeyType, typename ValueType>
+void Map<KeyType, ValueType>::remove(const KeyType &key) {
+    map[hash(key)] = 0;
 }
 
 

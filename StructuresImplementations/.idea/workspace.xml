@@ -12,10 +12,181 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc5f30d3-dfdb-4052-8640-ccb4d62dc66e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Map.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/catch.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/catch_with_main.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/external/clara.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_approx.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_approx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_assertionhandler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_assertionhandler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_assertioninfo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_assertionresult.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_assertionresult.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_benchmark.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_benchmark.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_capture.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_capture_matchers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_capture_matchers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_clara.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_commandline.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_commandline.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_common.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_compiler_capabilities.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_config.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_config.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_console_colour.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_console_colour.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_context.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_debug_console.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_debug_console.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_debugger.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_debugger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_decomposer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_decomposer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_default_main.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_enforce.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_enforce.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_errno_guard.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_errno_guard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_exception_translator_registry.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_exception_translator_registry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_external_interfaces.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_fatal_condition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_fatal_condition.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_generators.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_generators.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_generators_generic.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_generators_specific.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_impl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_capture.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_capture.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_config.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_exception.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_exception.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_generatortracker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_registry_hub.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_registry_hub.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_reporter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_reporter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_runner.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_tag_alias_registry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_testcase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_interfaces_testcase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_leak_detector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_leak_detector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_list.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_matchers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_matchers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_matchers_floating.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_matchers_floating.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_matchers_generic.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_matchers_generic.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_matchers_string.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_matchers_string.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_matchers_vector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_message.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_message.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_meta.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_objc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_objc_arc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_option.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_output_redirect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_output_redirect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_polyfills.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_polyfills.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_preprocessor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_random_number_generator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_random_number_generator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_reenable_warnings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_registry_hub.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_reporter_registrars.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_reporter_registry.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_reporter_registry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_result_type.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_result_type.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_run_context.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_run_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_section.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_section.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_section_info.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_section_info.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_session.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_session.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_singletons.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_singletons.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_startup_exception_registry.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_startup_exception_registry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_stream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_stream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_string_manip.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_string_manip.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_stringref.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_stringref.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_suppress_warnings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_tag_alias.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_tag_alias.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_tag_alias_autoregistrar.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_tag_alias_autoregistrar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_tag_alias_registry.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_tag_alias_registry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_case_info.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_case_info.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_case_registry_impl.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_case_registry_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_case_tracker.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_case_tracker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_registry.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_registry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_spec.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_spec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_spec_parser.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_test_spec_parser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_text.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_timer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_to_string.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_tostring.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_tostring.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_totals.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_totals.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_type_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_uncaught_exceptions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_uncaught_exceptions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_user_interfaces.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_version.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_wildcard_pattern.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_wildcard_pattern.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_windows_h_proxy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_xmlwriter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/internal/catch_xmlwriter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_automake.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_bases.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_bases.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_compact.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_compact.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_console.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_console.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_junit.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_junit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_listening.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_listening.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_tap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_teamcity.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_xml.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/reporters/catch_reporter_xml.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PriorityQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/PriorityQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/List.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map.h" beforeDir="false" afterPath="$PROJECT_DIR$/Map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/Stack.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/depend.make" afterDir="false" />
@@ -72,36 +243,36 @@
     <session id="-382849479">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="902" />
-          <entry key="h" value="3183" />
+          <entry key="cpp" value="1022" />
+          <entry key="h" value="3496" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="3" />
-          <entry key="ObjectiveC" value="4085" />
+          <entry key="ObjectiveC" value="4518" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="h" value="11" />
-          <entry key="hpp" value="2" />
+          <entry key="h" value="13" />
+          <entry key="hpp" value="5" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="13" />
+          <entry key="ObjectiveC" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -111,17 +282,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state>
               <caret line="5" column="120" selection-start-line="5" selection-start-column="120" selection-end-line="5" selection-end-column="120" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -132,8 +303,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PriorityContainer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="e#170#182#0" expanded="true" />
               </folding>
@@ -141,13 +312,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/List.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="380">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#135#154#0" expanded="true" />
+                <element signature="e#188#200#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stack.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#138#160#0" expanded="true" />
+                <element signature="e#171#183#0" expanded="true" />
+                <element signature="e#822#834#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,13 +342,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PriorityQueue.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="e#163#175#0" expanded="true" />
-                <element signature="e#455#467#0" expanded="true" />
-                <element signature="e#1371#1383#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -170,15 +351,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Map.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="480">
+              <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
               <folding>
                 <element signature="e#133#150#0" expanded="true" />
-                <element signature="e#162#202#0" expanded="true" />
-                <element signature="e#881#919#0" expanded="true" />
-                <element signature="e#1099#1137#0" expanded="true" />
-                <element signature="e#1336#1374#0" expanded="true" />
-                <element signature="e#1045#1083#0" expanded="true" />
+                <element signature="e#1200#1238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,8 +376,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Container.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#151#163#0" expanded="true" />
               </folding>
@@ -218,16 +395,17 @@
       <list>
         <option value="$PROJECT_DIR$/Element.h" />
         <option value="$PROJECT_DIR$/ListElement.h" />
-        <option value="$PROJECT_DIR$/List.h" />
         <option value="$PROJECT_DIR$/cmake-build-debug/Stack.h" />
-        <option value="$PROJECT_DIR$/Stack.h" />
         <option value="$PROJECT_DIR$/Container.h" />
         <option value="$PROJECT_DIR$/Queue.h" />
-        <option value="$PROJECT_DIR$/PriorityContainer.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/PriorityQueue.h" />
         <option value="$PROJECT_DIR$/Map.h" />
+        <option value="$PROJECT_DIR$/PriorityContainer.h" />
+        <option value="$PROJECT_DIR$/catch.hpp" />
+        <option value="$PROJECT_DIR$/Stack.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/List.h" />
       </list>
     </option>
   </component>
@@ -237,10 +415,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="513" />
     <option name="y" value="23" />
-    <option name="width" value="1627" />
+    <option name="width" value="1167" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -316,23 +494,24 @@
       <workItem from="1552156963660" duration="2522000" />
       <workItem from="1552159698393" duration="8758000" />
       <workItem from="1552482130751" duration="3839000" />
-      <workItem from="1552585396293" duration="11053000" />
+      <workItem from="1552585396293" duration="13187000" />
+      <workItem from="1552843676213" duration="2053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27804000" />
+    <option name="totallyTimeSpent" value="31991000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="23" width="1627" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26246056" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15323566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32834226" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.327551" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,7 +521,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32834226" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.327551" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -362,36 +541,36 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Stack.h" />
-    <entry file="file://$PROJECT_DIR$/Stack.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="e#171#183#0" expanded="true" />
-            <element signature="e#822#834#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/catch/catch.hpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catch.hpp">
+    <entry file="file://$PROJECT_DIR$/include/catch/catch.hpp" />
+    <entry file="file://$PROJECT_DIR$/catch.hpp" />
+    <entry file="file://$PROJECT_DIR$/include/external/clara.hpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state>
           <caret line="5" column="120" selection-start-line="5" selection-start-column="120" selection-end-line="5" selection-end-column="120" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Container.h">
+    <entry file="file://$PROJECT_DIR$/PriorityContainer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
-            <element signature="e#151#163#0" expanded="true" />
+            <element signature="e#170#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#138#160#0" expanded="true" />
+            <element signature="e#171#183#0" expanded="true" />
+            <element signature="e#822#834#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -406,59 +585,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/List.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#135#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PriorityQueue.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#163#175#0" expanded="true" />
-            <element signature="e#455#467#0" expanded="true" />
-            <element signature="e#1371#1383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PriorityContainer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#170#182#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Map.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="480">
+          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
           <folding>
             <element signature="e#133#150#0" expanded="true" />
-            <element signature="e#162#202#0" expanded="true" />
-            <element signature="e#881#919#0" expanded="true" />
-            <element signature="e#1099#1137#0" expanded="true" />
-            <element signature="e#1336#1374#0" expanded="true" />
-            <element signature="e#1045#1083#0" expanded="true" />
+            <element signature="e#1200#1238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/catch.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Container.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#151#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/List.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#135#154#0" expanded="true" />
+            <element signature="e#188#200#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,7 +6,10 @@
 #define STRUCTURESIMPLEMENTATIONS_STACK_H
 
 
+
+
 #include "Container.h"
+#include "include/catch.hpp"
 
 template <typename T>
 class Stack {
@@ -55,6 +58,19 @@ T Stack<T>::getTop() {
     }
     return top->data;
 }
+
+//TEST_CASE("Push() & Pop()", "[Stack]")
+//{
+//    Stack<int> stack;
+//
+//    SECTION("add items and get top"){
+//        stack.push(61);
+//        stack.push(82);
+//        stack.push(21);
+//
+//        REQUIRE(stack.getTop() == 21);
+//    }
+//}
 
 
 #endif //STRUCTURESIMPLEMENTATIONS_STACK_H

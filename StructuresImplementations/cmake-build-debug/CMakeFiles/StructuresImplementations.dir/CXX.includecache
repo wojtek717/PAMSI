@@ -33,6 +33,678 @@ Container.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Stack.h
 Container.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Container.h
+include/catch.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/catch.hpp
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/catch.hpp
+internal/catch_suppress_warnings.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_suppress_warnings.h
+internal/catch_platform.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_platform.h
+internal/catch_user_interfaces.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_user_interfaces.h
+internal/catch_tag_alias_autoregistrar.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_tag_alias_autoregistrar.h
+internal/catch_test_registry.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_registry.h
+internal/catch_capture.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_capture.hpp
+internal/catch_section.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_section.h
+internal/catch_benchmark.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_benchmark.h
+internal/catch_interfaces_exception.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_exception.h
+internal/catch_approx.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_approx.h
+internal/catch_compiler_capabilities.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_compiler_capabilities.h
+internal/catch_string_manip.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_string_manip.h
+internal/catch_capture_matchers.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_capture_matchers.h
+internal/catch_generators.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_generators.hpp
+internal/catch_generators_generic.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_generators_generic.hpp
+internal/catch_generators_specific.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_generators_specific.hpp
+internal/catch_test_case_info.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_case_info.h
+internal/catch_interfaces_runner.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_runner.h
+internal/catch_objc.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_objc.hpp
+internal/catch_external_interfaces.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_external_interfaces.h
+internal/catch_impl.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_impl.hpp
+internal/catch_default_main.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_default_main.hpp
+internal/catch_reenable_warnings.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_reenable_warnings.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/external/clara.hpp
+optional
+-
+cassert
+-
+ostream
+-
+sstream
+-
+vector
+-
+cctype
+-
+string
+-
+memory
+-
+set
+-
+algorithm
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_approx.h
+catch_tostring.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_tostring.h
+type_traits
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_assertionhandler.h
+catch_assertioninfo.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_assertioninfo.h
+catch_decomposer.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_decomposer.h
+catch_interfaces_capture.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_capture.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_assertioninfo.h
+catch_result_type.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_result_type.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_stringref.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_assertionresult.h
+string
+-
+catch_assertioninfo.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_assertioninfo.h
+catch_result_type.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_result_type.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_stringref.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+catch_assertionhandler.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_assertionhandler.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_benchmark.h
+catch_stringref.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+catch_timer.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_timer.h
+cstdint
+-
+string
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_capture.hpp
+catch_assertionhandler.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_assertionhandler.h
+catch_interfaces_capture.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_capture.h
+catch_message.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_message.h
+catch_stringref.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_capture_matchers.h
+catch_capture.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_capture.hpp
+catch_matchers.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers.h
+catch_matchers_floating.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers_floating.h
+catch_matchers_generic.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers_generic.hpp
+catch_matchers_string.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers_string.h
+catch_matchers_vector.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers_vector.h
+catch_stringref.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_clara.h
+../external/clara.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/external/clara.hpp
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_commandline.h
+catch_config.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_config.hpp
+catch_clara.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_clara.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_compiler_capabilities.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_compiler_capabilities.h
+iosfwd
+-
+string
+-
+cstdint
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_compiler_capabilities.h
+catch_platform.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_platform.h
+ciso646
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_config.hpp
+catch_test_spec_parser.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_spec_parser.h
+catch_interfaces_config.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_config.h
+catch_stream.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stream.h
+memory
+-
+vector
+-
+string
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_console_colour.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_context.h
+memory
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_decomposer.h
+catch_tostring.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_tostring.h
+catch_stringref.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+catch_meta.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_meta.hpp
+iosfwd
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_default_main.hpp
+catch_session.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_session.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_enforce.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_compiler_capabilities.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_compiler_capabilities.h
+catch_stream.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stream.h
+stdexcept
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_external_interfaces.h
+../reporters/catch_reporter_bases.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_bases.hpp
+catch_console_colour.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_console_colour.h
+catch_reporter_registrars.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_reporter_registrars.hpp
+../reporters/catch_reporter_compact.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_compact.h
+../reporters/catch_reporter_console.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_console.h
+../reporters/catch_reporter_junit.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_junit.h
+../reporters/catch_reporter_xml.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_xml.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_generators.hpp
+catch_interfaces_generatortracker.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_generatortracker.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_enforce.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_enforce.h
+memory
+-
+vector
+-
+cassert
+-
+utility
+-
+exception
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_generators_generic.hpp
+catch_generators.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_generators.hpp
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_generators_specific.hpp
+catch_context.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_context.h
+catch_generators.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_generators.hpp
+catch_interfaces_config.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_config.h
+random
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_impl.hpp
+catch_test_spec.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_spec.h
+catch_test_case_tracker.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_case_tracker.h
+catch_leak_detector.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_leak_detector.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_capture.h
+string
+-
+catch_stringref.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+catch_result_type.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_result_type.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_config.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+iosfwd
+-
+string
+-
+vector
+-
+memory
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_exception.h
+catch_interfaces_registry_hub.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_registry_hub.h
+exception
+-
+string
+-
+vector
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_generatortracker.h
+memory
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_registry_hub.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+string
+-
+memory
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_reporter.h
+catch_section_info.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_section_info.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_config.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_config.hpp
+catch_totals.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_totals.h
+catch_test_case_info.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_case_info.h
+catch_assertionresult.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_assertionresult.h
+catch_message.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_message.h
+catch_option.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_option.hpp
+catch_stringref.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+string
+-
+iosfwd
+-
+map
+-
+set
+-
+memory
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_runner.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_tag_alias_registry.h
+string
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_testcase.h
+vector
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_leak_detector.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+string
+-
+vector
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers_floating.h
+catch_matchers.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers.h
+type_traits
+-
+cmath
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers_generic.hpp
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_matchers.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers.h
+functional
+-
+string
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers_string.h
+catch_matchers.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers.h
+string
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers_vector.h
+catch_matchers.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_matchers.h
+algorithm
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_message.h
+catch_result_type.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_result_type.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_stream.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stream.h
+catch_interfaces_capture.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_capture.h
+catch_tostring.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_tostring.h
+string
+-
+vector
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_meta.hpp
+type_traits
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_objc.hpp
+catch_objc_arc.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_objc_arc.hpp
+objc/runtime.h
+-
+string
+-
+catch_test_case_info.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_case_info.h
+catch_string_manip.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_string_manip.h
+catch_tostring.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_tostring.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_objc_arc.hpp
+Foundation/Foundation.h
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_option.hpp
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_platform.h
+TargetConditionals.h
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_preprocessor.hpp
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_reenable_warnings.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_reporter_registrars.hpp
+catch_interfaces_registry_hub.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_registry_hub.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_result_type.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_section.h
+catch_compiler_capabilities.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_compiler_capabilities.h
+catch_section_info.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_section_info.h
+catch_totals.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_totals.h
+catch_timer.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_timer.h
+string
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_section_info.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_totals.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_totals.h
+string
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_session.h
+catch_commandline.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_commandline.h
+catch_config.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_config.hpp
+catch_text.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_text.h
+memory
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stream.h
+iosfwd
+-
+cstddef
+-
+ostream
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_string_manip.h
+string
+-
+iosfwd
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+cstddef
+-
+string
+-
+iosfwd
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_suppress_warnings.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_tag_alias_autoregistrar.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_case_info.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_test_registry.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_registry.h
+string
+-
+vector
+-
+memory
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_case_tracker.h
+catch_compiler_capabilities.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_compiler_capabilities.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+string
+-
+vector
+-
+memory
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_registry.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+catch_interfaces_testcase.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_testcase.h
+catch_compiler_capabilities.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_compiler_capabilities.h
+catch_stringref.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stringref.h
+catch_type_traits.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_type_traits.hpp
+catch_preprocessor.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_preprocessor.hpp
+catch_meta.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_meta.hpp
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_spec.h
+catch_wildcard_pattern.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_wildcard_pattern.h
+catch_test_case_info.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_case_info.h
+string
+-
+vector
+-
+memory
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_spec_parser.h
+catch_test_spec.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_test_spec.h
+catch_string_manip.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_string_manip.h
+catch_interfaces_tag_alias_registry.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_tag_alias_registry.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_text.h
+catch_clara.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_clara.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_timer.h
+cstdint
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_tostring.h
+vector
+-
+cstddef
+-
+type_traits
+-
+string
+-
+catch_compiler_capabilities.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_compiler_capabilities.h
+catch_stream.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stream.h
+string_view
+-
+catch_objc_arc.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_objc_arc.hpp
+utility
+-
+optional
+-
+tuple
+-
+variant
+-
+ctime
+-
+ratio
+-
+chrono
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_totals.h
+cstddef
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_type_traits.hpp
+type_traits
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_user_interfaces.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_wildcard_pattern.h
+catch_common.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_common.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_xmlwriter.h
+catch_stream.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_stream.h
+catch_compiler_capabilities.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_compiler_capabilities.h
+vector
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_bases.hpp
+../internal/catch_enforce.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_enforce.h
+../internal/catch_interfaces_reporter.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_interfaces_reporter.h
+algorithm
+-
+cstring
+-
+cfloat
+-
+cstdio
+-
+cassert
+-
+memory
+-
+ostream
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_compact.h
+catch_reporter_bases.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_bases.hpp
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_console.h
+catch_reporter_bases.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_bases.hpp
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_junit.h
+catch_reporter_bases.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_bases.hpp
+../internal/catch_xmlwriter.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_xmlwriter.h
+../internal/catch_timer.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_timer.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_xml.h
+catch_reporter_bases.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/reporters/catch_reporter_bases.hpp
+../internal/catch_xmlwriter.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_xmlwriter.h
+../internal/catch_timer.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/internal/catch_timer.h
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/main.cpp
 iostream
@@ -47,4 +719,8 @@ PriorityQueue.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/PriorityQueue.h
 Map.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Map.h
+stdint.h
+-
+include/catch.hpp
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/catch.hpp
 

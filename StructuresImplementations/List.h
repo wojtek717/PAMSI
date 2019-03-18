@@ -20,12 +20,32 @@ public:
         tail = nullptr;
     }
 
+    class Iterator{
+        Container<T> *current;
+
+    public:
+        Iterator(Container<T>* x) :current(x) {}
+
+        Iterator& operator++() {current = current->nextElement; return *this;}
+        bool operator==(const Iterator& rhs) const {return &current->data==&rhs.current->data;}
+        bool operator!=(const Iterator& rhs) const {return &current->data!=&rhs.current->data;}
+        T& operator*() {return current->data;}
+    };
+
     void pushBack(const T& newElement);
     void pushFront(const T& newElement);
     void insert(const T& newElement , int index);
     void remove(const T& element);
 
     T& operator[](int index);
+
+    Iterator begin() {
+        return Iterator(head);
+    }
+
+    Iterator end(){
+        return Iterator(nullptr);
+    }
 
 };
 
