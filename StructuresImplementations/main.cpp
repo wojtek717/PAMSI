@@ -207,14 +207,119 @@ void testStlQueue(){
     stlQueue.pop();
 }
 
+void testMyPriorityQueue(){
+    PriorityQueue<int> myPriorityQueue;
+
+    std::cout << "####################" << std::endl;
+    std::cout << "Own implementation of PriorityQueue -> enqueue() elements with priority 72(2), 127(2), 61(21), 24(1)" << std::endl;
+
+    myPriorityQueue.enqueue(72, 2);
+    myPriorityQueue.enqueue(127, 2);
+    myPriorityQueue.enqueue(61, 21);
+    myPriorityQueue.enqueue(24, 1);
+
+    std::cout << "Dequeue(), Dequeue()" << std::endl;
+    std::cout << myPriorityQueue.dequeue() << std::endl;
+    std::cout << myPriorityQueue.dequeue() << std::endl;
+
+}
+void testStlPriorityQueue(){
+    std::priority_queue<int> stlPriorityQueue;
+
+    std::cout << "####################" << std::endl;
+    std::cout << "STL implementation of PriorityQueue -> push() elements with 72, 127, 61, 24" << std::endl;
+
+    stlPriorityQueue.push(72);
+    stlPriorityQueue.push(127);
+    stlPriorityQueue.push(61);
+    stlPriorityQueue.push(24);
+
+    std::cout << "Pop out elements" << std::endl;
+    std::cout << stlPriorityQueue.top() << std::endl;
+    stlPriorityQueue.pop();
+    std::cout << stlPriorityQueue.top() << std::endl;
+    stlPriorityQueue.pop();
+    std::cout << stlPriorityQueue.top() << std::endl;
+    stlPriorityQueue.pop();
+}
+
+void testMyMapString(){
+    Map<std::string, std::string> myMapString;
+    std::string key;
+    std::string value;
+
+    std::cout << "####################" << std::endl;
+    std::cout << "Own implementation of HashMap - String" << std::endl;
+
+    key = "Marka";
+    value = "BMW";
+    std::cout << "Insert obiect with key: " + key + " and value: " + value << std::endl;
+    myMapString.insert(key, value);
+    std::cout << "Get value of obiect with key: " + key + " -> " << myMapString[key]<< std::endl << std::endl;
+
+    key = "Model";
+    value = "A4";
+    std::cout << "Insert obiect with key: " + key + " and value: " + value << std::endl;
+    myMapString.insert(key, value);
+    std::cout << "Get value of obiect with key: " + key + " -> " << myMapString[key]<< std::endl << std::endl;
+
+    key = "Silnik";
+    value = "Benzyna";
+    std::cout << "Insert obiect with key: " + key + " and value: " + value << std::endl;
+    myMapString.insert(key, value);
+    std::cout << "Get value of obiect with key: " + key + " -> " << myMapString[key]<< std::endl << std::endl;
+
+    key = "Pojemnosc";
+    value = "2 litry";
+    std::cout << "Insert obiect with key: " + key + " and value: " + value << std::endl;
+    myMapString.insert(key, value);
+    std::cout << "Get value of obiect with key: " + key + " -> " << myMapString[key]<< std::endl << std::endl;
+
+    key = "Silnik";
+    std::cout << "Remove obiect with key: " + key << std::endl;
+    myMapString.remove(key);
+    std::cout << "Get value of obiect with key: " + key + " -> " << myMapString[key]<< std::endl << std::endl;
+
+}
+
+void testMyMapInt(){
+    Map<int, int> myMapInt;
+    int key;
+    int value;
+
+    std::cout << "####################" << std::endl;
+    std::cout << "Own implementation of HashMap - Int" << std::endl;
+
+
+    key = 1;
+    value = 12;
+    std::cout << "Insert obiect with key: " << key << " and value: " << value << std::endl;
+    myMapInt.insert(key, value);
+    std::cout << "Get value of obiect with key: " << key << " -> " << myMapInt[key]<< std::endl << std::endl;
+
+    key = 32;
+    value = 102;
+    std::cout << "Insert obiect with key: " << key << " and value: " << value << std::endl;
+    myMapInt.insert(key, value);
+    std::cout << "Get value of obiect with key: " << key << " -> " << myMapInt[key]<< std::endl << std::endl;
+
+    key = 0;
+    value = 213;
+    std::cout << "Insert obiect with key: " << key << " and value: " << value << std::endl;
+    myMapInt.insert(key, value);
+    std::cout << "Get value of obiect with key: " << key << " -> " << myMapInt[key]<< std::endl << std::endl;
+
+    key = 32;
+    std::cout << "Remove obiect with key: " << key << std::endl;
+    myMapInt.remove(key);
+    std::cout << "Get value of obiect with key: " << key << " -> " << myMapInt[key]<< std::endl << std::endl;
+
+}
+
 
 
 int main() {
 
-
-    PriorityQueue<int> myPriorityQueue;
-    Map<std::string, std::string> myMapString;
-    Map<int, int> myMapInt;
 
 
 
@@ -234,7 +339,14 @@ int main() {
 //    testStlQueue();
 
 
+// ##### PriorityQueue #####
+//    testMyPriorityQueue();
+//    testStlPriorityQueue();
 
+
+// ##### Map #####
+//    testMyMapString();
+//    testMyMapInt();
 
 
     return 0;
