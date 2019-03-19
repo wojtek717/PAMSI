@@ -32,6 +32,18 @@ public:
         T& operator*() {return current->data;}
     };
 
+    class ConstIterator{
+        Container<T> *current;
+
+    public:
+        ConstIterator(Container<T>* x) :current(x) {}
+
+        ConstIterator& operator++() {current = current->nextElement; return *this;}
+        bool operator==(const Iterator& rhs) const {return &current->data==&rhs.current->data;}
+        bool operator!=(const Iterator& rhs) const {return &current->data!=&rhs.current->data;}
+        const T& operator*() {return current->data;}
+    };
+
     void pushBack(const T& newElement);
     void pushFront(const T& newElement);
     void insert(const T& newElement , int index);
@@ -127,21 +139,30 @@ void List<T>::remove(const T &element) {
         if(listElement->data == tmp->data){
             if(listElement == head){
                 //previousLisElement == nullptr
-                head = head->nextElement;
                 delete(listElement);
+                head = head->nextElement;
+                previousListElement = listElement;
+                listElement = listElement->nextElement;
             } else if(listElement->nextElement == nullptr){
+                delete(listElement);
+
                 previousListElement->nextElement = nullptr;
                 tail = previousListElement;
-                delete(listElement);
+                previousListElement = listElement;
+                listElement = listElement->nextElement;
             } else{
-                previousListElement->nextElement = listElement->nextElement;
                 delete(listElement);
+
+                previousListElement->nextElement = listElement->nextElement;
+                previousListElement = previousListElement;
+                listElement = listElement->nextElement;
+
             }
+        } else{
+            previousListElement = listElement;
+            listElement = listElement->nextElement;
         }
 
-
-        previousListElement = listElement;
-        listElement = listElement->nextElement;
     }
 }
 

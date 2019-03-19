@@ -719,7 +719,11 @@ PriorityQueue.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/PriorityQueue.h
 Map.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/Map.h
-stdint.h
+list
+-
+stack
+-
+queue
 -
 include/catch.hpp
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/catch.hpp
