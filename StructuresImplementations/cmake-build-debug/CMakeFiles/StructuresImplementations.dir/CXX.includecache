@@ -725,6 +725,8 @@ stack
 -
 queue
 -
+typeinfo
+-
 include/catch.hpp
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/StructuresImplementations/include/catch.hpp
 

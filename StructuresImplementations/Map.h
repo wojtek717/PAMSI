@@ -27,6 +27,8 @@ public:
     void remove(std::string key);
     void remove(int key);
 
+//    void remove(const KeyType& key);
+
     ValueType& operator [] (const KeyType& key);
 
 
@@ -61,6 +63,19 @@ template<typename KeyType, typename ValueType>
 int Map<KeyType, ValueType>::hash(int Key) {
     return Key % SIZE;
 }
+
+//template<typename KeyType, typename ValueType>
+//void Map<KeyType, ValueType>::remove(const KeyType& key) {
+//    std::string s = "ala";
+//
+//    if(typeid(s).name() == typeid(hash(key)).name()){
+//        map[hash(key)] = "";
+//    } else{
+//        map[hash(key)] = 0;
+//    }
+//}
+
+
 
 template<typename KeyType, typename ValueType>
 void Map<KeyType, ValueType>::remove(std::string key) {

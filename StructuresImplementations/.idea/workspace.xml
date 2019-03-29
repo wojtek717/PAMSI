@@ -13,9 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="fc5f30d3-dfdb-4052-8640-ccb4d62dc66e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Map.h" beforeDir="false" afterPath="$PROJECT_DIR$/Map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/StructuresImplementations" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/StructuresImplementations" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/StructuresImplementations.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/StructuresImplementations.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -66,23 +71,24 @@
     <session id="-382849479">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3552" />
-          <entry key="h" value="3730" />
-          <entry key="txt" value="3" />
+          <entry key="cpp" value="3808" />
+          <entry key="h" value="3977" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="3" />
-          <entry key="ObjectiveC" value="7282" />
+          <entry key="CMakeLists.txt" value="19" />
+          <entry key="ObjectiveC" value="7785" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -105,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="120" selection-start-line="5" selection-start-column="120" selection-end-line="5" selection-end-column="120" />
+            <state relative-caret-position="60">
+              <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -114,19 +120,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="348" column="21" lean-forward="true" selection-start-line="348" selection-start-column="21" selection-end-line="348" selection-end-column="21" />
+            <state relative-caret-position="764">
+              <caret line="345" column="14" lean-forward="true" selection-start-line="345" selection-start-column="14" selection-end-line="345" selection-end-column="14" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#214#239#0" />
-                <element signature="e#1238#1264#0" />
-                <element signature="e#2413#2439#0" />
-                <element signature="e#2997#3024#0" />
-                <element signature="e#3671#3697#0" />
-                <element signature="e#4231#4258#0" />
-                <element signature="e#4905#4939#0" />
-                <element signature="e#5482#5517#0" />
-                <element signature="e#7721#7748#0" />
+                <element signature="e#231#1253#0" />
+                <element signature="e#1254#2428#0" />
+                <element signature="e#2430#3013#0" />
+                <element signature="e#3014#3686#0" />
+                <element signature="e#3688#4246#0" />
+                <element signature="e#4247#4903#0" />
+                <element signature="e#4905#5480#0" />
+                <element signature="e#5481#6145#0" />
+                <element signature="e#6147#7728#0" />
+                <element signature="e#7730#8948#0" />
               </folding>
             </state>
           </provider>
@@ -135,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PriorityQueue.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="-82">
               <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
             </state>
           </provider>
@@ -144,12 +151,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Map.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+            <state relative-caret-position="-141">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding>
                 <element signature="e#133#150#0" expanded="true" />
-                <element signature="e#1198#1236#0" expanded="true" />
-                <element signature="e#1355#1393#0" expanded="true" />
+                <element signature="e#1534#1572#0" expanded="true" />
+                <element signature="e#1665#1703#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,12 +175,12 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/Stack.h" />
         <option value="$PROJECT_DIR$/Container.h" />
         <option value="$PROJECT_DIR$/Queue.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/PriorityQueue.h" />
         <option value="$PROJECT_DIR$/PriorityContainer.h" />
         <option value="$PROJECT_DIR$/catch.hpp" />
         <option value="$PROJECT_DIR$/Stack.h" />
         <option value="$PROJECT_DIR$/List.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Map.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
@@ -266,12 +273,13 @@
       <workItem from="1552482130751" duration="3839000" />
       <workItem from="1552585396293" duration="13187000" />
       <workItem from="1552843676213" duration="3798000" />
-      <workItem from="1553018596943" duration="8992000" />
+      <workItem from="1553018596943" duration="9890000" />
+      <workItem from="1553083899074" duration="4910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42728000" />
+    <option name="totallyTimeSpent" value="48536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,21 +292,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16544567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16727717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.327551" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.327551" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6122449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.1622449" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3255102" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.327551" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.327551" />
@@ -328,13 +335,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/catch.hpp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="120" selection-start-line="5" selection-start-column="120" selection-end-line="5" selection-end-column="120" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Container.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -374,13 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PriorityQueue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Queue.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
@@ -391,33 +384,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PriorityQueue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Map.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+        <state relative-caret-position="-141">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="e#133#150#0" expanded="true" />
-            <element signature="e#1198#1236#0" expanded="true" />
-            <element signature="e#1355#1393#0" expanded="true" />
+            <element signature="e#1534#1572#0" expanded="true" />
+            <element signature="e#1665#1703#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="348" column="21" lean-forward="true" selection-start-line="348" selection-start-column="21" selection-end-line="348" selection-end-column="21" />
+        <state relative-caret-position="764">
+          <caret line="345" column="14" lean-forward="true" selection-start-line="345" selection-start-column="14" selection-end-line="345" selection-end-column="14" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#214#239#0" />
-            <element signature="e#1238#1264#0" />
-            <element signature="e#2413#2439#0" />
-            <element signature="e#2997#3024#0" />
-            <element signature="e#3671#3697#0" />
-            <element signature="e#4231#4258#0" />
-            <element signature="e#4905#4939#0" />
-            <element signature="e#5482#5517#0" />
-            <element signature="e#7721#7748#0" />
+            <element signature="e#231#1253#0" />
+            <element signature="e#1254#2428#0" />
+            <element signature="e#2430#3013#0" />
+            <element signature="e#3014#3686#0" />
+            <element signature="e#3688#4246#0" />
+            <element signature="e#4247#4903#0" />
+            <element signature="e#4905#5480#0" />
+            <element signature="e#5481#6145#0" />
+            <element signature="e#6147#7728#0" />
+            <element signature="e#7730#8948#0" />
           </folding>
         </state>
       </provider>

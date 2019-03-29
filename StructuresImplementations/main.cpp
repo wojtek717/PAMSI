@@ -7,6 +7,7 @@
 #include <list>
 #include <stack>
 #include <queue>
+#include <typeinfo>
 
 #include "include/catch.hpp"
 //#define CATCH_CONFIG_RUNNER
@@ -281,7 +282,6 @@ void testMyMapString(){
     std::cout << "Get value of obiect with key: " + key + " -> " << myMapString[key]<< std::endl << std::endl;
 
 }
-
 void testMyMapInt(){
     Map<int, int> myMapInt;
     int key;
@@ -321,32 +321,30 @@ void testMyMapInt(){
 int main() {
 
 
-
-
-
-// ##### Stack #####
+// ##### List #####
 //    testMyList();
 //    testStlList();
 
 
 // ##### Stack #####
-//    testMyStack();
-//    testStlStack();
+    testMyStack();
+    testStlStack();
 
 
 // ##### Queue #####
-//    testMyQueue();
-//    testStlQueue();
+    testMyQueue();
+    testStlQueue();
 
 
 // ##### PriorityQueue #####
-//    testMyPriorityQueue();
-//    testStlPriorityQueue();
+    testMyPriorityQueue();
+    testStlPriorityQueue();
 
 
-// ##### Map #####
-//    testMyMapString();
-//    testMyMapInt();
+//// ##### Map #####
+    testMyMapString();
+    testMyMapInt();
+
 
 
     return 0;
