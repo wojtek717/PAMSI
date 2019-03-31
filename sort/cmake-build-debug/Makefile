@@ -150,6 +150,60 @@ Bubble.cpp.s:
 	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/Bubble.cpp.s
 .PHONY : Bubble.cpp.s
 
+HeapS.o: HeapS.cpp.o
+
+.PHONY : HeapS.o
+
+# target to build an object file
+HeapS.cpp.o:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/HeapS.cpp.o
+.PHONY : HeapS.cpp.o
+
+HeapS.i: HeapS.cpp.i
+
+.PHONY : HeapS.i
+
+# target to preprocess a source file
+HeapS.cpp.i:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/HeapS.cpp.i
+.PHONY : HeapS.cpp.i
+
+HeapS.s: HeapS.cpp.s
+
+.PHONY : HeapS.s
+
+# target to generate assembly for a file
+HeapS.cpp.s:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/HeapS.cpp.s
+.PHONY : HeapS.cpp.s
+
+MergeS.o: MergeS.cpp.o
+
+.PHONY : MergeS.o
+
+# target to build an object file
+MergeS.cpp.o:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/MergeS.cpp.o
+.PHONY : MergeS.cpp.o
+
+MergeS.i: MergeS.cpp.i
+
+.PHONY : MergeS.i
+
+# target to preprocess a source file
+MergeS.cpp.i:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/MergeS.cpp.i
+.PHONY : MergeS.cpp.i
+
+MergeS.s: MergeS.cpp.s
+
+.PHONY : MergeS.s
+
+# target to generate assembly for a file
+MergeS.cpp.s:
+	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/MergeS.cpp.s
+.PHONY : MergeS.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +243,12 @@ help:
 	@echo "... Bubble.o"
 	@echo "... Bubble.i"
 	@echo "... Bubble.s"
+	@echo "... HeapS.o"
+	@echo "... HeapS.i"
+	@echo "... HeapS.s"
+	@echo "... MergeS.o"
+	@echo "... MergeS.i"
+	@echo "... MergeS.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

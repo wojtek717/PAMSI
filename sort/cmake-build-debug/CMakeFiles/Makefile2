@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI
 CMakeFiles/sort.dir/all:
 	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/depend
 	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5 "Built target sort"
 .PHONY : CMakeFiles/sort.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/sort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/cmake-build-debug/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/cmake-build-debug/CMakeFiles" 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/sort.dir/rule

@@ -86,6 +86,18 @@
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/Bubble.h">
 			<Option target="sort"/>
 		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/HeapS.cpp">
+			<Option target="sort"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/HeapS.h">
+			<Option target="sort"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/MergeS.cpp">
+			<Option target="sort"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/MergeS.h">
+			<Option target="sort"/>
+		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/main.cpp">
 			<Option target="sort"/>
 		</Unit>

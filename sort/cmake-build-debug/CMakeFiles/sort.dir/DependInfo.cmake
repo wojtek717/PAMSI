@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/Bubble.cpp" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/cmake-build-debug/CMakeFiles/sort.dir/Bubble.cpp.o"
+  "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/HeapS.cpp" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/cmake-build-debug/CMakeFiles/sort.dir/HeapS.cpp.o"
+  "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/MergeS.cpp" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/cmake-build-debug/CMakeFiles/sort.dir/MergeS.cpp.o"
   "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/main.cpp" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/cmake-build-debug/CMakeFiles/sort.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

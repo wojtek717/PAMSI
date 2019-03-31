@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/Bubble.h
+iostream
+-
+vector
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/HeapS.cpp
+HeapS.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/HeapS.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/HeapS.h
+zconf.h
+-
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/MergeS.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/main.cpp
+iostream
+-
+vector
+-
+chrono
+-
+fstream
+-
+Bubble.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/Bubble.h
+MergeS.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/MergeS.h
+HeapS.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/sort/HeapS.h
+
