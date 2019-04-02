@@ -10,6 +10,7 @@
 
 void Bubble::Sort(int *array, u_long size) {
     int tmp;
+    bool swapped = false;
 
     for( int i = 0; i < size; i++ )
     {
@@ -23,4 +24,3 @@ void Bubble::Sort(int *array, u_long size) {
         }
     }
 }
-
