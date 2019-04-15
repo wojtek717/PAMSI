@@ -11,13 +11,13 @@
 
 class DijkstraArray {
 private:
-    int vertices;
+    int verticesAmount;
 
-    int shortestPath(std::vector<Vertex> dist, std::vector<bool> sptSet);
-    void printOutput(std::vector<Vertex> dist);
+    int shortestPath(std::vector<Vertex> vertices, std::vector<bool> sptSet);
+    void printOutput(std::vector<Vertex> vertices);
 
 public:
-    DijkstraArray(int vertices);
+    DijkstraArray(int verticesAmount);
     void ExecuteAlghoritm(std::vector<std::vector<int>> graph, int start);
 };
 

@@ -13,13 +13,13 @@
  * Jezeli dany index sptSet[i] == true to wierzcholek i znajduje się w drzewie SPT*/
 
 /* Funkcja znajduje najblizszy wierzcholek od wierzcholkow znajdujacych sie w drzewie SPT */
-int DijkstraArray::shortestPath(std::vector<Vertex> dist, std::vector<bool> sptSet) {
+int DijkstraArray::shortestPath(std::vector<Vertex> vertices, std::vector<bool> sptSet) {
     int min = INFINITY;
     int minIndex;
 
-    for (int v = 0; v < vertices; v++){
-        if (!sptSet[v] && dist[v].distance <= min){
-            min = dist[v].distance;
+    for (int v = 0; v < verticesAmount; v++){
+        if (!sptSet[v] && vertices[v].distance <= min){
+            min = vertices[v].distance;
             minIndex = v;
         }
     }
@@ -28,28 +28,28 @@ int DijkstraArray::shortestPath(std::vector<Vertex> dist, std::vector<bool> sptS
 }
 
 void DijkstraArray::ExecuteAlghoritm(std::vector<std::vector<int>> graph, int start) {
-    std::vector<Vertex> dist; //Tablica zawierajaca odleglosc od startu do wierzcholka i
+    std::vector<Vertex> vertices; //Tablica zawierajaca odleglosc od startu do wierzcholka i
     std::vector<bool> sptSet; //Tablica trzymajaca informacje czy dany wierzcholek jest w SPT
 
     Vertex vertex;
 
 
     // Zainicjalizuj wszystkie odleglosci jako inf
-    for (int i = 0; i < vertices; i++){
+    for (int i = 0; i < verticesAmount; i++){
         vertex.index = i;
-        dist.push_back(vertex);
+        vertices.push_back(vertex);
         sptSet.push_back(false);
     }
 
     //Odleglosc startu do startu to zawsze 0
-    dist[start].distance = 0;
+    vertices[start].distance = 0;
 
 
     //Znajdz najkrotsza sciezke dla kazdego z wierzcholka
-    for (int i = 0; i < vertices - 1; i++)
+    for (int i = 0; i < verticesAmount - 1; i++)
     {
         //Znajdz wierzcholek do ktorego droga jest najkrotsza
-        int u = shortestPath(dist, sptSet);
+        int u = shortestPath(vertices, sptSet);
 
         //Dodaj ten wierzcholek do SPT
         sptSet[u] = true;
@@ -58,12 +58,12 @@ void DijkstraArray::ExecuteAlghoritm(std::vector<std::vector<int>> graph, int st
 
         std::cout << std::endl << " ## ";
         //Uaktualnij odleglosc sasiednich wierzcholkow od wybranego
-        for (int v = 0; v < vertices; v++){
+        for (int v = 0; v < verticesAmount; v++){
 
-            if (!sptSet[v] && graph[u][v] && dist[u].distance != INFINITY
-                && dist[u].distance+graph[u][v] < dist[v].distance){
-                dist[v].distance = dist[u].distance + graph[u][v];
-                dist[v].parent = &dist[u];
+            if (!sptSet[v] && graph[u][v] && vertices[u].distance != INFINITY
+                && vertices[u].distance+graph[u][v] < vertices[v].distance){
+                vertices[v].distance = vertices[u].distance + graph[u][v];
+                vertices[v].parent = &vertices[u];
 
             }
         }
@@ -71,17 +71,17 @@ void DijkstraArray::ExecuteAlghoritm(std::vector<std::vector<int>> graph, int st
 
 
     //Wypisz wynik
-    printOutput(dist);
+    printOutput(vertices);
 
 }
 
-void DijkstraArray::printOutput(std::vector<Vertex> dist) {
+void DijkstraArray::printOutput(std::vector<Vertex> vertices) {
 
     std::cout << "Vertex --- Distance from start --- Path" << std::endl;
-    for (int j = 0; j < vertices; ++j) {
-        std::cout << "(" << dist[j].index << ")" << " --- " << dist[j].distance << " --- ";
+    for (int j = 0; j < verticesAmount; ++j) {
+        std::cout << "(" << vertices[j].index << ")" << " --- " << vertices[j].distance << " --- ";
 
-        Vertex *parent = dist[j].parent;
+        Vertex *parent = vertices[j].parent;
         while (parent != nullptr){
             std::cout << " -> (" << parent->index << ")";
             parent = parent->parent;
@@ -90,6 +90,6 @@ void DijkstraArray::printOutput(std::vector<Vertex> dist) {
     }
 }
 
-DijkstraArray::DijkstraArray(int vertices) {
-    this->vertices = vertices;
+DijkstraArray::DijkstraArray(int verticesAmount) {
+    this->verticesAmount = verticesAmount;
 }
