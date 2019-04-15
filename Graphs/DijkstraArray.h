@@ -6,14 +6,15 @@
 #define GRAPHS_DIJKSTRAARRAY_H
 
 #include <vector>
+#include "Vertex.h"
 
 
 class DijkstraArray {
 private:
     int vertices;
 
-    int shortestPath(std::vector<int> dist, std::vector<bool> sptSet);
-    void printOutput(std::vector<int> dist, std::vector<int> parent);
+    int shortestPath(std::vector<Vertex> dist, std::vector<bool> sptSet);
+    void printOutput(std::vector<Vertex> dist);
 
 public:
     DijkstraArray(int vertices);

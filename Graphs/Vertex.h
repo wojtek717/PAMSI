@@ -9,7 +9,10 @@
 class Vertex {
 public:
     int index;
+    int distance;
     Vertex *parent;
+
+    Vertex();
 };
 
 
