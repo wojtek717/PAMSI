@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Vertex.cpp
+Vertex.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Vertex.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Vertex.h
+

@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Graphs" targetName="Graphs" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d7a60d5-43ee-481c-a9ad-03cd0da85581" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DijkstraArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DijkstraArray.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vertex.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vertex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/.idea/StructuresImplementations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/.idea/StructuresImplementations.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/Container.h" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/Container.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/List.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/Map.h" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/Map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/PriorityContainer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/PriorityContainer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/PriorityQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/PriorityQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/Queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/Queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/Stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/Stack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/StructuresImplementations.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/StructuresImplementations.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/StructuresImplementations.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StructuresImplementations/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../StructuresImplementations/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/.clang-format" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/.clang-format" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/tester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/tester.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/README.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/README.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/cmake_clean_target.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester.dir/src/Timer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/pamsi_tester_example.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/libpamsi_tester.a" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/libpamsi_tester.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/cmake-build-debug/times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/pamsi_tester/Tester.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/pamsi_tester/Tester.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/pamsi_tester/Timer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/pamsi_tester/Timer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/async.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/async.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/async_logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/async_logger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/async_logger_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/async_logger_impl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/circular_q.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/circular_q.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/console_globals.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/console_globals.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/file_helper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/file_helper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/fmt_helper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/fmt_helper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/log_msg.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/log_msg.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/logger_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/logger_impl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/mpmc_blocking_q.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/mpmc_blocking_q.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/null_mutex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/null_mutex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/os.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/os.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/pattern_formatter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/pattern_formatter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/periodic_worker.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/periodic_worker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/registry.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/registry.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/thread_pool.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/details/thread_pool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bin_to_hex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bin_to_hex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/LICENSE.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/LICENSE.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/chrono.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/chrono.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/color.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/color.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/core.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/core.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/format-inl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/format-inl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/format.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/format.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/locale.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/locale.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/ostream.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/ostream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/posix.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/posix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/printf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/ranges.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/ranges.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/time.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/bundled/time.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/fmt.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/fmt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/ostr.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/fmt/ostr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/formatter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/formatter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/logger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/android_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/android_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/ansicolor_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/ansicolor_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/base_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/base_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/basic_file_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/basic_file_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/daily_file_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/daily_file_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/dist_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/dist_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/msvc_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/msvc_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/null_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/null_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/ostream_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/ostream_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/rotating_file_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/rotating_file_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/stdout_color_sinks.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/stdout_color_sinks.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/stdout_sinks.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/stdout_sinks.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/syslog_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/syslog_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/wincolor_sink.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/sinks/wincolor_sink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/spdlog.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/spdlog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/tweakme.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/tweakme.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/include/spdlog/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/src/Timer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/src/Timer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumTwoMatriecies/times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../SumTwoMatriecies/times.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/.idea/sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/.idea/sort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/Bubble.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/Bubble.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/Bubble.h" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/Bubble.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/BubbleData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/BubbleData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/Datas.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/Datas.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/HeapData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/HeapData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/HeapS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/HeapS.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/HeapS.h" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/HeapS.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/MergeData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/MergeData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/MergeS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/MergeS.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/MergeS.h" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/MergeS.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/Sprawozdanie.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/Sprawozdanie.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/Sprawozdanie.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/Sprawozdanie.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/TimesData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/TimesData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/Bubble.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/Bubble.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/HeapS.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/HeapS.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/MergeS.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/MergeS.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/CMakeFiles/sort.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/cmake-build-debug/sort.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/cmake-build-debug/sort.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tester/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tester/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1337668262">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="__bit_reference" value="1" />
+          <entry key="cpp" value="2" />
+          <entry key="h" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="1654" />
+          <entry key="h" value="299" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="1953" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vertex.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vertex.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="e#52#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DijkstraArray.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DijkstraArray.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Vertex.h" />
+        <option value="$PROJECT_DIR$/DijkstraArray.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="363" />
+    <option name="y" value="23" />
+    <option name="width" value="1317" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Graphs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graphs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Graphs">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Graphs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graphs" TARGET_NAME="Graphs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Graphs" RUN_TARGET_NAME="Graphs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.Graphs" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d7a60d5-43ee-481c-a9ad-03cd0da85581" name="Default Changelist" comment="" />
+      <created>1555322954071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555322954071</updated>
+      <workItem from="1555322956441" duration="8616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8616000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="363" y="23" width="1317" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941176" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bit_reference">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vertex.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vertex.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
