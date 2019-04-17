@@ -3,4 +3,4 @@ project(Graphs)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Graphs main.cpp DijkstraArray.cpp DijkstraArray.h Vertex.cpp Vertex.h)
+add_executable(Graphs main.cpp DijkstraArray.cpp DijkstraArray.h Vertex.cpp Vertex.h DijkstraList.cpp DijkstraList.h)

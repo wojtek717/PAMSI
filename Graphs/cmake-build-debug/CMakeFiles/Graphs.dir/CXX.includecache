@@ -6,19 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraArray.cpp
-iostream
--
-DijkstraArray.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraArray.h
-Vertex.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Vertex.h
-
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraArray.h
 vector
 -
 Vertex.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Vertex.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraList.cpp
+DijkstraList.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraList.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraList.h
+iostream
+-
+vector
+-
+queue
+-
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Vertex.h
 
@@ -27,4 +31,6 @@ iostream
 -
 DijkstraArray.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraArray.h
+DijkstraList.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraList.h
 

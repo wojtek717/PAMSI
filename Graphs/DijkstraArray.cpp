@@ -56,7 +56,6 @@ void DijkstraArray::ExecuteAlghoritm(std::vector<std::vector<int>> graph, int st
 
         std::vector<int> path;
 
-        std::cout << std::endl << " ## ";
         //Uaktualnij odleglosc sasiednich wierzcholkow od wybranego
         for (int v = 0; v < verticesAmount; v++){
 

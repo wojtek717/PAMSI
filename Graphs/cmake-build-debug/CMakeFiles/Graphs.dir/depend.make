@@ -5,10 +5,14 @@ CMakeFiles/Graphs.dir/DijkstraArray.cpp.o: ../DijkstraArray.cpp
 CMakeFiles/Graphs.dir/DijkstraArray.cpp.o: ../DijkstraArray.h
 CMakeFiles/Graphs.dir/DijkstraArray.cpp.o: ../Vertex.h
 
+CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../DijkstraList.cpp
+CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../DijkstraList.h
+
 CMakeFiles/Graphs.dir/Vertex.cpp.o: ../Vertex.cpp
 CMakeFiles/Graphs.dir/Vertex.cpp.o: ../Vertex.h
 
 CMakeFiles/Graphs.dir/main.cpp.o: ../DijkstraArray.h
+CMakeFiles/Graphs.dir/main.cpp.o: ../DijkstraList.h
 CMakeFiles/Graphs.dir/main.cpp.o: ../Vertex.h
 CMakeFiles/Graphs.dir/main.cpp.o: ../main.cpp
 

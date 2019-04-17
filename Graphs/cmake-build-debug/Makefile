@@ -150,6 +150,33 @@ DijkstraArray.cpp.s:
 	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/DijkstraArray.cpp.s
 .PHONY : DijkstraArray.cpp.s
 
+DijkstraList.o: DijkstraList.cpp.o
+
+.PHONY : DijkstraList.o
+
+# target to build an object file
+DijkstraList.cpp.o:
+	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/DijkstraList.cpp.o
+.PHONY : DijkstraList.cpp.o
+
+DijkstraList.i: DijkstraList.cpp.i
+
+.PHONY : DijkstraList.i
+
+# target to preprocess a source file
+DijkstraList.cpp.i:
+	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/DijkstraList.cpp.i
+.PHONY : DijkstraList.cpp.i
+
+DijkstraList.s: DijkstraList.cpp.s
+
+.PHONY : DijkstraList.s
+
+# target to generate assembly for a file
+DijkstraList.cpp.s:
+	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/DijkstraList.cpp.s
+.PHONY : DijkstraList.cpp.s
+
 Vertex.o: Vertex.cpp.o
 
 .PHONY : Vertex.o
@@ -216,6 +243,9 @@ help:
 	@echo "... DijkstraArray.o"
 	@echo "... DijkstraArray.i"
 	@echo "... DijkstraArray.s"
+	@echo "... DijkstraList.o"
+	@echo "... DijkstraList.i"
+	@echo "... DijkstraList.s"
 	@echo "... Vertex.o"
 	@echo "... Vertex.i"
 	@echo "... Vertex.s"

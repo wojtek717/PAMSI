@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraArray.cpp" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraArray.cpp.o"
+  "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraList.cpp" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraList.cpp.o"
   "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Vertex.cpp" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/Vertex.cpp.o"
   "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/main.cpp" "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o"
   )
