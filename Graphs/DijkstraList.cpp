@@ -4,8 +4,23 @@
 
 #include "DijkstraList.h"
 
-void DijkstraList::FormAdjList(int vertices) {
+bool DijkstraList::FormAdjList(std::string fileName) {
+    int vertices;
+    int edges;
 
+    int source;
+    int destination;
+    int cost;
+
+    std::fstream file;
+    file.open(fileName, std::ios::in);
+
+    if(!file.good()){
+        return false;
+    }
+
+    file >> vertices;
+    file >> edges;
 
     /* To w jakas funcke z pliku */
     for(int i = 0; i < vertices; i++)
@@ -15,32 +30,43 @@ void DijkstraList::FormAdjList(int vertices) {
         adjList.push_back(row);
     }
 
+    for(int k = 0; k < edges; ++k){
+        file >> source;
+        file >> destination;
+        file >> cost;
 
-    adjList[0].push_back(std::make_pair(1, 2));
-    adjList[0].push_back(std::make_pair(2, 3));
+        adjList[source].push_back(std::make_pair(destination, cost));
+        adjList[destination].push_back(std::make_pair(source, cost));
+    }
 
-    adjList[1].push_back(std::make_pair(0, 2));
-    adjList[1].push_back(std::make_pair(5, 1));
+    return true;
 
-    adjList[2].push_back(std::make_pair(0, 3));
-    adjList[2].push_back(std::make_pair(5, 2));
 
-    adjList[3].push_back(std::make_pair(1, 4));
-    adjList[3].push_back(std::make_pair(4, 1));
-    adjList[3].push_back(std::make_pair(6, 2));
-
-    adjList[4].push_back(std::make_pair(3, 1));
-    adjList[4].push_back(std::make_pair(5, 2));
-    adjList[4].push_back(std::make_pair(6, 1));
-
-    adjList[5].push_back(std::make_pair(1, 1));
-    adjList[5].push_back(std::make_pair(2, 2));
-    adjList[5].push_back(std::make_pair(4, 2));
-    adjList[5].push_back(std::make_pair(6, 2));
-
-    adjList[6].push_back(std::make_pair(3, 2));
-    adjList[6].push_back(std::make_pair(4, 1));
-    adjList[6].push_back(std::make_pair(5, 2));
+//    adjList[0].push_back(std::make_pair(1, 2));
+//    adjList[0].push_back(std::make_pair(2, 3));
+//
+//    adjList[1].push_back(std::make_pair(0, 2));
+//    adjList[1].push_back(std::make_pair(5, 1));
+//
+//    adjList[2].push_back(std::make_pair(0, 3));
+//    adjList[2].push_back(std::make_pair(5, 2));
+//
+//    adjList[3].push_back(std::make_pair(1, 4));
+//    adjList[3].push_back(std::make_pair(4, 1));
+//    adjList[3].push_back(std::make_pair(6, 2));
+//
+//    adjList[4].push_back(std::make_pair(3, 1));
+//    adjList[4].push_back(std::make_pair(5, 2));
+//    adjList[4].push_back(std::make_pair(6, 1));
+//
+//    adjList[5].push_back(std::make_pair(1, 1));
+//    adjList[5].push_back(std::make_pair(2, 2));
+//    adjList[5].push_back(std::make_pair(4, 2));
+//    adjList[5].push_back(std::make_pair(6, 2));
+//
+//    adjList[6].push_back(std::make_pair(3, 2));
+//    adjList[6].push_back(std::make_pair(4, 1));
+//    adjList[6].push_back(std::make_pair(5, 2));
 
 }
 

@@ -24,9 +24,9 @@ int main() {
 ////    diA.ExecuteAlghoritm(graph, 0);
 
     DijkstraList diL;
-    diL.FormAdjList(7);
+    diL.FormAdjList("EdgeData.txt");
 
-    int start = 0;
+    int start = 3;
     diL.DijkstraSP(start);
 
 

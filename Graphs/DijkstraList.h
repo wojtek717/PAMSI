@@ -8,6 +8,7 @@
 #define INFINITY 9999999
 
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <queue>
 
@@ -17,7 +18,7 @@ private:
     std::vector<int> dist;
 
 public:
-    void FormAdjList(int vertices);
+    bool FormAdjList(std::string fileName);
 
     void DijkstraSP(int &start);
 
