@@ -3,6 +3,7 @@
 //
 
 #include "DijkstraList.h"
+#include "Vertex.h"
 
 bool DijkstraList::FormAdjList(std::string fileName) {
     int vertices;
@@ -20,6 +21,7 @@ bool DijkstraList::FormAdjList(std::string fileName) {
     }
 
     file >> vertices;
+    verticesAmmount = vertices;
     file >> edges;
 
     /* To w jakas funcke z pliku */
@@ -42,43 +44,22 @@ bool DijkstraList::FormAdjList(std::string fileName) {
     return true;
 
 
-//    adjList[0].push_back(std::make_pair(1, 2));
-//    adjList[0].push_back(std::make_pair(2, 3));
-//
-//    adjList[1].push_back(std::make_pair(0, 2));
-//    adjList[1].push_back(std::make_pair(5, 1));
-//
-//    adjList[2].push_back(std::make_pair(0, 3));
-//    adjList[2].push_back(std::make_pair(5, 2));
-//
-//    adjList[3].push_back(std::make_pair(1, 4));
-//    adjList[3].push_back(std::make_pair(4, 1));
-//    adjList[3].push_back(std::make_pair(6, 2));
-//
-//    adjList[4].push_back(std::make_pair(3, 1));
-//    adjList[4].push_back(std::make_pair(5, 2));
-//    adjList[4].push_back(std::make_pair(6, 1));
-//
-//    adjList[5].push_back(std::make_pair(1, 1));
-//    adjList[5].push_back(std::make_pair(2, 2));
-//    adjList[5].push_back(std::make_pair(4, 2));
-//    adjList[5].push_back(std::make_pair(6, 2));
-//
-//    adjList[6].push_back(std::make_pair(3, 2));
-//    adjList[6].push_back(std::make_pair(4, 1));
-//    adjList[6].push_back(std::make_pair(5, 2));
 
 }
 
 void DijkstraList::DijkstraSP(int &start) {
-    std::cout << "\nGetting the shortest path from " << start << " to all other nodes.\n";
+    std::vector<Vertex> vertices;
 
+    std::cout << "\nGetting the shortest path from " << start << " to all other nodes.\n";
+    Vertex vertex;
 
     // Initialize all source->vertex as infinite.
     int n = adjList.size();
     for(int i = 0; i < n; i++)
     {
-        dist.push_back(INFINITY); // Define "infinity" as necessary by constraints.
+        //dist.push_back(INFINITY); // Define "infinity" as necessary by constraints.
+        vertex.index = i;
+        vertices.push_back(vertex);
     }
 
     // Create a PQ.
@@ -86,7 +67,7 @@ void DijkstraList::DijkstraSP(int &start) {
 
     // Add source to pq, where distance is 0.
     pq.push(std::make_pair(start, 0));
-    dist[start] = 0;
+    vertices[start].distance = 0;
 
     // While pq isn't empty...
     while(pq.empty() == false)
@@ -102,25 +83,33 @@ void DijkstraList::DijkstraSP(int &start) {
             int weight = adjList[u][i].second;
 
             // If the distance to v is shorter by going through u...
-            if(dist[v] > dist[u] + weight)
+            if(vertices[v].distance > vertices[u].distance + weight)
             {
                 // Update the distance of v.
-                dist[v] = dist[u] + weight;
+                vertices[v].distance = vertices[u].distance + weight;
                 // Insert v into the pq.
-                pq.push(std::make_pair(v, dist[v]));
+                pq.push(std::make_pair(v, vertices[v].distance));
+
+                vertices[v].parent = &vertices[u];
             }
         }
     }
 
 
 
-    PrintShortestPath(dist, start);
+    PrintShortestPath(vertices, start);
 }
 
-void DijkstraList::PrintShortestPath(std::vector<int> &dist, int &start) {
-    std::cout << "\nPrinting the shortest paths for node " << start << ".\n";
-    for(int i = 0; i < dist.size(); i++)
-    {
-        std::cout << "The distance from node " << start << " to node " << i << " is: " << dist[i] << std::endl;
+void DijkstraList::PrintShortestPath(std::vector<Vertex> &vertices, int &start) {
+    std::cout << "Vertex --- Distance from start --- Path" << std::endl;
+    for (int j = 0; j < verticesAmmount; ++j) {
+        std::cout << "(" << vertices[j].index << ")" << " --- " << vertices[j].distance << " --- ";
+
+        Vertex *parent = vertices[j].parent;
+        while (parent != nullptr){
+            std::cout << " -> (" << parent->index << ")";
+            parent = parent->parent;
+        }
+        std::cout << std::endl;
     }
 }

@@ -7,6 +7,7 @@ CMakeFiles/Graphs.dir/DijkstraArray.cpp.o: ../Vertex.h
 
 CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../DijkstraList.cpp
 CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../DijkstraList.h
+CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../Vertex.h
 
 CMakeFiles/Graphs.dir/Vertex.cpp.o: ../Vertex.cpp
 CMakeFiles/Graphs.dir/Vertex.cpp.o: ../Vertex.h
