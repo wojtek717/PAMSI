@@ -16,15 +16,15 @@
 class DijkstraList {
 private:
     int verticesAmmount;
+    std::vector<Vertex> vertices;
     std::vector< std::vector<std::pair<int, int> > > adjList;
-    //std::vector<int> dist;
 
 public:
     bool FormAdjList(std::string fileName);
 
     void DijkstraSP(int &start);
 
-    void PrintShortestPath(std::vector<Vertex> &vertices, int &start);
+    void PrintShortestPath(int &start);
 
 
 };

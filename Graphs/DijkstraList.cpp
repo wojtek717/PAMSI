@@ -6,7 +6,6 @@
 #include "Vertex.h"
 
 bool DijkstraList::FormAdjList(std::string fileName) {
-    int vertices;
     int edges;
 
     int source;
@@ -20,12 +19,11 @@ bool DijkstraList::FormAdjList(std::string fileName) {
         return false;
     }
 
-    file >> vertices;
-    verticesAmmount = vertices;
+    file >> verticesAmmount;
     file >> edges;
 
     /* To w jakas funcke z pliku */
-    for(int i = 0; i < vertices; i++)
+    for(int i = 0; i < verticesAmmount; i++)
     {
         // Create a vector to represent a row, and add it to the adjList.
         std::vector<std::pair<int, int> > row;
@@ -48,8 +46,6 @@ bool DijkstraList::FormAdjList(std::string fileName) {
 }
 
 void DijkstraList::DijkstraSP(int &start) {
-    std::vector<Vertex> vertices;
-
     std::cout << "\nGetting the shortest path from " << start << " to all other nodes.\n";
     Vertex vertex;
 
@@ -97,10 +93,10 @@ void DijkstraList::DijkstraSP(int &start) {
 
 
 
-    PrintShortestPath(vertices, start);
+    PrintShortestPath(start);
 }
 
-void DijkstraList::PrintShortestPath(std::vector<Vertex> &vertices, int &start) {
+void DijkstraList::PrintShortestPath(int &start) {
     std::cout << "Vertex --- Distance from start --- Path" << std::endl;
     for (int j = 0; j < verticesAmmount; ++j) {
         std::cout << "(" << vertices[j].index << ")" << " --- " << vertices[j].distance << " --- ";
