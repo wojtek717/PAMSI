@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d7a60d5-43ee-481c-a9ad-03cd0da85581" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/DijkstraList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DijkstraList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DijkstraList.h" beforeDir="false" afterPath="$PROJECT_DIR$/DijkstraList.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +49,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="EdgeData" value="6" />
-          <entry key="cpp" value="2936" />
+          <entry key="cpp" value="3220" />
           <entry key="h" value="773" />
           <entry key="txt" value="162" />
         </counts>
@@ -58,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="3707" />
+          <entry key="ObjectiveC" value="3991" />
           <entry key="PLAIN_TEXT" value="168" />
         </counts>
       </usages-collector>
@@ -90,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="88" column="5" lean-forward="true" selection-start-line="78" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
+            <state relative-caret-position="308">
+              <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="50" />
               <folding>
                 <element signature="e#52#71#0" expanded="true" />
               </folding>
@@ -102,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DijkstraList.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+            <state relative-caret-position="375">
+              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="e#52#77#0" expanded="true" />
               </folding>
@@ -164,8 +163,8 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/EdgeData.txt" />
-        <option value="$PROJECT_DIR$/DijkstraList.cpp" />
         <option value="$PROJECT_DIR$/DijkstraList.h" />
+        <option value="$PROJECT_DIR$/DijkstraList.cpp" />
       </list>
     </option>
   </component>
@@ -245,12 +244,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555322954071</updated>
-      <workItem from="1555322956441" duration="21067000" />
+      <workItem from="1555322956441" duration="21607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21067000" />
+    <option name="totallyTimeSpent" value="21607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="363" y="23" width="1317" height="1027" extended-state="0" />
@@ -260,13 +259,13 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24941176" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="10" />
@@ -385,16 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="88" column="5" lean-forward="true" selection-start-line="78" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
-          <folding>
-            <element signature="e#52#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DijkstraList.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -405,10 +394,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="50" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DijkstraList.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+        <state relative-caret-position="375">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="e#52#77#0" expanded="true" />
           </folding>
