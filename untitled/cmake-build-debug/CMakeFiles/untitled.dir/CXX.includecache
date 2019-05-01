@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/untitled/Liczba.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/untitled/main.cpp
+iostream
+-
+Liczba.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/untitled/Liczba.h
+

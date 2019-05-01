@@ -21,6 +21,7 @@ private:
 
 public:
     bool FormAdjList(std::string fileName);
+    bool FormAdjListRandom(int verivesAmount);
 
     void DijkstraSP(int &start);
 

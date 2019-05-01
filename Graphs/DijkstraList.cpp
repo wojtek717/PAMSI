@@ -41,6 +41,20 @@ bool DijkstraList::FormAdjList(std::string fileName) {
     return true;
 }
 
+bool DijkstraList::FormAdjListRandom(int verivesAmount) {
+
+    int verticesLeft = verivesAmount;
+
+    for (int i = 0; i < verivesAmount; ++i) {
+        while (verticesLeft > 0){
+
+
+        }
+    }
+
+    return false;
+}
+
 void DijkstraList::DijkstraSP(int &start) {
     Vertex vertex;
 
@@ -97,3 +111,5 @@ void DijkstraList::PrintShortestPath(int &start) {
         std::cout << std::endl;
     }
 }
+
+

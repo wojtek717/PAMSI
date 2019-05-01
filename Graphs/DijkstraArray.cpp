@@ -41,8 +41,7 @@ void DijkstraArray::ExecuteAlghoritm(std::vector<std::vector<int>> graph, int st
         sptSet.push_back(false);
     }
 
-    //Odleglosc startu do startu to zawsze 0
-    vertices[start].distance = 0;
+V
 
 
     //Znajdz najkrotsza sciezke dla kazdego z wierzcholka

@@ -26,7 +26,7 @@ int main() {
     DijkstraList diL;
     diL.FormAdjList("EdgeData.txt");
 
-    int start = 3;
+    int start = 0;
     diL.DijkstraSP(start);
 
 
