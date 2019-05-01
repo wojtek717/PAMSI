@@ -41,7 +41,6 @@ void DijkstraArray::ExecuteAlghoritm(std::vector<std::vector<int>> graph, int st
         sptSet.push_back(false);
     }
 
-V
 
 
     //Znajdz najkrotsza sciezke dla kazdego z wierzcholka

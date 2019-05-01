@@ -14,6 +14,7 @@ class BellmanFordArray {
 private:
     int verticesAmount;
     std::vector<Vertex> vertices; //Tablica zawierajaca odleglosc od startu do wierzcholka i
+    bool isNegativeCircle;
 
 public:
     BellmanFordArray(int verticesAmount);

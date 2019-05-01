@@ -7,6 +7,7 @@
 
 BellmanFordArray::BellmanFordArray(int verticesAmount) {
     this->verticesAmount = verticesAmount;
+    isNegativeCircle = false;
 }
 
 void BellmanFordArray::ExecuteAlghoritm(std::vector<std::vector<int>> graph, int start) {
@@ -44,9 +45,22 @@ void BellmanFordArray::ExecuteAlghoritm(std::vector<std::vector<int>> graph, int
         }
     }
 
+    for (int k = 0; k < edges.size(); ++k){
+        if(vertices[edges[k].endIndex].distance > vertices[edges[k].startIndex].distance + edges[k].distance){
+            isNegativeCircle = true;
+            break;
+        }
+    }
+
+
+
 }
 
 void BellmanFordArray::PrintOutput() {
+    if(isNegativeCircle){
+        std::cout << "NEGATIVE CIRCLE!" << std::endl;
+    }
+
     std::cout << "Vertex --- Distance from start" << std::endl;
 
     for (int i = 0; i < verticesAmount; ++i) {

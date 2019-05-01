@@ -12,32 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d7a60d5-43ee-481c-a9ad-03cd0da85581" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/.idea/BellmanFord.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/Edge.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/Edge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/Vertex.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/Vertex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DijkstraArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DijkstraArray.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DijkstraList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DijkstraList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DijkstraList.h" beforeDir="false" afterPath="$PROJECT_DIR$/DijkstraList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EdgeData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EdgeData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraList.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Graphs" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Graphs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -113,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#52#71#0" expanded="true" />
               </folding>
@@ -281,12 +265,12 @@
       <workItem from="1555322956441" duration="23446000" />
       <workItem from="1556130527153" duration="551000" />
       <workItem from="1556471686688" duration="1079000" />
-      <workItem from="1556540884005" duration="5081000" />
+      <workItem from="1556540884005" duration="6012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30157000" />
+    <option name="totallyTimeSpent" value="31088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -404,22 +388,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="e#52#71#0" expanded="true" />
           </folding>
         </state>
       </provider>

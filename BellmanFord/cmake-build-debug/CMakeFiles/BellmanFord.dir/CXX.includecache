@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordArray.cpp
+BellmanFordArray.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordArray.h
+Edge.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Edge.h
+
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordArray.h
 iostream
 -
@@ -14,13 +20,7 @@ vector
 Vertex.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.h
 
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Edge.h
 
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/main.cpp
-iostream
--
-vector
--
-BellmanFordArray.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordArray.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.h
 
