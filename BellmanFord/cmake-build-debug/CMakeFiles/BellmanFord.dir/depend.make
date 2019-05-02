@@ -8,14 +8,21 @@ CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o: ../Vertex.h
 
 CMakeFiles/BellmanFord.dir/BellmanFordList.cpp.o: ../BellmanFordList.cpp
 CMakeFiles/BellmanFord.dir/BellmanFordList.cpp.o: ../BellmanFordList.h
+CMakeFiles/BellmanFord.dir/BellmanFordList.cpp.o: ../Node.h
+CMakeFiles/BellmanFord.dir/BellmanFordList.cpp.o: ../Vertex.h
 
 CMakeFiles/BellmanFord.dir/Edge.cpp.o: ../Edge.cpp
 CMakeFiles/BellmanFord.dir/Edge.cpp.o: ../Edge.h
+
+CMakeFiles/BellmanFord.dir/Node.cpp.o: ../Node.cpp
+CMakeFiles/BellmanFord.dir/Node.cpp.o: ../Node.h
 
 CMakeFiles/BellmanFord.dir/Vertex.cpp.o: ../Vertex.cpp
 CMakeFiles/BellmanFord.dir/Vertex.cpp.o: ../Vertex.h
 
 CMakeFiles/BellmanFord.dir/main.cpp.o: ../BellmanFordArray.h
+CMakeFiles/BellmanFord.dir/main.cpp.o: ../BellmanFordList.h
+CMakeFiles/BellmanFord.dir/main.cpp.o: ../Node.h
 CMakeFiles/BellmanFord.dir/main.cpp.o: ../Vertex.h
 CMakeFiles/BellmanFord.dir/main.cpp.o: ../main.cpp
 

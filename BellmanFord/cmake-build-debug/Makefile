@@ -204,6 +204,33 @@ Edge.cpp.s:
 	$(MAKE) -f CMakeFiles/BellmanFord.dir/build.make CMakeFiles/BellmanFord.dir/Edge.cpp.s
 .PHONY : Edge.cpp.s
 
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/BellmanFord.dir/build.make CMakeFiles/BellmanFord.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/BellmanFord.dir/build.make CMakeFiles/BellmanFord.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/BellmanFord.dir/build.make CMakeFiles/BellmanFord.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
 Vertex.o: Vertex.cpp.o
 
 .PHONY : Vertex.o
@@ -276,6 +303,9 @@ help:
 	@echo "... Edge.o"
 	@echo "... Edge.i"
 	@echo "... Edge.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
 	@echo "... Vertex.o"
 	@echo "... Vertex.i"
 	@echo "... Vertex.s"

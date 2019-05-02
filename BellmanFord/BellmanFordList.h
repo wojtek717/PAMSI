@@ -8,17 +8,26 @@
 
 #include <vector>
 #include <list>
+#include <iostream>
+#include "Vertex.h"
+#include "Node.h"
 
 class BellmanFordList {
+private:
+    int verticesAmmount;
+    int edgesAmmount;
+    bool isNegativeCircle;
+
+    std::vector<Vertex> vertices;
+    std::vector< std::vector<Node>> adjList;
 
 public:
-    int bellmanFord(
-            std::vector< std::list<std::pair<int, int> > > adjacencyList,
-            int vertices,
-            int startVertex,
-            std::vector< std::pair<int, int> > & shortestDistances
-    );
+    BellmanFordList(int verticesAmmount);
+    void AddEdge(int source, int destination, int cost);
+    void AddEdge(int source, Node node);
 
+    void ExecuteAlgorithm(int start);
+    void PrintOutput();
 };
 
 

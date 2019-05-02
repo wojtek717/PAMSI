@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o"
   "CMakeFiles/BellmanFord.dir/Edge.cpp.o"
   "CMakeFiles/BellmanFord.dir/Vertex.cpp.o"
+  "CMakeFiles/BellmanFord.dir/Node.cpp.o"
   "BellmanFord.pdb"
   "BellmanFord"
 )

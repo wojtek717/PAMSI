@@ -3,4 +3,4 @@ project(BellmanFord)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(BellmanFord main.cpp BellmanFordList.cpp BellmanFordList.h BellmanFordArray.cpp BellmanFordArray.h Edge.cpp Edge.h Vertex.h Vertex.cpp)
+add_executable(BellmanFord main.cpp BellmanFordList.cpp BellmanFordList.h BellmanFordArray.cpp BellmanFordArray.h Edge.cpp Edge.h Vertex.h Vertex.cpp Node.cpp Node.h)

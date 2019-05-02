@@ -98,6 +98,12 @@
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Edge.h">
 			<Option target="BellmanFord"/>
 		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Node.cpp">
+			<Option target="BellmanFord"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Node.h">
+			<Option target="BellmanFord"/>
+		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.cpp">
 			<Option target="BellmanFord"/>
 		</Unit>

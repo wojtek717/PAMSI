@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI
 CMakeFiles/BellmanFord.dir/all:
 	$(MAKE) -f CMakeFiles/BellmanFord.dir/build.make CMakeFiles/BellmanFord.dir/depend
 	$(MAKE) -f CMakeFiles/BellmanFord.dir/build.make CMakeFiles/BellmanFord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target BellmanFord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target BellmanFord"
 .PHONY : CMakeFiles/BellmanFord.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/BellmanFord.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BellmanFord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/cmake-build-debug/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/cmake-build-debug/CMakeFiles" 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BellmanFord.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/BellmanFord.dir/rule

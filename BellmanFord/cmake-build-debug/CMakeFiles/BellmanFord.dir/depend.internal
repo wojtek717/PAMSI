@@ -9,13 +9,20 @@ CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o
 CMakeFiles/BellmanFord.dir/BellmanFordList.cpp.o
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordList.cpp
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordList.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Node.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.h
 CMakeFiles/BellmanFord.dir/Edge.cpp.o
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Edge.cpp
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Edge.h
+CMakeFiles/BellmanFord.dir/Node.cpp.o
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Node.cpp
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Node.h
 CMakeFiles/BellmanFord.dir/Vertex.cpp.o
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.cpp
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.h
 CMakeFiles/BellmanFord.dir/main.cpp.o
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordArray.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordList.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Node.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/main.cpp
