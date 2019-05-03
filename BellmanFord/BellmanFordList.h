@@ -9,8 +9,10 @@
 #include <vector>
 #include <list>
 #include <iostream>
+#include <fstream>
 #include "Vertex.h"
 #include "Node.h"
+#include "Edge.h"
 
 class BellmanFordList {
 private:
@@ -25,9 +27,11 @@ public:
     BellmanFordList(int verticesAmmount);
     void AddEdge(int source, int destination, int cost);
     void AddEdge(int source, Node node);
+    void AddEdge(Edge edge);
+    void GenerateGraph(int fill);
 
     void ExecuteAlgorithm(int start);
-    void PrintOutput();
+    void PrintOutput(std::string fileName);
 };
 
 

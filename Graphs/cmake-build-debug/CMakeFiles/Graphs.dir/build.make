@@ -96,9 +96,35 @@ CMakeFiles/Graphs.dir/Vertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Graphs.dir/Vertex.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Vertex.cpp" -o CMakeFiles/Graphs.dir/Vertex.cpp.s
 
+CMakeFiles/Graphs.dir/Node.cpp.o: CMakeFiles/Graphs.dir/flags.make
+CMakeFiles/Graphs.dir/Node.cpp.o: ../Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Graphs.dir/Node.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphs.dir/Node.cpp.o -c "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Node.cpp"
+
+CMakeFiles/Graphs.dir/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Graphs.dir/Node.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Node.cpp" > CMakeFiles/Graphs.dir/Node.cpp.i
+
+CMakeFiles/Graphs.dir/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Graphs.dir/Node.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Node.cpp" -o CMakeFiles/Graphs.dir/Node.cpp.s
+
+CMakeFiles/Graphs.dir/Edge.cpp.o: CMakeFiles/Graphs.dir/flags.make
+CMakeFiles/Graphs.dir/Edge.cpp.o: ../Edge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Graphs.dir/Edge.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphs.dir/Edge.cpp.o -c "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Edge.cpp"
+
+CMakeFiles/Graphs.dir/Edge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Graphs.dir/Edge.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Edge.cpp" > CMakeFiles/Graphs.dir/Edge.cpp.i
+
+CMakeFiles/Graphs.dir/Edge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Graphs.dir/Edge.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Edge.cpp" -o CMakeFiles/Graphs.dir/Edge.cpp.s
+
 CMakeFiles/Graphs.dir/DijkstraList.cpp.o: CMakeFiles/Graphs.dir/flags.make
 CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../DijkstraList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Graphs.dir/DijkstraList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Graphs.dir/DijkstraList.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Graphs.dir/DijkstraList.cpp.o -c "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraList.cpp"
 
 CMakeFiles/Graphs.dir/DijkstraList.cpp.i: cmake_force
@@ -114,6 +140,8 @@ Graphs_OBJECTS = \
 "CMakeFiles/Graphs.dir/main.cpp.o" \
 "CMakeFiles/Graphs.dir/DijkstraArray.cpp.o" \
 "CMakeFiles/Graphs.dir/Vertex.cpp.o" \
+"CMakeFiles/Graphs.dir/Node.cpp.o" \
+"CMakeFiles/Graphs.dir/Edge.cpp.o" \
 "CMakeFiles/Graphs.dir/DijkstraList.cpp.o"
 
 # External object files for target Graphs
@@ -122,10 +150,12 @@ Graphs_EXTERNAL_OBJECTS =
 Graphs: CMakeFiles/Graphs.dir/main.cpp.o
 Graphs: CMakeFiles/Graphs.dir/DijkstraArray.cpp.o
 Graphs: CMakeFiles/Graphs.dir/Vertex.cpp.o
+Graphs: CMakeFiles/Graphs.dir/Node.cpp.o
+Graphs: CMakeFiles/Graphs.dir/Edge.cpp.o
 Graphs: CMakeFiles/Graphs.dir/DijkstraList.cpp.o
 Graphs: CMakeFiles/Graphs.dir/build.make
 Graphs: CMakeFiles/Graphs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Graphs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Graphs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Graphs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

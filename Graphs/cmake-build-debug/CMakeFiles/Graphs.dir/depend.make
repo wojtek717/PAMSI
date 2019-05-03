@@ -3,17 +3,28 @@
 
 CMakeFiles/Graphs.dir/DijkstraArray.cpp.o: ../DijkstraArray.cpp
 CMakeFiles/Graphs.dir/DijkstraArray.cpp.o: ../DijkstraArray.h
+CMakeFiles/Graphs.dir/DijkstraArray.cpp.o: ../Edge.h
 CMakeFiles/Graphs.dir/DijkstraArray.cpp.o: ../Vertex.h
 
 CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../DijkstraList.cpp
 CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../DijkstraList.h
+CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../Edge.h
+CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../Node.h
 CMakeFiles/Graphs.dir/DijkstraList.cpp.o: ../Vertex.h
+
+CMakeFiles/Graphs.dir/Edge.cpp.o: ../Edge.cpp
+CMakeFiles/Graphs.dir/Edge.cpp.o: ../Edge.h
+
+CMakeFiles/Graphs.dir/Node.cpp.o: ../Node.cpp
+CMakeFiles/Graphs.dir/Node.cpp.o: ../Node.h
 
 CMakeFiles/Graphs.dir/Vertex.cpp.o: ../Vertex.cpp
 CMakeFiles/Graphs.dir/Vertex.cpp.o: ../Vertex.h
 
 CMakeFiles/Graphs.dir/main.cpp.o: ../DijkstraArray.h
 CMakeFiles/Graphs.dir/main.cpp.o: ../DijkstraList.h
+CMakeFiles/Graphs.dir/main.cpp.o: ../Edge.h
+CMakeFiles/Graphs.dir/main.cpp.o: ../Node.h
 CMakeFiles/Graphs.dir/main.cpp.o: ../Vertex.h
 CMakeFiles/Graphs.dir/main.cpp.o: ../main.cpp
 

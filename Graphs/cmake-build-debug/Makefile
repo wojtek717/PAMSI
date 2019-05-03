@@ -177,6 +177,60 @@ DijkstraList.cpp.s:
 	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/DijkstraList.cpp.s
 .PHONY : DijkstraList.cpp.s
 
+Edge.o: Edge.cpp.o
+
+.PHONY : Edge.o
+
+# target to build an object file
+Edge.cpp.o:
+	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/Edge.cpp.o
+.PHONY : Edge.cpp.o
+
+Edge.i: Edge.cpp.i
+
+.PHONY : Edge.i
+
+# target to preprocess a source file
+Edge.cpp.i:
+	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/Edge.cpp.i
+.PHONY : Edge.cpp.i
+
+Edge.s: Edge.cpp.s
+
+.PHONY : Edge.s
+
+# target to generate assembly for a file
+Edge.cpp.s:
+	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/Edge.cpp.s
+.PHONY : Edge.cpp.s
+
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/Graphs.dir/build.make CMakeFiles/Graphs.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
 Vertex.o: Vertex.cpp.o
 
 .PHONY : Vertex.o
@@ -246,6 +300,12 @@ help:
 	@echo "... DijkstraList.o"
 	@echo "... DijkstraList.i"
 	@echo "... DijkstraList.s"
+	@echo "... Edge.o"
+	@echo "... Edge.i"
+	@echo "... Edge.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
 	@echo "... Vertex.o"
 	@echo "... Vertex.i"
 	@echo "... Vertex.s"

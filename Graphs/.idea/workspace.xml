@@ -12,32 +12,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d7a60d5-43ee-481c-a9ad-03cd0da85581" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/Node.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BellmanFord/Node.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BellmanFord/BellmanArrayTime.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BellmanFord/BellmanListTime.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Edge.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Edge.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordList.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DijkstraArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DijkstraArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DijkstraArray.h" beforeDir="false" afterPath="$PROJECT_DIR$/DijkstraArray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DijkstraList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DijkstraList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DijkstraList.h" beforeDir="false" afterPath="$PROJECT_DIR$/DijkstraList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraArray.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraArray.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraList.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Graphs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Graphs" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Graphs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Graphs.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Graphs.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sort/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,62 +68,55 @@
     <session id="1337668262">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="EdgeData" value="1" />
           <entry key="__bit_reference" value="1" />
-          <entry key="cpp" value="15" />
-          <entry key="h" value="20" />
-          <entry key="txt" value="4" />
+          <entry key="cpp" value="22" />
+          <entry key="h" value="23" />
+          <entry key="txt" value="12" />
           <entry key="vector" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="38" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="ObjectiveC" value="48" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="EdgeData" value="6" />
-          <entry key="cpp" value="3348" />
-          <entry key="h" value="797" />
-          <entry key="txt" value="169" />
+          <entry key="cpp" value="4644" />
+          <entry key="h" value="952" />
+          <entry key="txt" value="177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CMakeLists.txt" value="8" />
           <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="4143" />
+          <entry key="ObjectiveC" value="5594" />
           <entry key="PLAIN_TEXT" value="175" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="254">
+              <caret line="66" column="42" lean-forward="true" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -115,55 +125,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#52#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DijkstraArray.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="74" />
-              <folding>
-                <element signature="e#115#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vertex.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DijkstraList.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-              <folding>
-                <element signature="e#52#77#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DijkstraList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="450">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="48" />
               <folding>
                 <element signature="e#139#158#0" expanded="true" />
               </folding>
@@ -171,11 +136,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EdgeData.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DijkstraList.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="146">
+              <caret line="51" selection-start-line="51" selection-end-line="76" selection-end-column="5" />
+              <folding>
+                <element signature="e#52#77#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,18 +158,19 @@
       <list>
         <option value="$PROJECT_DIR$/Vertex.h" />
         <option value="$PROJECT_DIR$/Vertex.cpp" />
-        <option value="$PROJECT_DIR$/DijkstraArray.h" />
         <option value="$PROJECT_DIR$/AdjList.h" />
         <option value="$PROJECT_DIR$/ListNode.h" />
         <option value="$PROJECT_DIR$/EdgeData" />
         <option value="$PROJECT_DIR$/Graph.h" />
         <option value="$PROJECT_DIR$/Graph.cpp" />
+        <option value="$PROJECT_DIR$/EdgeData.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/DijkstraArray.h" />
+        <option value="$PROJECT_DIR$/DijkstraArray.cpp" />
+        <option value="$PROJECT_DIR$/DijkstraOutputFile.txt" />
+        <option value="$PROJECT_DIR$/DijkstraList.h" />
         <option value="$PROJECT_DIR$/DijkstraList.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/EdgeData.txt" />
-        <option value="$PROJECT_DIR$/DijkstraList.h" />
-        <option value="$PROJECT_DIR$/DijkstraArray.cpp" />
       </list>
     </option>
   </component>
@@ -213,8 +182,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1008" />
+    <option name="y" value="72" />
     <option name="width" value="834" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,8 +209,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -282,19 +259,31 @@
       <workItem from="1555322956441" duration="23446000" />
       <workItem from="1556130527153" duration="551000" />
       <workItem from="1556471686688" duration="1079000" />
-      <workItem from="1556540884005" duration="8785000" />
+      <workItem from="1556540884005" duration="11426000" />
+      <workItem from="1556887664506" duration="254000" />
+      <workItem from="1556887940407" duration="232000" />
+      <workItem from="1556888185778" duration="8548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33861000" />
+    <option name="totallyTimeSpent" value="45536000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2020757" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15811966" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32941177" />
@@ -303,12 +292,12 @@
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32857144" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="10" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32959184" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -320,17 +309,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/DijkstraList.cpp</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bit_reference">
@@ -358,20 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vertex.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EdgeData.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vertex.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -379,47 +343,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DijkstraArray.h">
+    <entry file="file://$PROJECT_DIR$/Vertex.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="74" />
-          <folding>
-            <element signature="e#115#132#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#52#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Node.h">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/EdgeData.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
+          <caret line="5" column="116" selection-start-line="5" selection-start-column="116" selection-end-line="5" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edge.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraOutputFile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraOutputListFile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraOutputArrayFile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DArrayTime.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DListTime.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="66" column="42" lean-forward="true" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" selection-start-line="70" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="e#53#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DijkstraList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="450">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="48" />
           <folding>
             <element signature="e#139#158#0" expanded="true" />
           </folding>
@@ -428,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DijkstraList.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="146">
+          <caret line="51" selection-start-line="51" selection-end-line="76" selection-end-column="5" />
           <folding>
             <element signature="e#52#77#0" expanded="true" />
           </folding>

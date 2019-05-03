@@ -11,8 +11,12 @@ iostream
 -
 vector
 -
+fstream
+-
 Vertex.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.h
+Edge.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Edge.h
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordList.h
 vector
@@ -21,10 +25,16 @@ list
 -
 iostream
 -
+fstream
+-
 Vertex.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Vertex.h
 Node.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Node.h
+Edge.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Edge.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Edge.h
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/Node.h
 
@@ -34,6 +44,10 @@ Node.h
 iostream
 -
 vector
+-
+chrono
+-
+fstream
 -
 BellmanFordArray.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/BellmanFord/BellmanFordArray.h

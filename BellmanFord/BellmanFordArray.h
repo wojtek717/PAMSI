@@ -7,19 +7,24 @@
 
 #include <iostream>
 #include <vector>
+#include <fstream>
 #include "Vertex.h"
+#include "Edge.h"
 
 
 class BellmanFordArray {
 private:
     int verticesAmount;
+    std::vector<std::vector<int>> graph;
     std::vector<Vertex> vertices; //Tablica zawierajaca odleglosc od startu do wierzcholka i
     bool isNegativeCircle;
 
 public:
     BellmanFordArray(int verticesAmount);
-    void ExecuteAlghoritm(std::vector<std::vector<int>> graph, int start);
-    void PrintOutput();
+    void AddEdge(Edge edge);
+    void GenerateGraph(int fill);
+    void ExecuteAlghoritm(int start);
+    void PrintOutput(std::string fileName);
 
 };
 

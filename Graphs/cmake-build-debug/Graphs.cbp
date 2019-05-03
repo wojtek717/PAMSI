@@ -92,6 +92,18 @@
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/DijkstraList.h">
 			<Option target="Graphs"/>
 		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Edge.cpp">
+			<Option target="Graphs"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Edge.h">
+			<Option target="Graphs"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Node.cpp">
+			<Option target="Graphs"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Node.h">
+			<Option target="Graphs"/>
+		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Graphs/Vertex.cpp">
 			<Option target="Graphs"/>
 		</Unit>

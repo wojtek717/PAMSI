@@ -12,20 +12,23 @@
 #include <vector>
 #include <queue>
 #include "Vertex.h"
+#include "Node.h"
+#include "Edge.h"
 
 class DijkstraList {
 private:
     int verticesAmmount;
     std::vector<Vertex> vertices;
-    std::vector< std::vector<std::pair<int, int> > > adjList;
+    std::vector< std::vector<std::pair<int,int >>> adjList;
 
 public:
-    bool FormAdjList(std::string fileName);
-    bool FormAdjListRandom(int verivesAmount);
 
-    void DijkstraSP(int &start);
-
-    void PrintShortestPath(int &start);
+    DijkstraList(int verticesAmmount);
+    void AddEdge(int source, int destination, int cost);
+    void AddEdge(Edge edge);
+    void GenerateGraph(int fill);
+    void ExecuteAlgorithm(int start);
+    void PrintShortestPath(std::string fileName);
 
 
 };

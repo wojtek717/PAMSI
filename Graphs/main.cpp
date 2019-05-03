@@ -1,36 +1,94 @@
 #include <iostream>
+#include <chrono>
+#include <fstream>
 #include "DijkstraArray.h"
 #include "DijkstraList.h"
 
 
 #define INFINITY 9999999
+using namespace std::chrono;
 
 int main() {
+    //TODO Pomiar czasu dla listy i macierzy
 
-//    DijkstraArray diA(9);
-////
-////
-////    std::vector<std::vector<int>> graph = {{0, 4, 0, 0, 0, 0, 0, 8, 0},
-////                                           {4, 0, 8, 0, 0, 0, 0, 11, 0},
-////                                           {0, 8, 0, 7, 0, 4, 0, 0, 2},
-////                                           {0, 0, 7, 0, 9, 14, 0, 0, 0},
-////                                           {0, 0, 0, 9, 0, 10, 0, 0, 0},
-////                                           {0, 0, 4, 14, 10, 0, 2, 0, 0},
-////                                           {0, 0, 0, 0, 0, 2, 0, 1, 6},
-////                                           {8, 11, 0, 0, 0, 0, 1, 0, 7},
-////                                           {0, 0, 2, 0, 0, 0, 6, 7, 0}
-////    };
-////
-////    diA.ExecuteAlghoritm(graph, 0);
-
-    DijkstraList diL;
-    diL.FormAdjList("EdgeData.txt");
-
-    int start = 0;
-    diL.DijkstraSP(start);
+    srand(time( NULL ));
+    using namespace std::chrono;
 
 
+//
+//    DijkstraArray diA(100);
+//    DijkstraList diL(5);
 
+
+//    diA.GenerateGraph(100);
+//    diA.ExecuteAlghoritm(0);
+//    diA.PrintOutput("DijkstraOutputListFile.txt");
+
+
+//    diL.GenerateGraph(50);
+//    diL.ExecuteAlgorithm(0);
+//    diL.PrintShortestPath("DijkstraOutputArrayFile.txt");
+
+// ####################################################################
+
+    std::vector<int> vertices = {5, 50, 100, 250, 500};
+    std::vector<int> fill = {25, 50, 75, 100};
+
+    double arrayAvgTime = 0;
+    double listAvgTime = 0;
+
+    std::fstream arrayTimeFile;
+    std::fstream listTimeFile;
+
+    std::string arrayTimeFileName = "DArrayTime.txt";
+    std::string listTimeFileName = "DListTime.txt";
+
+    arrayTimeFile.open(arrayTimeFileName, std::ios::out);
+    listTimeFile.open(listTimeFileName, std::ios::out);
+
+    if (arrayTimeFile.good() && listTimeFile.good()){
+        arrayTimeFile << "Vertices;Fill;Avarage Time" << std::endl;
+        listTimeFile << "Vertices;Fill;Avarage Time" << std::endl;
+    } else{
+        std::cout << "CANT OPEN FILE";
+        return 101;
+    }
+
+    for (int i = 0; i < vertices.size(); ++i) {
+        for (int k = 0; k < fill.size(); ++k) {
+            arrayAvgTime = 0;
+            listAvgTime = 0;
+
+            for (int j = 0; j < 10; ++j) {
+                DijkstraArray DA(vertices[i]);
+                DijkstraList DL(vertices[i]);
+
+                DA.GenerateGraph(fill[k]);
+                DL.GenerateGraph(fill[k]);
+
+                //Array
+                auto start = high_resolution_clock::now();
+                DA.ExecuteAlghoritm(0);
+                auto stop = high_resolution_clock::now();
+                duration<double> time_span = duration_cast<nanoseconds>(stop - start);
+                arrayAvgTime = arrayAvgTime + time_span.count();
+
+                //List
+                start = high_resolution_clock::now();
+                DL.ExecuteAlgorithm(0);
+                stop = high_resolution_clock::now();
+                time_span = duration_cast<nanoseconds>(stop - start);
+                listAvgTime = listAvgTime + time_span.count();
+
+                std::cout << "Vertices: " << vertices[i] << " Fill: " << fill[k] << " #" << j << std::endl;
+            }
+            arrayAvgTime = arrayAvgTime / 10;
+            listAvgTime = listAvgTime / 10;
+
+            arrayTimeFile << vertices[i] << ";" << fill[k] << ";" << arrayAvgTime << std::endl;
+            listTimeFile << vertices[i] << ";" << fill[k] << ";" << listAvgTime << std::endl;
+        }
+    }
 
     return 0;
 }

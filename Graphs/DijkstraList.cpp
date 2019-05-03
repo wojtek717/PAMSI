@@ -5,57 +5,9 @@
 #include "DijkstraList.h"
 #include "Vertex.h"
 
-bool DijkstraList::FormAdjList(std::string fileName) {
-    int edges;
-
-    int source;
-    int destination;
-    int cost;
-
-    std::fstream file;
-    file.open(fileName, std::ios::in);
-
-    if(!file.good()){
-        return false;
-    }
-
-    file >> verticesAmmount;
-    file >> edges;
-
-    for(int i = 0; i < verticesAmmount; ++i) {
-        // Stworz vector reprezeentujacy wiersz i dodaj go do listy
-        std::vector<std::pair<int, int> > row;
-        adjList.push_back(row);
-    }
-
-    for(int k = 0; k < edges; ++k){
-        file >> source;
-        file >> destination;
-        file >> cost;
-
-        // Polaczenie w dwie strony
-        adjList[source].push_back(std::make_pair(destination, cost));
-        adjList[destination].push_back(std::make_pair(source, cost));
-    }
-
-    return true;
-}
-
-bool DijkstraList::FormAdjListRandom(int verivesAmount) {
-
-    int verticesLeft = verivesAmount;
-
-    for (int i = 0; i < verivesAmount; ++i) {
-        while (verticesLeft > 0){
 
 
-        }
-    }
-
-    return false;
-}
-
-void DijkstraList::DijkstraSP(int &start) {
+void DijkstraList::ExecuteAlgorithm(int start) {
     Vertex vertex;
 
     // Zainicjalizuj wszystkie odleglosci jako inf
@@ -94,22 +46,95 @@ void DijkstraList::DijkstraSP(int &start) {
             }
         }
     }
-
-    PrintShortestPath(start);
 }
 
-void DijkstraList::PrintShortestPath(int &start) {
-    std::cout << "Vertex --- Distance from start --- Path" << std::endl;
-    for (int j = 0; j < verticesAmmount; ++j) {
-        std::cout << "(" << vertices[j].index << ")" << " --- " << vertices[j].distance << " --- ";
+void DijkstraList::PrintShortestPath(std::string fileName) {
+    std::fstream outputFile;
 
-        Vertex *parent = vertices[j].parent;
-        while (parent != nullptr){
-            std::cout << " -> (" << parent->index << ")";
-            parent = parent->parent;
+    outputFile.open(fileName, std::ios::app);
+    if(outputFile.good())
+    {
+        outputFile << "Graph: " << std::endl;
+        for (int i = 0; i < adjList.size(); ++i) {
+            outputFile << "(" << i << "): ";
+            for (int j = 0; j < adjList[i].size(); ++j) {
+                outputFile << "[(" << adjList[i][j].first << ") " << adjList[i][j].second << "]";
+            }
+            outputFile << std::endl;
         }
-        std::cout << std::endl;
+
+        outputFile << "Vertex --- Distance from start --- Path" << std::endl;
+        for (int j = 0; j < verticesAmmount; ++j) {
+            outputFile << "(" << vertices[j].index << ")" << " --- " << vertices[j].distance << " --- ";
+
+            Vertex *parent = vertices[j].parent;
+            while (parent != nullptr){
+                outputFile << " -> (" << parent->index << ")";
+                parent = parent->parent;
+            }
+            outputFile << std::endl;
+        }
     }
 }
+
+DijkstraList::DijkstraList(int verticesAmmount) {
+    this->verticesAmmount = verticesAmmount;
+
+    std::vector<std::pair<int,int>> v;
+
+    for (int i = 0; i < verticesAmmount; ++i) {
+        adjList.push_back(v);
+    }
+}
+
+void DijkstraList::AddEdge(int source, int destination, int cost) {
+    adjList[source].push_back(std::make_pair(destination, cost));
+}
+
+void DijkstraList::AddEdge(Edge edge) {
+    adjList[edge.startIndex].push_back(std::make_pair(edge.endIndex, edge.distance));
+}
+
+void DijkstraList::GenerateGraph(int fill) {
+    if(fill > 100){
+        fill = 100;
+    }
+
+    if(fill < 0){
+        fill = 0;
+    }
+
+
+    Edge edge;
+    std::vector<Edge> edgeList;
+
+    int maxEdges = verticesAmmount * (verticesAmmount -1);
+    int edgesLeft = (maxEdges * fill) / 100;
+    int randIndex;
+
+    for (int i = 0; i < verticesAmmount; ++i) {
+
+        for (int k = 0; k < verticesAmmount; ++k) {
+
+            if(i != k){
+                edge.startIndex = i;
+                edge.endIndex = k;
+                edge.distance = rand() % 1000;
+
+                edgeList.push_back(edge);
+            }
+        }
+    }
+
+    while (edgesLeft > 0){
+        randIndex = rand() % edgeList.size();
+
+        AddEdge(edgeList[randIndex]);
+        edgeList.erase(edgeList.begin() + randIndex);
+
+        edgesLeft--;
+    }
+}
+
 
 

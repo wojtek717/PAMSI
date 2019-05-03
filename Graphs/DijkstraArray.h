@@ -6,19 +6,25 @@
 #define GRAPHS_DIJKSTRAARRAY_H
 
 #include <vector>
+#include <fstream>
+#include <iostream>
 #include "Vertex.h"
+#include "Edge.h"
 
 
 class DijkstraArray {
 private:
     int verticesAmount;
-
+    std::vector<Vertex> vertices;
+    std::vector<std::vector<int>> graph;
     int shortestPath(std::vector<Vertex> vertices, std::vector<bool> sptSet);
-    void printOutput(std::vector<Vertex> vertices);
 
 public:
     DijkstraArray(int verticesAmount);
-    void ExecuteAlghoritm(std::vector<std::vector<int>> graph, int start);
+    void AddEdge(Edge edge);
+    void GenerateGraph(int fill);
+    void ExecuteAlghoritm(int start);
+    void PrintOutput(std::string fileName);
 };
 
 
