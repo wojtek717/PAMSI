@@ -9,25 +9,9 @@
 using namespace std::chrono;
 
 int main() {
-    //TODO Pomiar czasu dla listy i macierzy
-
     srand(time( NULL ));
     using namespace std::chrono;
 
-
-//
-//    DijkstraArray diA(100);
-//    DijkstraList diL(5);
-
-
-//    diA.GenerateGraph(100);
-//    diA.ExecuteAlghoritm(0);
-//    diA.PrintOutput("DijkstraOutputListFile.txt");
-
-
-//    diL.GenerateGraph(50);
-//    diL.ExecuteAlgorithm(0);
-//    diL.PrintShortestPath("DijkstraOutputArrayFile.txt");
 
 // ####################################################################
 
