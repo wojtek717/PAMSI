@@ -6,6 +6,7 @@
 #define GRAFYNOWE_LISTGRAPH_H
 
 #include <iostream>
+#include <queue>
 #include "Graph.h"
 
 class ListGraph : public Graph{

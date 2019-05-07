@@ -21,6 +21,13 @@ int main() {
     LG.GenerateGraph(false, 100);
     LG.PrintGraph();
 
+    LG.BellmanFord(0);
+    LG.PrintResoult();
+
+    LG.Dijkstra(0);
+    LG.PrintResoult();
+
+
 
     return 0;
 }

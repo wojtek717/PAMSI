@@ -12,31 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d7a60d5-43ee-481c-a9ad-03cd0da85581" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/GrafyNowe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Edge.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Edge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Graph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Graph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/ListGraph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/ListGraph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/MatrixGraph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/MatrixGraph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Vertex.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Vertex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanArrayTime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/BellmanArrayTime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanListTime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/BellmanListTime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/ListGraph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/ListGraph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/ListGraph.h" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/ListGraph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/ListGraph.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/ListGraph.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/GrafyNowe" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/GrafyNowe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -111,11 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DijkstraList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-              <folding>
-                <element signature="e#139#158#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="117">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -123,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DijkstraList.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="65" selection-start-line="65" selection-end-line="75" selection-end-column="9" />
+            <state relative-caret-position="-663">
+              <caret line="27" selection-start-line="27" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="e#52#77#0" expanded="true" />
               </folding>
@@ -248,12 +229,12 @@
       <workItem from="1556887664506" duration="254000" />
       <workItem from="1556887940407" duration="232000" />
       <workItem from="1556888185778" duration="10039000" />
-      <workItem from="1557251611611" duration="2473000" />
+      <workItem from="1557251611611" duration="3097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49500000" />
+    <option name="totallyTimeSpent" value="50124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,18 +382,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DijkstraList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="e#139#158#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="117">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DijkstraList.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="65" selection-start-line="65" selection-end-line="75" selection-end-column="9" />
+        <state relative-caret-position="-663">
+          <caret line="27" selection-start-line="27" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="e#52#77#0" expanded="true" />
           </folding>

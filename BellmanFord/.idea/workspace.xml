@@ -12,31 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93f8dc83-71c5-48f7-a749-5d19c0249fa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/GrafyNowe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Edge.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Edge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Graph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Graph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/ListGraph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/ListGraph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/MatrixGraph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/MatrixGraph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Vertex.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/Vertex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GrafyNowe/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BellmanArrayTime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BellmanArrayTime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BellmanFordArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BellmanFordArray.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BellmanListTime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BellmanListTime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BellmanFord" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BellmanFord" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BellmanFord.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BellmanFord.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/ListGraph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/ListGraph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/ListGraph.h" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/ListGraph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/ListGraph.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/ListGraph.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/CMakeFiles/GrafyNowe.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/GrafyNowe" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/cmake-build-debug/GrafyNowe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GrafyNowe/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../GrafyNowe/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Graphs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Graphs/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -90,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BellmanFordList.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="404">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <element signature="e#130#147#0" expanded="true" />
               </folding>
@@ -102,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BellmanFordList.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="154" selection-start-line="154" selection-end-line="161" selection-end-column="5" />
+            <state relative-caret-position="249">
+              <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
               <folding>
                 <element signature="e#52#80#0" expanded="true" />
               </folding>
@@ -221,12 +205,12 @@
       <updated>1555750723023</updated>
       <workItem from="1555750724683" duration="1089000" />
       <workItem from="1556731290335" duration="25140000" />
-      <workItem from="1557217150789" duration="7657000" />
+      <workItem from="1557217150789" duration="8093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33886000" />
+    <option name="totallyTimeSpent" value="34322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -355,22 +339,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BellmanFordList.cpp">
+    <entry file="file://$PROJECT_DIR$/BellmanFordList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="154" selection-start-line="154" selection-end-line="161" selection-end-column="5" />
+        <state relative-caret-position="404">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
-            <element signature="e#52#80#0" expanded="true" />
+            <element signature="e#130#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BellmanFordList.h">
+    <entry file="file://$PROJECT_DIR$/BellmanFordList.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="249">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
           <folding>
-            <element signature="e#130#147#0" expanded="true" />
+            <element signature="e#52#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
