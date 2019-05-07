@@ -21,8 +21,8 @@ BellmanFordArray::BellmanFordArray(int verticesAmount) {
 
 void BellmanFordArray::ExecuteAlghoritm(int start) {
     Vertex vertex;
-    Edge edge;
-    std::vector<Edge> edges;
+//    Edge edge;
+//    std::vector<Edge> edges;
 
 
     // Zainicjalizuj wszystkie odleglosci jako inf
@@ -34,31 +34,57 @@ void BellmanFordArray::ExecuteAlghoritm(int start) {
     //Odleglosc startu do startu to zawsze 0
     vertices[start].distance = 0;
 
+//    for (int j = 0; j < verticesAmount; ++j) {
+//        for (int i = 0; i < verticesAmount; ++i) {
+//            if (graph[j][i] != 0){
+//                edge.startIndex = j;
+//                edge.endIndex = i;
+//                edge.distance = graph[j][i];
+//
+//                edges.push_back(edge);
+//            }
+//        }
+//    }
+//
+//    for (int i = 0; i < (verticesAmount - 1); ++i) {
+//        for (int k = 0; k < edges.size(); ++k){
+//            if(vertices[edges[k].endIndex].distance > vertices[edges[k].startIndex].distance + edges[k].distance){
+//                vertices[edges[k].endIndex].distance = vertices[edges[k].startIndex].distance + edges[k].distance;
+//                vertices[edges[k].endIndex].parent = &vertices[edges[k].startIndex];
+//            }
+//        }
+//    }
+
+//    for (int k = 0; k < edges.size(); ++k){
+//        if(vertices[edges[k].endIndex].distance > vertices[edges[k].startIndex].distance + edges[k].distance){
+//            isNegativeCircle = true;
+//            break;
+//        }
+//    }
+
+
+
+    for (int k = 0; k < (verticesAmount - 1); ++k) {
+        for (int i = 0; i < verticesAmount; ++i) {
+            for (int j = 0; j < verticesAmount; ++j) {
+                if (graph[i][j] != 0){
+                    if(vertices[j].distance > vertices[i].distance + graph[i][j]){
+                        vertices[j].distance = vertices[i].distance + graph[i][j];
+                        vertices[j].parent = &vertices[i];
+                    }
+                }
+            }
+        }
+    }
+
     for (int j = 0; j < verticesAmount; ++j) {
         for (int i = 0; i < verticesAmount; ++i) {
-            if (graph[j][i] != 0){
-                edge.startIndex = j;
-                edge.endIndex = i;
-                edge.distance = graph[j][i];
-
-                edges.push_back(edge);
+            if (graph[i][j] != 0){
+                if(vertices[j].distance > vertices[i].distance + graph[i][j]){
+                    isNegativeCircle = true;
+                    break;
+                }
             }
-        }
-    }
-
-    for (int i = 0; i < (verticesAmount - 1); ++i) {
-        for (int k = 0; k < edges.size(); ++k){
-            if(vertices[edges[k].endIndex].distance > vertices[edges[k].startIndex].distance + edges[k].distance){
-                vertices[edges[k].endIndex].distance = vertices[edges[k].startIndex].distance + edges[k].distance;
-                vertices[edges[k].endIndex].parent = &vertices[edges[k].startIndex];
-            }
-        }
-    }
-
-    for (int k = 0; k < edges.size(); ++k){
-        if(vertices[edges[k].endIndex].distance > vertices[edges[k].startIndex].distance + edges[k].distance){
-            isNegativeCircle = true;
-            break;
         }
     }
 

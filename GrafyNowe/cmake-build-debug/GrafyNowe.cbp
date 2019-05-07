@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GrafyNowe"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GrafyNowe">
+				<Option output="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/cmake-build-debug/GrafyNowe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 GrafyNowe"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GrafyNowe/fast">
+				<Option output="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/cmake-build-debug/GrafyNowe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 GrafyNowe/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojciechkonury/Google\ Drive/StudBaza/IV\ semestr/PAMSI\ lab/GrafyNowe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/Edge.cpp">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/Edge.h">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/Graph.cpp">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/Graph.h">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/ListGraph.cpp">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/ListGraph.h">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/MatrixGraph.cpp">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/MatrixGraph.h">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/Vertex.cpp">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/Vertex.h">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/main.cpp">
+			<Option target="GrafyNowe"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
