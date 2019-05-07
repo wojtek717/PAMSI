@@ -16,10 +16,6 @@ Vertex.h
 Edge.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/Edge.h
 
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/ListGraph.cpp
-ListGraph.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/ListGraph.h
-
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/ListGraph.h
 iostream
 -
@@ -39,8 +35,12 @@ Graph.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/main.cpp
 iostream
 -
+fstream
+-
 MatrixGraph.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/MatrixGraph.h
 ListGraph.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/GrafyNowe/ListGraph.h
+chrono
+-
 
