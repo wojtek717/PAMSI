@@ -70,14 +70,44 @@ CMakeFiles/Checkers.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Checkers.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/main.cpp" -o CMakeFiles/Checkers.dir/main.cpp.s
 
+CMakeFiles/Checkers.dir/Cell.cpp.o: CMakeFiles/Checkers.dir/flags.make
+CMakeFiles/Checkers.dir/Cell.cpp.o: ../Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Checkers.dir/Cell.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Checkers.dir/Cell.cpp.o -c "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.cpp"
+
+CMakeFiles/Checkers.dir/Cell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Checkers.dir/Cell.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.cpp" > CMakeFiles/Checkers.dir/Cell.cpp.i
+
+CMakeFiles/Checkers.dir/Cell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Checkers.dir/Cell.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.cpp" -o CMakeFiles/Checkers.dir/Cell.cpp.s
+
+CMakeFiles/Checkers.dir/GameController.cpp.o: CMakeFiles/Checkers.dir/flags.make
+CMakeFiles/Checkers.dir/GameController.cpp.o: ../GameController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Checkers.dir/GameController.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Checkers.dir/GameController.cpp.o -c "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.cpp"
+
+CMakeFiles/Checkers.dir/GameController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Checkers.dir/GameController.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.cpp" > CMakeFiles/Checkers.dir/GameController.cpp.i
+
+CMakeFiles/Checkers.dir/GameController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Checkers.dir/GameController.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.cpp" -o CMakeFiles/Checkers.dir/GameController.cpp.s
+
 # Object files for target Checkers
 Checkers_OBJECTS = \
-"CMakeFiles/Checkers.dir/main.cpp.o"
+"CMakeFiles/Checkers.dir/main.cpp.o" \
+"CMakeFiles/Checkers.dir/Cell.cpp.o" \
+"CMakeFiles/Checkers.dir/GameController.cpp.o"
 
 # External object files for target Checkers
 Checkers_EXTERNAL_OBJECTS =
 
 Checkers: CMakeFiles/Checkers.dir/main.cpp.o
+Checkers: CMakeFiles/Checkers.dir/Cell.cpp.o
+Checkers: CMakeFiles/Checkers.dir/GameController.cpp.o
 Checkers: CMakeFiles/Checkers.dir/build.make
 Checkers: /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics
 Checkers: /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window
@@ -85,7 +115,7 @@ Checkers: /Library/Frameworks/./sfml-audio.framework/Versions/2.5.1/sfml-audio
 Checkers: /Library/Frameworks/./sfml-network.framework/Versions/2.5.1/sfml-network
 Checkers: /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system
 Checkers: CMakeFiles/Checkers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Checkers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Checkers"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Checkers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

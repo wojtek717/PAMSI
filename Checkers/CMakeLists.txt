@@ -3,7 +3,7 @@ project(Checkers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Checkers main.cpp)
+add_executable(Checkers main.cpp Chequer.h Cell.cpp Cell.h GameController.cpp GameController.h)
 
 set(SFML_DIR "SFML-2.5.1/lib/cmake/SFML")
 

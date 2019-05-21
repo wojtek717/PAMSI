@@ -123,6 +123,60 @@ Checkers/fast:
 	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/build
 .PHONY : Checkers/fast
 
+Cell.o: Cell.cpp.o
+
+.PHONY : Cell.o
+
+# target to build an object file
+Cell.cpp.o:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Cell.cpp.o
+.PHONY : Cell.cpp.o
+
+Cell.i: Cell.cpp.i
+
+.PHONY : Cell.i
+
+# target to preprocess a source file
+Cell.cpp.i:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Cell.cpp.i
+.PHONY : Cell.cpp.i
+
+Cell.s: Cell.cpp.s
+
+.PHONY : Cell.s
+
+# target to generate assembly for a file
+Cell.cpp.s:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Cell.cpp.s
+.PHONY : Cell.cpp.s
+
+GameController.o: GameController.cpp.o
+
+.PHONY : GameController.o
+
+# target to build an object file
+GameController.cpp.o:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/GameController.cpp.o
+.PHONY : GameController.cpp.o
+
+GameController.i: GameController.cpp.i
+
+.PHONY : GameController.i
+
+# target to preprocess a source file
+GameController.cpp.i:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/GameController.cpp.i
+.PHONY : GameController.cpp.i
+
+GameController.s: GameController.cpp.s
+
+.PHONY : GameController.s
+
+# target to generate assembly for a file
+GameController.cpp.s:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/GameController.cpp.s
+.PHONY : GameController.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Checkers"
+	@echo "... Cell.o"
+	@echo "... Cell.i"
+	@echo "... Cell.s"
+	@echo "... GameController.o"
+	@echo "... GameController.i"
+	@echo "... GameController.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

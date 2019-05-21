@@ -6,9 +6,35 @@
 
 #IncludeRegexTransform: 
 
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+SFML/Graphics.hpp
+-
+Chequer.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Chequer.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Chequer.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.cpp
+GameController.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h
+SFML/Graphics.hpp
+-
+string
+-
+Cell.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/main.cpp
 SFML/Graphics.hpp
 -
 string
 -
+Chequer.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Chequer.h
+Cell.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+GameController.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h
 

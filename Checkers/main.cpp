@@ -1,52 +1,51 @@
 #include <SFML/Graphics.hpp>
 #include <string>
+#include "Chequer.h"
+#include "Cell.h"
+#include "GameController.h"
+
 
 
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(1000,1000,32),"Checkers");
+    sf::RenderWindow window(sf::VideoMode(8*CELLSIZE,8*CELLSIZE,32),"Checkers");
 
-    sf::Font font;
-    font.loadFromFile("OpenSans-Bold.ttf");
+    GameController gameController;
 
+    //Set Textures
+    gameController.SetBoardTexture("Resources/Szachownica.png");
+    gameController.SetMansTexture("Resources/PionekW.png", "Resources/PionekW.png");
+    gameController.SetKingsTexture("Resources/PionekW.png", "Resources/PionekW.png");
 
-
-    sf::Text text("Checkers",font,11);
-
-    text.setCharacterSize(32);
-
-    text.setPosition(window.getSize().x/2 - text.getGlobalBounds().width/2,
-
-                     window.getSize().y/2 - text.getGlobalBounds().height/2);
-
-
+    //Start Game
+    gameController.SeedChequers();
 
 
 
     while(window.isOpen()){
-
-
-
-        sf::Event event;
+        sf::Event event{};
 
         while(window.pollEvent(event)) {
 
             if(event.type == sf::Event::Closed){
-
                 window.close();
-
             }
 
 
+            // #################################################
+            window.draw(gameController.GetBoardSprite());
 
-            window.clear(sf::Color::Black);
 
-            window.draw(text);
+            for (int y = 0; y < 8; ++y) {
+                for (int x = 0; x < 8; ++x) {
+                    if(gameController.GetBoardItem(x,y).isChequer()){
+                        window.draw(gameController.GetBoardItem(x,y).chequerSprite);
+                    }
+                }
+            }
 
             window.display();
-
         }
-
     }
 
     return 0;

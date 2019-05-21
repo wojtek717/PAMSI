@@ -82,6 +82,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.cpp">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Chequer.h">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.cpp">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h">
+			<Option target="Checkers"/>
+		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/main.cpp">
 			<Option target="Checkers"/>
 		</Unit>
