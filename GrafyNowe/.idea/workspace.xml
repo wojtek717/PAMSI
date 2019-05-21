@@ -12,166 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b10ac781-d7e4-4ed8-8162-3b9bde43d402" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/BellmanFord.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/codeStyles/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanArrayOutputFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanArrayTime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordList.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanFordList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanListOutputFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BellmanListTime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/BelmanNowe.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/Edge.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/Edge.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/Node.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/Node.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/Vertex.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/Vertex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/BellmanFord.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/tmp/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/tmp/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/3.12.3/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordArray.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/BellmanFordList.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/Edge.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/Node.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/Vertex.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/BellmanFord.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/CMakeTmp/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BellmanFord/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GrafyNowe.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GrafyNowe.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GrafyNowe.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GrafyNowe.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GrafyNowe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GrafyNowe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/.idea/Graphs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/.idea/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/.idea/codeStyles/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/DArrayTime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/DListTime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/DijkstraArray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/DijkstraArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/DijkstraList.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/DijkstraList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/DijkstraOutputArrayFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/DijkstraOutputListFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/Edge.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/Edge.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/EdgeData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/Node.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/Node.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/Pomiary.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/Sprawozdanie.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/Vertex.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/Vertex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/tmp/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/tmp/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/3.12.3/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/CMakeTmp/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraArray.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/DijkstraList.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/Edge.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/Node.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/Vertex.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Graphs.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/Graphs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/Graphs.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/Icon&#10;" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Graphs/~$Pomiary.xlsx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -185,6 +26,7 @@
     <session id="-1642190430">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -204,7 +46,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1299" />
+          <entry key="cpp" value="1301" />
           <entry key="h" value="573" />
           <entry key="txt" value="9" />
         </counts>
@@ -212,7 +54,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="9" />
-          <entry key="ObjectiveC" value="1872" />
+          <entry key="ObjectiveC" value="1874" />
         </counts>
       </usages-collector>
     </session>
@@ -228,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="734">
+              <caret line="144" column="6" lean-forward="true" selection-start-line="144" selection-start-column="6" selection-end-line="144" selection-end-column="6" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -240,9 +82,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BellmanList.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -392,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557248643148</updated>
-      <workItem from="1557248645024" duration="12378000" />
+      <workItem from="1557248645024" duration="13890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12378000" />
+    <option name="totallyTimeSpent" value="13890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -414,7 +260,7 @@
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -507,18 +353,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BellmanList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="734">
+          <caret line="144" column="6" lean-forward="true" selection-start-line="144" selection-start-column="6" selection-end-line="144" selection-end-column="6" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BellmanList.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

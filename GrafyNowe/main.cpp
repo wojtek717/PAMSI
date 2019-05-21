@@ -144,7 +144,7 @@ int main() {
     LG.PrintResoult();
     */
 
-    MeasureTime();
+   // MeasureTime();
 
 
 
