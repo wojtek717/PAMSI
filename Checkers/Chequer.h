@@ -10,7 +10,7 @@ enum Chequer{
     blackMan,
     whiteKing,
     blackKing,
-    none
+    noChequer
 };
 
 #endif //CHECKERS_CHEQUER_H

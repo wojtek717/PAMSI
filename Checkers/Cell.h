@@ -7,11 +7,15 @@
 
 #include <SFML/Graphics.hpp>
 #include "Chequer.h"
+#include "Color.h"
 
 class Cell {
     int posx;
     int posy;
     Chequer chequer;
+    Color color;
+    bool avaliable;
+    bool playAble;
 
 
 public:
@@ -22,7 +26,21 @@ public:
     Cell();
 
     void SetChequer(Chequer chequer, sf::Texture &texture);
+    void SetColor(Color color);
+    void setAvaliable(bool a);
+    void setPlayAble();
+
     bool isChequer();
+    bool isAvaliable();
+    bool isPlayAble();
+
+    Color GetColor();
+    Chequer GetChequer();
+    int GetX();
+    int GetY();
+
+    void Hide(sf::Texture noTexture);
+    void Show(Color color, Chequer chequer, sf::Texture &Texture);
 };
 
 
