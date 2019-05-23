@@ -53,7 +53,7 @@ public:
     void GetAvaliableChequers(Color color);
     Cell GetChosen();
     bool IsChosen();
-    bool IsMoveAvaliable(int destx, int desty);
+    bool IsMoveAvaliable(Cell from, Cell dest);
 
 
     void SeedChequers();

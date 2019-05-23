@@ -3,6 +3,7 @@
 //
 
 #include "Cell.h"
+#define CELLSIZE 110
 
 
 Cell::Cell(int posx, int posy) {
@@ -64,15 +65,19 @@ bool Cell::isPlayAble() {
 }
 
 int Cell::GetX() {
-    return this->posx;
+    return this->posx/CELLSIZE;
 }
 
 int Cell::GetY() {
-    return this->posy;
+    return this->posy/CELLSIZE;
 }
 
 void Cell::SetChequer(ChequerType type, Color color) {
     this->chequer.SetChequer(type, color);
+}
+
+bool Cell::isFreeToMove() {
+    return (!isChequer() && isPlayAble());
 }
 
 

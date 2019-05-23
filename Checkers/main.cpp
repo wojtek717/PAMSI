@@ -52,8 +52,8 @@ int main() {
                 std::cout << "R " << v2.x/110 << " ; " << v2.y/110<< std::endl;
 
                 if(gameController.IsChosen()){
-                    if(gameController.IsMoveAvaliable(v2.x/110, v2.y/110)){
-                        gameController.Hide(gameController.GetChosen().GetX()/CELLSIZE, gameController.GetChosen().GetY()/CELLSIZE);
+                    if(gameController.IsMoveAvaliable(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE))){
+                        gameController.Hide(gameController.GetChosen().GetX(), gameController.GetChosen().GetY());
                         gameController.Show(v2.x/CELLSIZE, v2.y/CELLSIZE, gameController.GetChosen().GetChequer());
                         gameController.SetIsChosen(false);
                     }

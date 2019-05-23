@@ -33,6 +33,7 @@ public:
     bool isChequer();
     bool isAvaliable();
     bool isPlayAble();
+    bool isFreeToMove();
 
     ChequerRep GetChequer();
     int GetX();

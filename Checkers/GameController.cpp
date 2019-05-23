@@ -94,20 +94,19 @@ void GameController::GetAvaliableChequers(Color color) {
 
     for (int y = 0; y < 8; ++y) {
         for (int x = 0; x < 8; ++x) {
-            if(boardArray[y][x].GetChequer().GetColor() == color){
-
-                if(y-1 >= 0 && x-1 >= 0 && !boardArray[y-1][x-1].isChequer()){
-                    this->boardArray[y][x].setAvaliable(true);
-                } else if(y-1 >= 0 && x+1 <=7 && !boardArray[y-1][x+1].isChequer()){
-                    this->boardArray[y][x].setAvaliable(true);
-                }else if(y+1 <= 7 && x-1 >= 0 && !boardArray[y+1][x-1].isChequer()){
-                    this->boardArray[y][x].setAvaliable(true);
-                }else if(y+1 <= 7 && x+1 <= 0 && !boardArray[y+1][x+1].isChequer()){
-                    this->boardArray[y][x].setAvaliable(true);
-                } else{
-                    this->boardArray[y][x].setAvaliable(false);
+            if (boardArray[y][x].GetChequer().GetColor() == color) {
+                if (boardArray[y][x].GetChequer().GetType() == man) {
+                    if (y - 1 >= 0 && x - 1 >= 0 && !boardArray[y - 1][x - 1].isChequer()) {
+                        this->boardArray[y][x].setAvaliable(true);
+                    } else if (y - 1 >= 0 && x + 1 <= 7 && !boardArray[y - 1][x + 1].isChequer()) {
+                        this->boardArray[y][x].setAvaliable(true);
+                    }else{
+                        this->boardArray[y][x].setAvaliable(false);
+                    }
+                } else if(boardArray[y][x].GetChequer().GetType() == king){
+                    //Tutaj napisac warnunki czy damka ma mozliwe opcje poruszenia sie
                 }
-            } else{
+            }else{
                 this->boardArray[y][x].setAvaliable(false);
             }
         }
@@ -148,17 +147,20 @@ bool GameController::IsChosen() {
     return isChosen;
 }
 
-bool GameController::IsMoveAvaliable(int destx, int desty) {
-    if(this->boardArray[desty][destx].isPlayAble() &&
-    !this->boardArray[desty][destx].isChequer()){
-
-        if(abs(destx - this->chosen.GetX()/CELLSIZE) == 1 &&
-        abs(desty - this->chosen.GetY()/CELLSIZE) == 1){
-            return true;
+bool GameController::IsMoveAvaliable(Cell from, Cell dest) {
+    if(dest.isFreeToMove()){
+        if(from.GetChequer().GetType() == man){
+            if(from.GetChequer().GetColor() == white){
+                return (from.GetY() - dest.GetY() == 1) && (abs(from.GetX() - dest.GetX()) == 1);
+            }else if(from.GetChequer().GetColor() == black){
+                return (from.GetY() - dest.GetY() == -1) && (abs(from.GetX() - dest.GetX()) == 1);
+            }
+        } else if(from.GetChequer().GetType() == king){
+            //Sprawdzenie dla damki dla obu kolorow
         }
+    } else{
         return false;
     }
-    return false;
 
 }
 
