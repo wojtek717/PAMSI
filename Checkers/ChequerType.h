@@ -5,12 +5,10 @@
 #ifndef CHECKERS_CHEQUER_H
 #define CHECKERS_CHEQUER_H
 
-enum Chequer{
-    whiteMan,
-    blackMan,
-    whiteKing,
-    blackKing,
-    noChequer
+enum ChequerType{
+    man,
+    king,
+    noType
 };
 
 #endif //CHECKERS_CHEQUER_H

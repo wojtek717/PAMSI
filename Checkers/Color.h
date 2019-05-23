@@ -8,7 +8,7 @@
 enum Color{
     white,
     black,
-    no
+    noColor
 };
 
 #endif //CHECKERS_COLOR_H

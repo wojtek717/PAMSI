@@ -6,15 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.cpp
+Cell.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
 SFML/Graphics.hpp
 -
-Chequer.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Chequer.h
+ChequerType.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
+Color.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
+ChequerRep.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerRep.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerRep.h
+ChequerType.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
 Color.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
 
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Chequer.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
 

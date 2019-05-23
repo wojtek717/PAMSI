@@ -150,6 +150,33 @@ Cell.cpp.s:
 	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Cell.cpp.s
 .PHONY : Cell.cpp.s
 
+ChequerRep.o: ChequerRep.cpp.o
+
+.PHONY : ChequerRep.o
+
+# target to build an object file
+ChequerRep.cpp.o:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/ChequerRep.cpp.o
+.PHONY : ChequerRep.cpp.o
+
+ChequerRep.i: ChequerRep.cpp.i
+
+.PHONY : ChequerRep.i
+
+# target to preprocess a source file
+ChequerRep.cpp.i:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/ChequerRep.cpp.i
+.PHONY : ChequerRep.cpp.i
+
+ChequerRep.s: ChequerRep.cpp.s
+
+.PHONY : ChequerRep.s
+
+# target to generate assembly for a file
+ChequerRep.cpp.s:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/ChequerRep.cpp.s
+.PHONY : ChequerRep.cpp.s
+
 GameController.o: GameController.cpp.o
 
 .PHONY : GameController.o
@@ -216,6 +243,9 @@ help:
 	@echo "... Cell.o"
 	@echo "... Cell.i"
 	@echo "... Cell.s"
+	@echo "... ChequerRep.o"
+	@echo "... ChequerRep.i"
+	@echo "... ChequerRep.s"
 	@echo "... GameController.o"
 	@echo "... GameController.i"
 	@echo "... GameController.s"

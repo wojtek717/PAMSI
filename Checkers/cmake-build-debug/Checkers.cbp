@@ -88,7 +88,13 @@
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h">
 			<Option target="Checkers"/>
 		</Unit>
-		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Chequer.h">
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerRep.cpp">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerRep.h">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h">
 			<Option target="Checkers"/>
 		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h">

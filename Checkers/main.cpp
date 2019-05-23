@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <string>
 #include <iostream>
-#include "Chequer.h"
+#include "ChequerType.h"
 #include "Cell.h"
 #include "GameController.h"
 
@@ -54,7 +54,7 @@ int main() {
                 if(gameController.IsChosen()){
                     if(gameController.IsMoveAvaliable(v2.x/110, v2.y/110)){
                         gameController.Hide(gameController.GetChosen().GetX()/CELLSIZE, gameController.GetChosen().GetY()/CELLSIZE);
-                        gameController.Show(v2.x/110, v2.y/110, gameController.GetChosen().GetChequer());
+                        gameController.Show(v2.x/CELLSIZE, v2.y/CELLSIZE, gameController.GetChosen().GetChequer());
                         gameController.SetIsChosen(false);
                     }
                 }

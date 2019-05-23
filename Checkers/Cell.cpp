@@ -4,24 +4,11 @@
 
 #include "Cell.h"
 
-Cell::Cell(int posx, int posy, Chequer chequer, sf::Texture texture) {
-    this->posx = posx;
-    this->posy = posy;
-    this->chequer = chequer;
-    this->avaliable = false;
-    this->color = no;
-    this->playAble = false;
-
-    this->chequerSprite.setPosition(posx, posy);
-    this->chequerSprite.setTexture(texture);
-}
 
 Cell::Cell(int posx, int posy) {
     this->posx = posx;
     this->posy = posy;
-    this->chequer = noChequer;
     this->avaliable = false;
-    this->color = no;
     this->playAble = false;
 
     this->chequerSprite.setPosition(posx, posy);
@@ -30,33 +17,23 @@ Cell::Cell(int posx, int posy) {
 Cell::Cell() {
     this->posx = 0;
     this->posy = 0;
-    this->chequer = noChequer;
     this->avaliable = false;
-    this->color = no;
     this->playAble = false;
 
     this->chequerSprite.setPosition(posx, posy);
 }
 
-void Cell::SetChequer(Chequer chequer, sf::Texture &texture) {
-    this->chequer = chequer;
+void Cell::SetChequer(ChequerType type, Color color, sf::Texture &texture) {
+    this->chequer.SetChequer(type, color);
 
     this->chequerSprite.setTexture(texture);
 }
 
 bool Cell::isChequer() {
-    return !(chequer == noChequer);
+    return !(chequer.GetType() == noType && chequer.GetColor() == noColor);
 }
 
-void Cell::SetColor(Color color) {
-    this->color = color;
-}
-
-Color Cell::GetColor() {
-    return this->color;
-}
-
-Chequer Cell::GetChequer() {
+ChequerRep Cell::GetChequer() {
     return this->chequer;
 }
 
@@ -73,14 +50,12 @@ void Cell::setPlayAble() {
 }
 
 void Cell::Hide(sf::Texture noTexture) {
-    this->chequer = noChequer;
-    this->color = no;
+    this->chequer.SetChequer(noType, noColor);
     this->chequerSprite.setTexture(noTexture);
 }
 
-void Cell::Show(Color color, Chequer chequer, sf::Texture &Texture) {
-    this->color = color;
-    this->chequer = chequer;
+void Cell::Show(ChequerRep chequer, sf::Texture &Texture) {
+    this->chequer.SetChequer(chequer.GetType(), chequer.GetColor());
     this->chequerSprite.setTexture(Texture);
 }
 
@@ -95,3 +70,9 @@ int Cell::GetX() {
 int Cell::GetY() {
     return this->posy;
 }
+
+void Cell::SetChequer(ChequerType type, Color color) {
+    this->chequer.SetChequer(type, color);
+}
+
+

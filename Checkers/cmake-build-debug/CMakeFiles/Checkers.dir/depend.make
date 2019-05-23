@@ -3,17 +3,25 @@
 
 CMakeFiles/Checkers.dir/Cell.cpp.o: ../Cell.cpp
 CMakeFiles/Checkers.dir/Cell.cpp.o: ../Cell.h
-CMakeFiles/Checkers.dir/Cell.cpp.o: ../Chequer.h
+CMakeFiles/Checkers.dir/Cell.cpp.o: ../ChequerRep.h
+CMakeFiles/Checkers.dir/Cell.cpp.o: ../ChequerType.h
 CMakeFiles/Checkers.dir/Cell.cpp.o: ../Color.h
 
+CMakeFiles/Checkers.dir/ChequerRep.cpp.o: ../ChequerRep.cpp
+CMakeFiles/Checkers.dir/ChequerRep.cpp.o: ../ChequerRep.h
+CMakeFiles/Checkers.dir/ChequerRep.cpp.o: ../ChequerType.h
+CMakeFiles/Checkers.dir/ChequerRep.cpp.o: ../Color.h
+
 CMakeFiles/Checkers.dir/GameController.cpp.o: ../Cell.h
-CMakeFiles/Checkers.dir/GameController.cpp.o: ../Chequer.h
+CMakeFiles/Checkers.dir/GameController.cpp.o: ../ChequerRep.h
+CMakeFiles/Checkers.dir/GameController.cpp.o: ../ChequerType.h
 CMakeFiles/Checkers.dir/GameController.cpp.o: ../Color.h
 CMakeFiles/Checkers.dir/GameController.cpp.o: ../GameController.cpp
 CMakeFiles/Checkers.dir/GameController.cpp.o: ../GameController.h
 
 CMakeFiles/Checkers.dir/main.cpp.o: ../Cell.h
-CMakeFiles/Checkers.dir/main.cpp.o: ../Chequer.h
+CMakeFiles/Checkers.dir/main.cpp.o: ../ChequerRep.h
+CMakeFiles/Checkers.dir/main.cpp.o: ../ChequerType.h
 CMakeFiles/Checkers.dir/main.cpp.o: ../Color.h
 CMakeFiles/Checkers.dir/main.cpp.o: ../GameController.h
 CMakeFiles/Checkers.dir/main.cpp.o: ../main.cpp

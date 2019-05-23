@@ -44,8 +44,7 @@ void GameController::SeedChequers() {
             //Black
             if(y < 3){
                 if((y%2 == 0 && x%2 != 0) || (y%2 != 0 && x%2 == 0)){
-                    this->boardArray[y][x].SetChequer(blackMan, blackManChequerTexture);
-                    this->boardArray[y][x].SetColor(black);
+                    this->boardArray[y][x].SetChequer(man, black, blackManChequerTexture);
                     this->boardArray[y][x].setPlayAble();
                 }
             }
@@ -59,8 +58,7 @@ void GameController::SeedChequers() {
             //White
             if(y > 4){
                 if((y%2 == 0 && x%2 != 0) || (y%2 != 0 && x%2 == 0)){
-                    this->boardArray[y][x].SetChequer(whiteMan, whiteManChequerTexture);
-                    this->boardArray[y][x].SetColor(white);
+                    this->boardArray[y][x].SetChequer(man, white, whiteManChequerTexture);
                     this->boardArray[y][x].setPlayAble();
                 }
             }
@@ -96,15 +94,15 @@ void GameController::GetAvaliableChequers(Color color) {
 
     for (int y = 0; y < 8; ++y) {
         for (int x = 0; x < 8; ++x) {
-            if(boardArray[y][x].GetColor() == color){
+            if(boardArray[y][x].GetChequer().GetColor() == color){
 
-                if(y-1 >= 0 && x-1 >= 0 && boardArray[y-1][x-1].GetChequer() == noChequer){
+                if(y-1 >= 0 && x-1 >= 0 && !boardArray[y-1][x-1].isChequer()){
                     this->boardArray[y][x].setAvaliable(true);
-                } else if(y-1 >= 0 && x+1 <=7 && boardArray[y-1][x+1].GetChequer() == noChequer){
+                } else if(y-1 >= 0 && x+1 <=7 && !boardArray[y-1][x+1].isChequer()){
                     this->boardArray[y][x].setAvaliable(true);
-                }else if(y+1 <= 7 && x-1 >= 0 && boardArray[y+1][x-1].GetChequer() == noChequer){
+                }else if(y+1 <= 7 && x-1 >= 0 && !boardArray[y+1][x-1].isChequer()){
                     this->boardArray[y][x].setAvaliable(true);
-                }else if(y+1 <= 7 && x+1 <= 0 && boardArray[y+1][x+1].GetChequer() == noChequer){
+                }else if(y+1 <= 7 && x+1 <= 0 && !boardArray[y+1][x+1].isChequer()){
                     this->boardArray[y][x].setAvaliable(true);
                 } else{
                     this->boardArray[y][x].setAvaliable(false);
@@ -121,23 +119,18 @@ void GameController::Hide(int x, int y) {
     this->boardArray[y][x].Hide(noChequerTexture);
 }
 
-void GameController::Show(int x, int y, Chequer chequer) {
-    if(chequer == whiteMan){
-        this->boardArray[y][x].Show(white, chequer, this->whiteManChequerTexture);
-    }
-
-    if(chequer == whiteKing){
-        this->boardArray[y][x].Show(white, chequer, this->whiteKingChequerTexture);
-    }
-
-    if(chequer == blackMan){
-        this->boardArray[y][x].Show(black, chequer, this->blackManChequerTexture);
-    }
-
-    if(chequer == blackKing){
-        this->boardArray[y][x].Show(black, chequer, this->blackKingChequerTexture);
+void GameController::Show(int x, int y, ChequerRep chequer) {
+    if(chequer.GetType() == man && chequer.GetColor() == white){
+        this->boardArray[y][x].Show(chequer, this->whiteManChequerTexture);
+    } else if(chequer.GetType() == king && chequer.GetColor() == white){
+        this->boardArray[y][x].Show(chequer, this->whiteKingChequerTexture);
+    } else if(chequer.GetType() == man && chequer.GetColor() == black){
+        this->boardArray[y][x].Show(chequer, this->blackManChequerTexture);
+    } else if(chequer.GetType() == king && chequer.GetColor() == black){
+        this->boardArray[y][x].Show(chequer, this->blackKingChequerTexture);
     }
 }
+
 
 void GameController::SetChosen(int x, int y) {
     this->chosen = this->boardArray[y][x];
@@ -157,7 +150,7 @@ bool GameController::IsChosen() {
 
 bool GameController::IsMoveAvaliable(int destx, int desty) {
     if(this->boardArray[desty][destx].isPlayAble() &&
-    this->boardArray[desty][destx].GetChequer() == noChequer){
+    !this->boardArray[desty][destx].isChequer()){
 
         if(abs(destx - this->chosen.GetX()/CELLSIZE) == 1 &&
         abs(desty - this->chosen.GetY()/CELLSIZE) == 1){
@@ -168,6 +161,7 @@ bool GameController::IsMoveAvaliable(int destx, int desty) {
     return false;
 
 }
+
 
 
 

@@ -6,14 +6,14 @@
 #define CHECKERS_CELL_H
 
 #include <SFML/Graphics.hpp>
-#include "Chequer.h"
+#include "ChequerType.h"
 #include "Color.h"
+#include "ChequerRep.h"
 
 class Cell {
     int posx;
     int posy;
-    Chequer chequer;
-    Color color;
+    ChequerRep chequer;
     bool avaliable;
     bool playAble;
 
@@ -21,12 +21,12 @@ class Cell {
 public:
     sf::Sprite chequerSprite;
 
-    Cell(int posx, int posy, Chequer chequer, sf::Texture texture);
+
     Cell(int posx, int posy);
     Cell();
 
-    void SetChequer(Chequer chequer, sf::Texture &texture);
-    void SetColor(Color color);
+    void SetChequer(ChequerType type, Color color, sf::Texture &texture);
+    void SetChequer(ChequerType type, Color color);
     void setAvaliable(bool a);
     void setPlayAble();
 
@@ -34,13 +34,12 @@ public:
     bool isAvaliable();
     bool isPlayAble();
 
-    Color GetColor();
-    Chequer GetChequer();
+    ChequerRep GetChequer();
     int GetX();
     int GetY();
 
     void Hide(sf::Texture noTexture);
-    void Show(Color color, Chequer chequer, sf::Texture &Texture);
+    void Show(ChequerRep chequer, sf::Texture &Texture);
 };
 
 

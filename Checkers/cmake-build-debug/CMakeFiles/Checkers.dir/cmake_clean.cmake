@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Checkers.dir/main.cpp.o"
   "CMakeFiles/Checkers.dir/Cell.cpp.o"
   "CMakeFiles/Checkers.dir/GameController.cpp.o"
+  "CMakeFiles/Checkers.dir/ChequerRep.cpp.o"
   "Checkers.pdb"
   "Checkers"
 )

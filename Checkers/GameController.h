@@ -60,7 +60,7 @@ public:
     Color SwitchTurn();
 
     void Hide(int x, int y);
-    void Show(int x, int y, Chequer chequer);
+    void Show(int x, int y, ChequerRep chequer);
 };
 
 
