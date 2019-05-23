@@ -90,28 +90,7 @@ Color GameController::SwitchTurn() {
     return this->turn;
 }
 
-void GameController::GetAvaliableChequers(Color color) {
 
-    for (int y = 0; y < 8; ++y) {
-        for (int x = 0; x < 8; ++x) {
-            if (boardArray[y][x].GetChequer().GetColor() == color) {
-                if (boardArray[y][x].GetChequer().GetType() == man) {
-                    if (y - 1 >= 0 && x - 1 >= 0 && !boardArray[y - 1][x - 1].isChequer()) {
-                        this->boardArray[y][x].setAvaliable(true);
-                    } else if (y - 1 >= 0 && x + 1 <= 7 && !boardArray[y - 1][x + 1].isChequer()) {
-                        this->boardArray[y][x].setAvaliable(true);
-                    }else{
-                        this->boardArray[y][x].setAvaliable(false);
-                    }
-                } else if(boardArray[y][x].GetChequer().GetType() == king){
-                    //Tutaj napisac warnunki czy damka ma mozliwe opcje poruszenia sie
-                }
-            }else{
-                this->boardArray[y][x].setAvaliable(false);
-            }
-        }
-    }
-}
 
 
 void GameController::Hide(int x, int y) {
@@ -161,7 +140,34 @@ bool GameController::IsMoveAvaliable(Cell from, Cell dest) {
     } else{
         return false;
     }
+}
 
+void GameController::GetAvaliableChequers(Color color) {
+    bool a;
+
+    for (int y = 0; y < 8; ++y) {
+        for (int x = 0; x < 8; ++x) {
+            if (boardArray[y][x].GetChequer().GetColor() == color) {
+                if(this->boardArray[y][x].GetChequer().GetType() == man){
+                    if((y-1 >= 0) && (x-1 >= 0) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y-1][x-1]))){
+                        this->boardArray[y][x].setAvaliable(true);
+                    } else if((y-1 >= 0) && (x+1 <= 7) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y-1][x+1]))){
+                        this->boardArray[y][x].setAvaliable(true);
+                    }else if((y+1 <= 7) && (x-1 >= 0) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y+1][x-1]))){
+                        this->boardArray[y][x].setAvaliable(true);
+                    }else if((y+1 <= 7) && (x+1 <= 7) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y+1][x+1]))){
+                        this->boardArray[y][x].setAvaliable(true);
+                    } else{
+                        this->boardArray[y][x].setAvaliable(false);
+                    }
+                } else{
+                    //Tutaj dla damki
+                }
+            }else{
+                this->boardArray[y][x].setAvaliable(false);
+            }
+        }
+    }
 }
 
 
