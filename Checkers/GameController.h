@@ -51,9 +51,11 @@ public:
     Cell GetBoardItem(int x, int y);
     Color GetTurn();
     void GetAvaliableChequers(Color color);
+    bool GetAvalibleCapture(Color color);
     Cell GetChosen();
     bool IsChosen();
     bool IsMoveAvaliable(Cell from, Cell dest);
+    bool IsCaptureAvalible(Cell from, Cell dest);
 
 
     void SeedChequers();

@@ -56,6 +56,7 @@ int main() {
                         gameController.Hide(gameController.GetChosen().GetX(), gameController.GetChosen().GetY());
                         gameController.Show(v2.x/CELLSIZE, v2.y/CELLSIZE, gameController.GetChosen().GetChequer());
                         gameController.SetIsChosen(false);
+                        gameController.SwitchTurn();
                     }
                 }
             }
@@ -64,7 +65,24 @@ int main() {
             // #################################################
             window.draw(gameController.GetBoardSprite());
 
-            gameController.GetAvaliableChequers(white);
+
+//            gameController.GetAvaliableChequers(gameController.GetTurn());
+
+            if(gameController.GetBoardItem(1,4).isChequer() && gameController.GetBoardItem(2,3).isChequer()){
+                //std::cout << "Hejo";
+            }
+
+            if(!gameController.GetAvalibleCapture(gameController.GetTurn())){
+                gameController.GetAvaliableChequers(gameController.GetTurn());
+            } else{
+                std::cout << "BICIE" << std::endl;
+            }
+
+//            if(gameController.GetTurn() == white){
+//                std::cout << "White " << std::endl;
+//            } else if (gameController.GetTurn() == black){
+//                std::cout << "Black " << std::endl;
+//            }
 
             for (int y = 0; y < 8; ++y) {
                 for (int x = 0; x < 8; ++x) {

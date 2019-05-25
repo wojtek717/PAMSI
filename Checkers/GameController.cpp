@@ -81,11 +81,11 @@ void GameController::SetTurn(Color turn) {
 Color GameController::SwitchTurn() {
     if(this->turn == white){
         this->turn = black;
-    }
-
-    if(this->turn == black){
+    }else if(this->turn == black){
         this->turn = white;
     }
+
+
 
     return this->turn;
 }
@@ -142,8 +142,21 @@ bool GameController::IsMoveAvaliable(Cell from, Cell dest) {
     }
 }
 
+bool GameController::IsCaptureAvalible(Cell from, Cell dest) {
+    int vecX = (dest.GetX() - from.GetX())/2;
+    int vecY = (dest.GetY() - from.GetY())/2;
+    Cell mid = this->GetBoardItem(from.GetX() + vecX, from.GetY() + vecY);
+
+    if(dest.isFreeToMove() && (from.GetChequer().GetColor() != mid.GetChequer().GetColor()) && mid.isChequer()){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+
+
 void GameController::GetAvaliableChequers(Color color) {
-    bool a;
 
     for (int y = 0; y < 8; ++y) {
         for (int x = 0; x < 8; ++x) {
@@ -169,6 +182,38 @@ void GameController::GetAvaliableChequers(Color color) {
         }
     }
 }
+
+bool GameController::GetAvalibleCapture(Color color) {
+    bool isAnyCapture = false;
+
+    for (int y = 0; y < 8; ++y) {
+        for (int x = 0; x < 8; ++x) {
+            if(this->boardArray[y][x].GetChequer().GetColor() == color){
+                if(this->boardArray[y][x].GetChequer().GetType() == man){
+
+                    if((y-2 >= 0) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x-2]))){
+                        this->boardArray[y][x].setAvaliable(true);
+                        isAnyCapture = true;
+                    } else if((y-2 >= 0) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x+2]))){
+                        this->boardArray[y][x].setAvaliable(true);
+                        isAnyCapture = true;
+                    }else if((y+2 <= 7) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x-2]))){
+                        this->boardArray[y][x].setAvaliable(true);
+                        isAnyCapture = true;
+                    }else if((y+2 <= 7) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x+2]))){
+                        this->boardArray[y][x].setAvaliable(true);
+                        isAnyCapture = true;
+                    } else{
+                        this->boardArray[y][x].setAvaliable(false);
+                    }
+
+                }
+            }
+        }
+    }
+    return  isAnyCapture;
+}
+
 
 
 
