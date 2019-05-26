@@ -63,6 +63,9 @@ public:
 
     void Hide(int x, int y);
     void Show(int x, int y, ChequerRep chequer);
+
+    void MakeMove(Cell dest);
+    void MakeCapture(Cell dest);
 };
 
 

@@ -12,8 +12,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(8*CELLSIZE,8*CELLSIZE,32),"Checkers");
 
     GameController gameController;
-
-    std::vector<Cell> ac;
+    bool capture;
 
 
     //Set Textures
@@ -51,12 +50,14 @@ int main() {
                 v2 = sf::Mouse::getPosition( window );
                 std::cout << "R " << v2.x/110 << " ; " << v2.y/110<< std::endl;
 
-                if(gameController.IsChosen()){
+                if(gameController.IsChosen() && !capture){
                     if(gameController.IsMoveAvaliable(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE))){
-                        gameController.Hide(gameController.GetChosen().GetX(), gameController.GetChosen().GetY());
-                        gameController.Show(v2.x/CELLSIZE, v2.y/CELLSIZE, gameController.GetChosen().GetChequer());
-                        gameController.SetIsChosen(false);
-                        gameController.SwitchTurn();
+                        gameController.MakeMove(gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE));
+                    }
+                } else if(gameController.IsChosen() && capture){
+                    if(gameController.IsCaptureAvalible(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE))){
+                        gameController.MakeCapture(gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE));
+                        std::cout << "I TO JAK";
                     }
                 }
             }
@@ -73,9 +74,10 @@ int main() {
             }
 
             if(!gameController.GetAvalibleCapture(gameController.GetTurn())){
+                capture = false;
                 gameController.GetAvaliableChequers(gameController.GetTurn());
             } else{
-                std::cout << "BICIE" << std::endl;
+                capture = true;
             }
 
 //            if(gameController.GetTurn() == white){

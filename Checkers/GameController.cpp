@@ -2,6 +2,7 @@
 // Created by Wojciech Konury on 21/05/2019.
 //
 
+#include <iostream>
 #include "GameController.h"
 
 GameController::GameController() {
@@ -212,6 +213,26 @@ bool GameController::GetAvalibleCapture(Color color) {
         }
     }
     return  isAnyCapture;
+}
+
+void GameController::MakeMove(Cell dest) {
+    this->Hide(this->GetChosen().GetX(), this->GetChosen().GetY());
+    this->Show(dest.GetX(), dest.GetY(), this->GetChosen().GetChequer());
+    this->SetIsChosen(false);
+    this->SwitchTurn();
+}
+
+void GameController::MakeCapture(Cell dest) {
+    int vecX = (dest.GetX() - this->GetChosen().GetX())/2;
+    int vecY = (dest.GetY() - this->GetChosen().GetY())/2;
+    Cell mid = this->GetBoardItem(dest.GetX() - vecX, dest.GetY() - vecY);
+
+
+    this->Hide(this->GetChosen().GetX(), this->GetChosen().GetY());
+    this->Hide(mid.GetX(), mid.GetY());
+    this->Show(dest.GetX(), dest.GetY(), this->GetChosen().GetChequer());
+    this->SetChosen(dest.GetX(), dest.GetY());
+
 }
 
 
