@@ -195,15 +195,19 @@ bool GameController::GetAvalibleCapture(Color color) {
                     if((y-2 >= 0) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x-2]))){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
+                        std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
                     } else if((y-2 >= 0) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x+2]))){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
+                        std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
                     }else if((y+2 <= 7) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x-2]))){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
+                        std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
                     }else if((y+2 <= 7) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x+2]))){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
+                        std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
                     } else{
                         this->boardArray[y][x].setAvaliable(false);
                     }
@@ -219,6 +223,7 @@ void GameController::MakeMove(Cell dest) {
     this->Hide(this->GetChosen().GetX(), this->GetChosen().GetY());
     this->Show(dest.GetX(), dest.GetY(), this->GetChosen().GetChequer());
     this->SetIsChosen(false);
+    this->MakeKing(dest, this->GetChosen().GetChequer().GetColor());
     this->SwitchTurn();
 }
 
@@ -232,7 +237,33 @@ void GameController::MakeCapture(Cell dest) {
     this->Hide(mid.GetX(), mid.GetY());
     this->Show(dest.GetX(), dest.GetY(), this->GetChosen().GetChequer());
     this->SetChosen(dest.GetX(), dest.GetY());
+    this->MakeKing(dest, this->GetChosen().GetChequer().GetColor());
 
+
+    if((dest.GetY()-2 >= 0) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()-2]))){
+        //this->boardArray[dest.GetY()][dest.GetX()].setAvaliable(true);
+    } else if((dest.GetY()-2 >= 0) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()+2]))){
+        //this->boardArray[dest.GetY()][dest.GetX()].setAvaliable(true);
+    }else if((dest.GetY()+2 <= 7) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()-2]))){
+        //this->boardArray[dest.GetY()][dest.GetX()].setAvaliable(true);
+    }else if((dest.GetY()+2 <= 7) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()+2]))){
+        //this->boardArray[dest.GetY()][dest.GetX()].setAvaliable(true);
+    } else{
+       this->SwitchTurn();
+    }
+
+}
+
+void GameController::MakeKing(Cell dest, Color color) {
+    if(color == white){
+        if (dest.GetY() == 0){
+            this->boardArray[dest.GetY()][dest.GetX()].SetChequer(king, color);
+        }
+    }else if(color == black){
+        if (dest.GetY() == 7){
+            this->boardArray[dest.GetY()][dest.GetX()].SetChequer(king, color);
+        }
+    }
 }
 
 

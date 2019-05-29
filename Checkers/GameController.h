@@ -66,6 +66,7 @@ public:
 
     void MakeMove(Cell dest);
     void MakeCapture(Cell dest);
+    void MakeKing(Cell dest, Color color);
 };
 
 
