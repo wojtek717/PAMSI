@@ -44,17 +44,3 @@ Cell.h
 Color.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
 
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/main.cpp
-SFML/Graphics.hpp
--
-string
--
-iostream
--
-ChequerType.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
-Cell.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
-GameController.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h
-

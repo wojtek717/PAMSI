@@ -136,7 +136,8 @@ bool GameController::IsMoveAvaliable(Cell from, Cell dest) {
                 return (from.GetY() - dest.GetY() == -1) && (abs(from.GetX() - dest.GetX()) == 1);
             }
         } else if(from.GetChequer().GetType() == king){
-            //Sprawdzenie dla damki dla obu kolorow
+
+            return abs(from.GetX() - dest.GetX()) == abs(from.GetY() - dest.GetY());
         }
     } else{
         return false;
@@ -174,8 +175,25 @@ void GameController::GetAvaliableChequers(Color color) {
                     } else{
                         this->boardArray[y][x].setAvaliable(false);
                     }
-                } else{
-                    //Tutaj dla damki
+                } else if(this->boardArray[y][x].GetChequer().GetType() == king){
+                    for (int i = 1; i < 8; ++i) {
+
+                        if((y-i >= 0) && (x-i >=0) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y-i][x-i]))){
+                            this->boardArray[y][x].setAvaliable(true);
+                            break;
+                        } else if((y-i >= 0) && (x+i <=7) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y-i][x+i]))){
+                            this->boardArray[y][x].setAvaliable(true);
+                            break;
+                        } else if((y+i <= 7) && (x-i >= 0) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y+i][x-i]))){
+                            this->boardArray[y][x].setAvaliable(true);
+                            break;
+                        }else if((y+i <= 7) && (x+i <= 7) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y+i][x+i]))){
+                            this->boardArray[y][x].setAvaliable(true);
+                            break;
+                        } else{
+                            this->boardArray[y][x].setAvaliable(false);
+                        }
+                    }
                 }
             }else{
                 this->boardArray[y][x].setAvaliable(false);
@@ -258,10 +276,12 @@ void GameController::MakeKing(Cell dest, Color color) {
     if(color == white){
         if (dest.GetY() == 0){
             this->boardArray[dest.GetY()][dest.GetX()].SetChequer(king, color);
+            std::cout << "ZMIANA" << std::endl;
         }
     }else if(color == black){
         if (dest.GetY() == 7){
             this->boardArray[dest.GetY()][dest.GetX()].SetChequer(king, color);
+            std::cout << "ZMIANA" << std::endl;
         }
     }
 }

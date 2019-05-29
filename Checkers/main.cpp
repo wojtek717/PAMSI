@@ -40,6 +40,14 @@ int main() {
                 v2 = sf::Mouse::getPosition( window );
                 std::cout << "L " << v2.x/110 << " ; " << v2.y/110<< std::endl;
 
+                if(gameController.GetBoardItem(v2.x/110, v2.y/110).GetChequer().GetType() == man){
+                    std::cout << "CHOSEN -> man" << std::endl;
+                }
+
+                if(gameController.GetBoardItem(v2.x/110, v2.y/110).GetChequer().GetType() == king){
+                    std::cout << "CHOSEN -> king" << std::endl;
+                }
+
                 if(gameController.GetBoardItem(v2.x/110, v2.y/110).isAvaliable()){
                     gameController.SetChosen(v2.x/110, v2.y/110);
                     gameController.SetIsChosen(true);
