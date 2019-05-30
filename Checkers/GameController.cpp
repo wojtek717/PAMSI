@@ -145,15 +145,46 @@ bool GameController::IsMoveAvaliable(Cell from, Cell dest) {
 }
 
 bool GameController::IsCaptureAvalible(Cell from, Cell dest) {
-    int vecX = (dest.GetX() - from.GetX())/2;
-    int vecY = (dest.GetY() - from.GetY())/2;
-    Cell mid = this->GetBoardItem(from.GetX() + vecX, from.GetY() + vecY);
-
-    if(dest.isFreeToMove() && (from.GetChequer().GetColor() != mid.GetChequer().GetColor()) && mid.isChequer()){
-        return true;
-    } else{
+    if((dest.GetX() - from.GetX() == 0) || (dest.GetY() - from.GetY() == 0)){
         return false;
     }
+
+
+    int vecX = (dest.GetX() - from.GetX())/ abs((dest.GetX() - from.GetX()));
+    int vecY = (dest.GetY() - from.GetY())/ abs((dest.GetY() - from.GetY()));
+    Cell mid = this->GetBoardItem(from.GetX() + vecX, from.GetY() + vecY);
+    int x = from.GetX();
+    int y = from.GetY();
+    int enemy = 0;
+
+    if(from.GetChequer().GetType() == man){
+        if(dest.isFreeToMove() && (from.GetChequer().GetColor() != mid.GetChequer().GetColor()) && mid.isChequer()){
+            return true;
+        } else{
+            return false;
+        }
+    } else if(from.GetChequer().GetType() == king){
+        while (x != dest.GetX() && y != dest.GetY()){
+            x = x + vecX;
+            y = y + vecY;
+            mid = this->GetBoardItem(x, y);
+
+            if(mid.GetChequer().GetColor() == from.GetChequer().GetColor()){
+                return false;
+            }
+
+            if((mid.GetChequer().GetColor() != from.GetChequer().GetColor()) && (mid.GetChequer().GetColor() != noColor)){
+                enemy++;
+            }
+        }
+
+        if (enemy == 1 && dest.isFreeToMove()){
+            return true;
+        } else{
+            return false;
+        }
+    }
+
 }
 
 
@@ -229,6 +260,34 @@ bool GameController::GetAvalibleCapture(Color color) {
                     } else{
                         this->boardArray[y][x].setAvaliable(false);
                     }
+                } else if(this->boardArray[y][x].GetChequer().GetType() == king){
+
+                    for (int i = 1; i < 8; ++i) {
+
+                        if((y-i >= 0) && (x-i >=0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x-i]))){
+                            this->boardArray[y][x].setAvaliable(true);
+                            isAnyCapture = true;
+                            std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
+                            break;
+                        } else if((y-i >= 0) && (x+i <=7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x+i]))){
+                            this->boardArray[y][x].setAvaliable(true);
+                            isAnyCapture = true;
+                            std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
+                            break;
+                        } else if((y+i <= 7) && (x-i >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x-i]))){
+                            this->boardArray[y][x].setAvaliable(true);
+                            isAnyCapture = true;
+                            std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
+                            break;
+                        }else if((y+i <= 7) && (x+i <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x+i]))){
+                            this->boardArray[y][x].setAvaliable(true);
+                            isAnyCapture = true;
+                            std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
+                            break;
+                        } else{
+                            this->boardArray[y][x].setAvaliable(false);
+                        }
+                    }
 
                 }
             }
@@ -246,28 +305,55 @@ void GameController::MakeMove(Cell dest) {
 }
 
 void GameController::MakeCapture(Cell dest) {
-    int vecX = (dest.GetX() - this->GetChosen().GetX())/2;
-    int vecY = (dest.GetY() - this->GetChosen().GetY())/2;
+    int vecX = (dest.GetX() - this->GetChosen().GetX())/abs((dest.GetX() - this->GetChosen().GetX()));
+    int vecY = (dest.GetY() - this->GetChosen().GetY())/abs((dest.GetX() - this->GetChosen().GetX()));
     Cell mid = this->GetBoardItem(dest.GetX() - vecX, dest.GetY() - vecY);
-
+    int x = this->GetChosen().GetX();
+    int y = this->GetChosen().GetY();
 
     this->Hide(this->GetChosen().GetX(), this->GetChosen().GetY());
-    this->Hide(mid.GetX(), mid.GetY());
     this->Show(dest.GetX(), dest.GetY(), this->GetChosen().GetChequer());
     this->SetChosen(dest.GetX(), dest.GetY());
     this->MakeKing(dest, this->GetChosen().GetChequer().GetColor());
 
+    if(this->GetChosen().GetChequer().GetType() == man){
+        this->Hide(mid.GetX(), mid.GetY());
 
-    if((dest.GetY()-2 >= 0) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()-2]))){
-        //this->boardArray[dest.GetY()][dest.GetX()].setAvaliable(true);
-    } else if((dest.GetY()-2 >= 0) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()+2]))){
-        //this->boardArray[dest.GetY()][dest.GetX()].setAvaliable(true);
-    }else if((dest.GetY()+2 <= 7) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()-2]))){
-        //this->boardArray[dest.GetY()][dest.GetX()].setAvaliable(true);
-    }else if((dest.GetY()+2 <= 7) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()+2]))){
-        //this->boardArray[dest.GetY()][dest.GetX()].setAvaliable(true);
-    } else{
-       this->SwitchTurn();
+        //Check for new capture
+        if((dest.GetY()-2 >= 0) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()-2]))){
+        } else if((dest.GetY()-2 >= 0) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()+2]))){
+        }else if((dest.GetY()+2 <= 7) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()-2]))){
+        }else if((dest.GetY()+2 <= 7) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()+2]))){
+        } else{
+            this->SwitchTurn();
+        }
+    } else if(this->GetChosen().GetChequer().GetType() == king){
+        while (x != dest.GetX() && y != dest.GetY()){
+            x = x + vecX;
+            y = y + vecY;
+            mid = this->GetBoardItem(x, y);
+
+
+            if((mid.GetChequer().GetColor() != this->GetChosen().GetChequer().GetColor()) && (mid.GetChequer().GetColor() != noColor)){
+                this->Hide(mid.GetX(), mid.GetY());
+                break;
+            }
+        }
+
+        for (int i = 1; i < 8; ++i) {
+
+            if((y-i >= 0) && (x-i >=0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x-i]))){
+                break;
+            } else if((y-i >= 0) && (x+i <=7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x+i]))){
+                break;
+            } else if((y+i <= 7) && (x-i >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x-i]))){
+                break;
+            }else if((y+i <= 7) && (x+i <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x+i]))){
+                break;
+            } else{
+                this->SwitchTurn();
+            }
+        }
     }
 
 }

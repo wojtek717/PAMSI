@@ -58,6 +58,7 @@ public:
     bool IsCaptureAvalible(Cell from, Cell dest);
 
 
+
     void SeedChequers();
     Color SwitchTurn();
 
