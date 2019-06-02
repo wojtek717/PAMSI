@@ -69,7 +69,7 @@ int main() {
                         gameController.SwitchTurn();
                     }
                 } else if(gameController.IsChosen() && capture){
-                    if(gameController.IsCaptureAvalible(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE))){
+                    if(gameController.IsCaptureAvalible(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE)).IsCapture()){
                         gameController.MakeCapture(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE));
                         gameController.SetChosen(v2.x/CELLSIZE, v2.y/CELLSIZE);
                         std::cout << "I TO JAK";

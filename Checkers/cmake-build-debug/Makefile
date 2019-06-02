@@ -177,6 +177,33 @@ BotController.cpp.s:
 	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/BotController.cpp.s
 .PHONY : BotController.cpp.s
 
+Capture.o: Capture.cpp.o
+
+.PHONY : Capture.o
+
+# target to build an object file
+Capture.cpp.o:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Capture.cpp.o
+.PHONY : Capture.cpp.o
+
+Capture.i: Capture.cpp.i
+
+.PHONY : Capture.i
+
+# target to preprocess a source file
+Capture.cpp.i:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Capture.cpp.i
+.PHONY : Capture.cpp.i
+
+Capture.s: Capture.cpp.s
+
+.PHONY : Capture.s
+
+# target to generate assembly for a file
+Capture.cpp.s:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Capture.cpp.s
+.PHONY : Capture.cpp.s
+
 Cell.o: Cell.cpp.o
 
 .PHONY : Cell.o
@@ -354,6 +381,9 @@ help:
 	@echo "... BotController.o"
 	@echo "... BotController.i"
 	@echo "... BotController.s"
+	@echo "... Capture.o"
+	@echo "... Capture.i"
+	@echo "... Capture.s"
 	@echo "... Cell.o"
 	@echo "... Cell.i"
 	@echo "... Cell.s"

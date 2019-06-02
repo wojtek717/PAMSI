@@ -93,9 +93,13 @@ std::vector<Movement> BoardController::GetAvaliableChequers(Color color) {
     return moves;
 }
 
-bool BoardController::IsCaptureAvalible(Cell from, Cell dest) {
+Capture BoardController::IsCaptureAvalible(Cell from, Cell dest) {
+    Capture capture;
+
     if((dest.GetX() - from.GetX() == 0) || (dest.GetY() - from.GetY() == 0)){
-        return false;
+        capture.SetMovement(from, dest, Cell());
+        capture.SetIsCapture(false);
+        return capture;
     }
 
 
@@ -108,9 +112,13 @@ bool BoardController::IsCaptureAvalible(Cell from, Cell dest) {
 
     if(from.GetChequer().GetType() == man){
         if(dest.isFreeToMove() && (from.GetChequer().GetColor() != mid.GetChequer().GetColor()) && mid.isChequer()){
-            return true;
+            capture.SetMovement(from, dest, mid);
+            capture.SetIsCapture(true);
+            return capture;
         } else{
-            return false;
+            capture.SetMovement(from, dest, Cell());
+            capture.SetIsCapture(false);
+            return capture;
         }
     } else if(from.GetChequer().GetType() == king){
         while (x != dest.GetX() && y != dest.GetY()){
@@ -119,7 +127,9 @@ bool BoardController::IsCaptureAvalible(Cell from, Cell dest) {
             mid = this->GetBoardItem(x, y);
 
             if(mid.GetChequer().GetColor() == from.GetChequer().GetColor()){
-                return false;
+                capture.SetMovement(from, dest, Cell());
+                capture.SetIsCapture(false);
+                return capture;
             }
 
             if((mid.GetChequer().GetColor() != from.GetChequer().GetColor()) && (mid.GetChequer().GetColor() != noColor)){
@@ -128,9 +138,13 @@ bool BoardController::IsCaptureAvalible(Cell from, Cell dest) {
         }
 
         if (enemy == 1 && dest.isFreeToMove()){
-            return true;
+            capture.SetMovement(from, dest, mid);
+            capture.SetIsCapture(true);
+            return capture;
         } else{
-            return false;
+            capture.SetMovement(from, dest, Cell());
+            capture.SetIsCapture(false);
+            return capture;
         }
     }
 }
@@ -144,19 +158,19 @@ bool BoardController::GetAvalibleCapture(Color color) {
             if(this->boardArray[y][x].GetChequer().GetColor() == color){
                 if(this->boardArray[y][x].GetChequer().GetType() == man){
 
-                    if((y-2 >= 0) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x-2]))){
+                    if((y-2 >= 0) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x-2]).IsCapture())){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
                         std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                    } else if((y-2 >= 0) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x+2]))){
+                    } else if((y-2 >= 0) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x+2]).IsCapture())){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
                         std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                    }else if((y+2 <= 7) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x-2]))){
+                    }else if((y+2 <= 7) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x-2]).IsCapture())){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
                         std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                    }else if((y+2 <= 7) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x+2]))){
+                    }else if((y+2 <= 7) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x+2]).IsCapture())){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
                         std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
@@ -167,22 +181,22 @@ bool BoardController::GetAvalibleCapture(Color color) {
 
                     for (int i = 1; i < 8; ++i) {
 
-                        if((y-i >= 0) && (x-i >=0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x-i]))){
+                        if((y-i >= 0) && (x-i >=0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x-i]).IsCapture())){
                             this->boardArray[y][x].setAvaliable(true);
                             isAnyCapture = true;
                             std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
                             break;
-                        } else if((y-i >= 0) && (x+i <=7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x+i]))){
+                        } else if((y-i >= 0) && (x+i <=7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x+i]).IsCapture())){
                             this->boardArray[y][x].setAvaliable(true);
                             isAnyCapture = true;
                             std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
                             break;
-                        } else if((y+i <= 7) && (x-i >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x-i]))){
+                        } else if((y+i <= 7) && (x-i >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x-i]).IsCapture())){
                             this->boardArray[y][x].setAvaliable(true);
                             isAnyCapture = true;
                             std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
                             break;
-                        }else if((y+i <= 7) && (x+i <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x+i]))){
+                        }else if((y+i <= 7) && (x+i <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x+i]).IsCapture())){
                             this->boardArray[y][x].setAvaliable(true);
                             isAnyCapture = true;
                             std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
@@ -236,10 +250,10 @@ void BoardController::MakeCapture(Cell from, Cell dest) {
         this->Hide(mid.GetX(), mid.GetY());
 
         //Check for new capture
-        if((dest.GetY()-2 >= 0) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()-2]))){
-        } else if((dest.GetY()-2 >= 0) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()+2]))){
-        }else if((dest.GetY()+2 <= 7) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()-2]))){
-        }else if((dest.GetY()+2 <= 7) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()+2]))){
+        if((dest.GetY()-2 >= 0) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()-2]).IsCapture())){
+        } else if((dest.GetY()-2 >= 0) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()-2][dest.GetX()+2]).IsCapture())){
+        }else if((dest.GetY()+2 <= 7) && (dest.GetX()-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()-2]).IsCapture())){
+        }else if((dest.GetY()+2 <= 7) && (dest.GetX()+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[dest.GetY()+2][dest.GetX()+2]).IsCapture())){
         } else{
             this->SwitchTurn();
         }
@@ -258,13 +272,13 @@ void BoardController::MakeCapture(Cell from, Cell dest) {
 
         for (int i = 1; i < 8; ++i) {
 
-            if((y-i >= 0) && (x-i >=0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x-i]))){
+            if((y-i >= 0) && (x-i >=0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[y-i][x-i]).IsCapture())){
                 break;
-            } else if((y-i >= 0) && (x+i <=7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x+i]))){
+            } else if((y-i >= 0) && (x+i <=7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[y-i][x+i]).IsCapture())){
                 break;
-            } else if((y+i <= 7) && (x-i >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x-i]))){
+            } else if((y+i <= 7) && (x-i >= 0) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[y+i][x-i]).IsCapture())){
                 break;
-            }else if((y+i <= 7) && (x+i <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x+i]))){
+            }else if((y+i <= 7) && (x+i <= 7) && (this->IsCaptureAvalible(this->boardArray[dest.GetY()][dest.GetX()], this->boardArray[y+i][x+i]).IsCapture())){
                 break;
             } else{
                 this->SwitchTurn();
