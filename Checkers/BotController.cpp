@@ -61,15 +61,16 @@ void BotController::MakeTree() {
 
     bool capture = true;
     std::vector<Movement> movements;
+    std::vector<Capture> captures;
     std::vector<std::vector<Cell>> tempBoard = this->boardArray;
 
-
-
-
+    //Pierwszy ruch bota
+    captures = this->GetAvalibleCapture(black);
     movements = this->GetAvaliableChequers(black);
 
-    for (auto &movement : movements) {
+    if(movements.size() != 0)
 
+    for (auto &movement : movements) {
         this->MakeMove(movement.from, movement.dest);
         movement.SetScore(this->EvaluateMove(movement.dest));
         Node node = Node(this->boardArray, movement);

@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Checkers.dir/BotController.cpp.o"
   "CMakeFiles/Checkers.dir/Node.cpp.o"
   "CMakeFiles/Checkers.dir/Movement.cpp.o"
+  "CMakeFiles/Checkers.dir/Capture.cpp.o"
   "Checkers.pdb"
   "Checkers"
 )

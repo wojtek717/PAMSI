@@ -8,6 +8,7 @@
 
 #include "Cell.h"
 #include "Movement.h"
+#include "Capture.h"
 
 
 class BoardController {
@@ -27,8 +28,8 @@ public:
     bool IsMoveAvaliable(Cell from, Cell dest);
     std::vector<Movement> GetAvaliableChequers(Color color);
 
-    bool IsCaptureAvalible(Cell from, Cell dest);
-    bool GetAvalibleCapture(Color color);
+    Capture IsCaptureAvalible(Cell from, Cell dest);
+    std::vector<Capture> GetAvalibleCapture(Color color);
 
     void MakeMove(Cell from, Cell dest);
     void MakeCapture(Cell from, Cell dest);

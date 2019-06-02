@@ -14,8 +14,8 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(8*CELLSIZE,8*CELLSIZE,32),"Checkers");
 
     GameController gameController;
-    BotController botController;
-    bool capture;
+    //BotController botController;
+    bool capture = false;
 
 
 
@@ -69,7 +69,7 @@ int main() {
                         gameController.SwitchTurn();
                     }
                 } else if(gameController.IsChosen() && capture){
-                    if(gameController.IsCaptureAvalible(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE))){
+                    if(gameController.IsCaptureAvalible(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE)).isCapture){
                         gameController.MakeCapture(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE));
                         gameController.SetChosen(v2.x/CELLSIZE, v2.y/CELLSIZE);
                         std::cout << "I TO JAK";
@@ -83,7 +83,7 @@ int main() {
 
 
 
-            if(!gameController.GetAvalibleCapture(gameController.GetTurn())){
+            if(gameController.GetAvalibleCapture(gameController.GetTurn()).size() == 0){
                 capture = false;
                 gameController.GetAvaliableChequers(gameController.GetTurn());
             } else{
@@ -100,9 +100,9 @@ int main() {
             }
 
             window.display();
-            botController.ReadBoard(gameController.boardArray);
+            //botController.ReadBoard(gameController.boardArray);
             if(gameController.GetTurn() == black){
-                botController.MakeTree();
+                //botController.MakeTree();
             }
         }
     }
