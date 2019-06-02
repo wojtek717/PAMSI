@@ -80,4 +80,12 @@ bool Cell::isFreeToMove() {
     return (!isChequer() && isPlayAble());
 }
 
+void Cell::Hide() {
+    this->chequer.SetChequer(noType, noColor);
+}
+
+void Cell::Show(ChequerRep chequer) {
+    this->chequer.SetChequer(chequer.GetType(), chequer.GetColor());
+}
+
 

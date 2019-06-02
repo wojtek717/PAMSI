@@ -123,6 +123,33 @@ Checkers/fast:
 	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/build
 .PHONY : Checkers/fast
 
+BoardController.o: BoardController.cpp.o
+
+.PHONY : BoardController.o
+
+# target to build an object file
+BoardController.cpp.o:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/BoardController.cpp.o
+.PHONY : BoardController.cpp.o
+
+BoardController.i: BoardController.cpp.i
+
+.PHONY : BoardController.i
+
+# target to preprocess a source file
+BoardController.cpp.i:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/BoardController.cpp.i
+.PHONY : BoardController.cpp.i
+
+BoardController.s: BoardController.cpp.s
+
+.PHONY : BoardController.s
+
+# target to generate assembly for a file
+BoardController.cpp.s:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/BoardController.cpp.s
+.PHONY : BoardController.cpp.s
+
 Cell.o: Cell.cpp.o
 
 .PHONY : Cell.o
@@ -240,6 +267,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Checkers"
+	@echo "... BoardController.o"
+	@echo "... BoardController.i"
+	@echo "... BoardController.s"
 	@echo "... Cell.o"
 	@echo "... Cell.i"
 	@echo "... Cell.s"

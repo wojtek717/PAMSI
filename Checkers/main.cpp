@@ -4,6 +4,7 @@
 #include "ChequerType.h"
 #include "Cell.h"
 #include "GameController.h"
+#include <vector>
 
 
 
@@ -13,6 +14,7 @@ int main() {
 
     GameController gameController;
     bool capture;
+
 
 
     //Set Textures
@@ -60,11 +62,14 @@ int main() {
 
                 if(gameController.IsChosen() && !capture){
                     if(gameController.IsMoveAvaliable(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE))){
-                        gameController.MakeMove(gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE));
+                        gameController.MakeMove(gameController.GetChosen() ,gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE));
+                        gameController.SetIsChosen(false);
+                        gameController.SwitchTurn();
                     }
                 } else if(gameController.IsChosen() && capture){
                     if(gameController.IsCaptureAvalible(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE))){
-                        gameController.MakeCapture(gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE));
+                        gameController.MakeCapture(gameController.GetChosen(), gameController.GetBoardItem(v2.x/CELLSIZE, v2.y/CELLSIZE));
+                        gameController.SetChosen(v2.x/CELLSIZE, v2.y/CELLSIZE);
                         std::cout << "I TO JAK";
                     }
                 }

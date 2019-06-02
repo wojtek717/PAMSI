@@ -1,0 +1,42 @@
+//
+// Created by Wojciech Konury on 02/06/2019.
+//
+
+#ifndef CHECKERS_BOARDCONTROLLER_H
+#define CHECKERS_BOARDCONTROLLER_H
+
+
+#include "Cell.h"
+
+class BoardController {
+protected:
+    Cell boardArray[8][8];
+    Cell chosen;
+    bool isChosen;
+
+
+public:
+    Cell GetBoardItem(int x, int y);
+
+    bool IsMoveAvaliable(Cell from, Cell dest);
+    void GetAvaliableChequers(Color color);
+
+    bool IsCaptureAvalible(Cell from, Cell dest);
+    bool GetAvalibleCapture(Color color);
+
+    void MakeMove(Cell from, Cell dest);
+    void MakeCapture(Cell from, Cell dest);
+    void MakeKing(Cell dest, Color color);
+
+    void SetChosen(int x, int y);
+    void SetIsChosen(bool is);
+    Cell GetChosen();
+    bool IsChosen();
+
+    virtual void Hide(int x, int y) = 0;
+    virtual void Show(int x, int y, ChequerRep chequer) = 0;
+    virtual Color SwitchTurn() = 0;
+};
+
+
+#endif //CHECKERS_BOARDCONTROLLER_H

@@ -40,7 +40,9 @@ public:
     int GetY();
 
     void Hide(sf::Texture noTexture);
+    void Hide();
     void Show(ChequerRep chequer, sf::Texture &Texture);
+    void Show(ChequerRep chequer);
 };
 
 
