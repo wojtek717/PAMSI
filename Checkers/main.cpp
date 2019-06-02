@@ -18,7 +18,6 @@ int main() {
     bool capture;
 
 
-
     //Set Textures
     gameController.SetBoardTexture("Resources/Szachownica.png");
     gameController.SetNoChequerTexture("Resources/PionekNo.png");
@@ -83,7 +82,7 @@ int main() {
 
 
 
-            if(!gameController.GetAvalibleCapture(gameController.GetTurn())){
+            if(gameController.GetAvalibleCapture(gameController.GetTurn()).size() == 0){
                 capture = false;
                 gameController.GetAvaliableChequers(gameController.GetTurn());
             } else{

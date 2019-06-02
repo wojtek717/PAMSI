@@ -29,7 +29,7 @@ public:
     std::vector<Movement> GetAvaliableChequers(Color color);
 
     Capture IsCaptureAvalible(Cell from, Cell dest);
-    bool GetAvalibleCapture(Color color);
+    std::vector<Capture> GetAvalibleCapture(Color color);
 
     void MakeMove(Cell from, Cell dest);
     void MakeCapture(Cell from, Cell dest);

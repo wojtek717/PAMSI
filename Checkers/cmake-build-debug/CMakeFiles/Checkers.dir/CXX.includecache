@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BoardController.cpp
-BoardController.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BoardController.h
-Movement.h
-/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
-iostream
--
-
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BoardController.h
 Cell.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
@@ -21,6 +13,14 @@ Movement.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
 Capture.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Capture.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.h
+BoardController.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BoardController.h
+Node.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Node.h
+iostream
+-
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Capture.h
 Cell.h
@@ -46,7 +46,49 @@ Color.h
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
 
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h
+SFML/Graphics.hpp
+-
+string
+-
+vector
+-
+Cell.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+Color.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
+BoardController.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BoardController.h
+
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
 Cell.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Node.h
+vector
+-
+iostream
+-
+Cell.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+Movement.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
+
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/main.cpp
+SFML/Graphics.hpp
+-
+string
+-
+iostream
+-
+ChequerType.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
+Cell.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+GameController.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h
+BotController.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.h
+vector
+-
 

@@ -150,59 +150,87 @@ Capture BoardController::IsCaptureAvalible(Cell from, Cell dest) {
 }
 
 
-bool BoardController::GetAvalibleCapture(Color color) {
+std::vector<Capture> BoardController::GetAvalibleCapture(Color color) {
     bool isAnyCapture = false;
+    std::vector<Capture> captures;
+    //Capture capture;
 
     for (int y = 0; y < 8; ++y) {
         for (int x = 0; x < 8; ++x) {
             if(this->boardArray[y][x].GetChequer().GetColor() == color){
                 if(this->boardArray[y][x].GetChequer().GetType() == man){
+                    this->boardArray[y][x].setAvaliable(false);
 
                     if((y-2 >= 0) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x-2]).IsCapture())){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
                         std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                    } else if((y-2 >= 0) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x+2]).IsCapture())){
+                        captures.emplace_back(this->boardArray[y][x], this->boardArray[y-2][x-2], this->boardArray[y-1][x-1], true);
+                    }
+
+                    if((y-2 >= 0) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-2][x+2]).IsCapture())){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
                         std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                    }else if((y+2 <= 7) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x-2]).IsCapture())){
+                        captures.emplace_back(this->boardArray[y][x], this->boardArray[y-2][x+2], this->boardArray[y-1][x+1], true);
+                    }
+
+                    if((y+2 <= 7) && (x-2 >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x-2]).IsCapture())){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
                         std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                    }else if((y+2 <= 7) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x+2]).IsCapture())){
+                        captures.emplace_back(this->boardArray[y][x], this->boardArray[y+2][x-2], this->boardArray[y+1][x-1], true);
+                    }
+
+                    if((y+2 <= 7) && (x+2 <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+2][x+2]).IsCapture())){
                         this->boardArray[y][x].setAvaliable(true);
                         isAnyCapture = true;
                         std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                    } else{
-                        this->boardArray[y][x].setAvaliable(false);
+                        captures.emplace_back(this->boardArray[y][x], this->boardArray[y+2][x+2], this->boardArray[y+1][x+1], true);
                     }
                 } else if(this->boardArray[y][x].GetChequer().GetType() == king){
+                    this->boardArray[y][x].setAvaliable(false);
 
                     for (int i = 1; i < 8; ++i) {
 
-                        if((y-i >= 0) && (x-i >=0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x-i]).IsCapture())){
-                            this->boardArray[y][x].setAvaliable(true);
-                            isAnyCapture = true;
-                            std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                            break;
-                        } else if((y-i >= 0) && (x+i <=7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x+i]).IsCapture())){
-                            this->boardArray[y][x].setAvaliable(true);
-                            isAnyCapture = true;
-                            std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                            break;
-                        } else if((y+i <= 7) && (x-i >= 0) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x-i]).IsCapture())){
-                            this->boardArray[y][x].setAvaliable(true);
-                            isAnyCapture = true;
-                            std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                            break;
-                        }else if((y+i <= 7) && (x+i <= 7) && (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x+i]).IsCapture())){
-                            this->boardArray[y][x].setAvaliable(true);
-                            isAnyCapture = true;
-                            std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
-                            break;
-                        } else{
-                            this->boardArray[y][x].setAvaliable(false);
+                        if((y-i >= 0) && (x-i >=0)){
+                            Capture capture = (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x-i]));
+                            if(capture.IsCapture()){
+                                this->boardArray[y][x].setAvaliable(true);
+                                isAnyCapture = true;
+                                std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
+                                captures.push_back(capture);
+                            }
+                        }
+
+                        if((y-i >= 0) && (x+i <=7)){
+                            Capture capture = (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y-i][x+i]));
+                            if(capture.IsCapture()){
+                                this->boardArray[y][x].setAvaliable(true);
+                                isAnyCapture = true;
+                                std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
+                                captures.push_back(capture);
+                            }
+                        }
+
+                        if((y+i <= 7) && (x-i >= 0)){
+                            Capture capture = (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x-i]));
+                            if(capture.IsCapture()){
+                                this->boardArray[y][x].setAvaliable(true);
+                                isAnyCapture = true;
+                                std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
+                                captures.push_back(capture);
+                            }
+                        }
+
+                        if((y+i <= 7) && (x+i <= 7)){
+                            Capture capture = (this->IsCaptureAvalible(this->boardArray[y][x], this->boardArray[y+i][x+i]));
+                            if(capture.IsCapture()){
+                                this->boardArray[y][x].setAvaliable(true);
+                                isAnyCapture = true;
+                                std::cout << "Avalible Capture: x=" << x << " y=" << y << std::endl;
+                                captures.push_back(capture);
+                            }
                         }
                     }
 
@@ -210,7 +238,7 @@ bool BoardController::GetAvalibleCapture(Color color) {
             }
         }
     }
-    return  isAnyCapture;
+    return  captures;
 }
 
 void BoardController::MakeKing(Cell dest, Color color) {
