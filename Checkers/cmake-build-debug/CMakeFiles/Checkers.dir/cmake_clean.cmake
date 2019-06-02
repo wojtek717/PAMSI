@@ -4,6 +4,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/Checkers.dir/GameController.cpp.o"
   "CMakeFiles/Checkers.dir/ChequerRep.cpp.o"
   "CMakeFiles/Checkers.dir/BoardController.cpp.o"
+  "CMakeFiles/Checkers.dir/BotController.cpp.o"
+  "CMakeFiles/Checkers.dir/Node.cpp.o"
+  "CMakeFiles/Checkers.dir/Movement.cpp.o"
   "Checkers.pdb"
   "Checkers"
 )

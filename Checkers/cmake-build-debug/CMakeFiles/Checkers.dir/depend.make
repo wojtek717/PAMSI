@@ -7,6 +7,17 @@ CMakeFiles/Checkers.dir/BoardController.cpp.o: ../Cell.h
 CMakeFiles/Checkers.dir/BoardController.cpp.o: ../ChequerRep.h
 CMakeFiles/Checkers.dir/BoardController.cpp.o: ../ChequerType.h
 CMakeFiles/Checkers.dir/BoardController.cpp.o: ../Color.h
+CMakeFiles/Checkers.dir/BoardController.cpp.o: ../Movement.h
+
+CMakeFiles/Checkers.dir/BotController.cpp.o: ../BoardController.h
+CMakeFiles/Checkers.dir/BotController.cpp.o: ../BotController.cpp
+CMakeFiles/Checkers.dir/BotController.cpp.o: ../BotController.h
+CMakeFiles/Checkers.dir/BotController.cpp.o: ../Cell.h
+CMakeFiles/Checkers.dir/BotController.cpp.o: ../ChequerRep.h
+CMakeFiles/Checkers.dir/BotController.cpp.o: ../ChequerType.h
+CMakeFiles/Checkers.dir/BotController.cpp.o: ../Color.h
+CMakeFiles/Checkers.dir/BotController.cpp.o: ../Movement.h
+CMakeFiles/Checkers.dir/BotController.cpp.o: ../Node.h
 
 CMakeFiles/Checkers.dir/Cell.cpp.o: ../Cell.cpp
 CMakeFiles/Checkers.dir/Cell.cpp.o: ../Cell.h
@@ -26,12 +37,31 @@ CMakeFiles/Checkers.dir/GameController.cpp.o: ../ChequerType.h
 CMakeFiles/Checkers.dir/GameController.cpp.o: ../Color.h
 CMakeFiles/Checkers.dir/GameController.cpp.o: ../GameController.cpp
 CMakeFiles/Checkers.dir/GameController.cpp.o: ../GameController.h
+CMakeFiles/Checkers.dir/GameController.cpp.o: ../Movement.h
+
+CMakeFiles/Checkers.dir/Movement.cpp.o: ../Cell.h
+CMakeFiles/Checkers.dir/Movement.cpp.o: ../ChequerRep.h
+CMakeFiles/Checkers.dir/Movement.cpp.o: ../ChequerType.h
+CMakeFiles/Checkers.dir/Movement.cpp.o: ../Color.h
+CMakeFiles/Checkers.dir/Movement.cpp.o: ../Movement.cpp
+CMakeFiles/Checkers.dir/Movement.cpp.o: ../Movement.h
+
+CMakeFiles/Checkers.dir/Node.cpp.o: ../Cell.h
+CMakeFiles/Checkers.dir/Node.cpp.o: ../ChequerRep.h
+CMakeFiles/Checkers.dir/Node.cpp.o: ../ChequerType.h
+CMakeFiles/Checkers.dir/Node.cpp.o: ../Color.h
+CMakeFiles/Checkers.dir/Node.cpp.o: ../Movement.h
+CMakeFiles/Checkers.dir/Node.cpp.o: ../Node.cpp
+CMakeFiles/Checkers.dir/Node.cpp.o: ../Node.h
 
 CMakeFiles/Checkers.dir/main.cpp.o: ../BoardController.h
+CMakeFiles/Checkers.dir/main.cpp.o: ../BotController.h
 CMakeFiles/Checkers.dir/main.cpp.o: ../Cell.h
 CMakeFiles/Checkers.dir/main.cpp.o: ../ChequerRep.h
 CMakeFiles/Checkers.dir/main.cpp.o: ../ChequerType.h
 CMakeFiles/Checkers.dir/main.cpp.o: ../Color.h
 CMakeFiles/Checkers.dir/main.cpp.o: ../GameController.h
+CMakeFiles/Checkers.dir/main.cpp.o: ../Movement.h
+CMakeFiles/Checkers.dir/main.cpp.o: ../Node.h
 CMakeFiles/Checkers.dir/main.cpp.o: ../main.cpp
 

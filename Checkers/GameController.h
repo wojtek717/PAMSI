@@ -38,7 +38,6 @@ public:
     void SetNoChequerTexture(std::string noTexture);
     void SetMansTexture(std::string whiteManChequerTexture, std::string blackManChequerTexture);
     void SetKingsTexture(std::string whiteKingChequerTexture, std::string blackKingChequerTexture);
-
     void SetTurn(Color turn);
 
     sf::Sprite GetBoardSprite();

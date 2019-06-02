@@ -8,6 +8,17 @@ CMakeFiles/Checkers.dir/BoardController.cpp.o
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerRep.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
+CMakeFiles/Checkers.dir/BotController.cpp.o
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BoardController.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.cpp
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerRep.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Node.h
 CMakeFiles/Checkers.dir/Cell.cpp.o
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.cpp
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
@@ -27,11 +38,30 @@ CMakeFiles/Checkers.dir/GameController.cpp.o
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.cpp
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
+CMakeFiles/Checkers.dir/Movement.cpp.o
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerRep.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.cpp
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
+CMakeFiles/Checkers.dir/Node.cpp.o
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerRep.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Node.cpp
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Node.h
 CMakeFiles/Checkers.dir/main.cpp.o
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BoardController.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerRep.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/ChequerType.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Color.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
+ /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Node.h
  /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/main.cpp

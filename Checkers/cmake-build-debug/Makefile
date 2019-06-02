@@ -150,6 +150,33 @@ BoardController.cpp.s:
 	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/BoardController.cpp.s
 .PHONY : BoardController.cpp.s
 
+BotController.o: BotController.cpp.o
+
+.PHONY : BotController.o
+
+# target to build an object file
+BotController.cpp.o:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/BotController.cpp.o
+.PHONY : BotController.cpp.o
+
+BotController.i: BotController.cpp.i
+
+.PHONY : BotController.i
+
+# target to preprocess a source file
+BotController.cpp.i:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/BotController.cpp.i
+.PHONY : BotController.cpp.i
+
+BotController.s: BotController.cpp.s
+
+.PHONY : BotController.s
+
+# target to generate assembly for a file
+BotController.cpp.s:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/BotController.cpp.s
+.PHONY : BotController.cpp.s
+
 Cell.o: Cell.cpp.o
 
 .PHONY : Cell.o
@@ -231,6 +258,60 @@ GameController.cpp.s:
 	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/GameController.cpp.s
 .PHONY : GameController.cpp.s
 
+Movement.o: Movement.cpp.o
+
+.PHONY : Movement.o
+
+# target to build an object file
+Movement.cpp.o:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Movement.cpp.o
+.PHONY : Movement.cpp.o
+
+Movement.i: Movement.cpp.i
+
+.PHONY : Movement.i
+
+# target to preprocess a source file
+Movement.cpp.i:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Movement.cpp.i
+.PHONY : Movement.cpp.i
+
+Movement.s: Movement.cpp.s
+
+.PHONY : Movement.s
+
+# target to generate assembly for a file
+Movement.cpp.s:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Movement.cpp.s
+.PHONY : Movement.cpp.s
+
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/Checkers.dir/build.make CMakeFiles/Checkers.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -270,6 +351,9 @@ help:
 	@echo "... BoardController.o"
 	@echo "... BoardController.i"
 	@echo "... BoardController.s"
+	@echo "... BotController.o"
+	@echo "... BotController.i"
+	@echo "... BotController.s"
 	@echo "... Cell.o"
 	@echo "... Cell.i"
 	@echo "... Cell.s"
@@ -279,6 +363,12 @@ help:
 	@echo "... GameController.o"
 	@echo "... GameController.i"
 	@echo "... GameController.s"
+	@echo "... Movement.o"
+	@echo "... Movement.i"
+	@echo "... Movement.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

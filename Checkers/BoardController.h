@@ -7,19 +7,25 @@
 
 
 #include "Cell.h"
+#include "Movement.h"
+
 
 class BoardController {
 protected:
-    Cell boardArray[8][8];
+
     Cell chosen;
     bool isChosen;
 
-
 public:
+    //Cell boardArray[8][8];
+    std::vector<std::vector<Cell>> boardArray;
+
+
     Cell GetBoardItem(int x, int y);
+    //Cell* GetBoard();
 
     bool IsMoveAvaliable(Cell from, Cell dest);
-    void GetAvaliableChequers(Color color);
+    std::vector<Movement> GetAvaliableChequers(Color color);
 
     bool IsCaptureAvalible(Cell from, Cell dest);
     bool GetAvalibleCapture(Color color);

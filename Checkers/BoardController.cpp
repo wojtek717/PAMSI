@@ -3,6 +3,7 @@
 //
 
 #include "BoardController.h"
+#include "Movement.h"
 #include <iostream>
 
 Cell BoardController::GetBoardItem(int x, int y) {
@@ -26,7 +27,10 @@ bool BoardController::IsMoveAvaliable(Cell from, Cell dest) {
     }
 }
 
-void BoardController::GetAvaliableChequers(Color color) {
+std::vector<Movement> BoardController::GetAvaliableChequers(Color color) {
+
+    std::vector<Movement> moves;
+    Movement movement(this->boardArray[0][0], this->boardArray[0][0]);
 
     for (int y = 0; y < 8; ++y) {
         for (int x = 0; x < 8; ++x) {
@@ -36,38 +40,46 @@ void BoardController::GetAvaliableChequers(Color color) {
 
                     if((y-1 >= 0) && (x-1 >= 0) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y-1][x-1]))){
                         this->boardArray[y][x].setAvaliable(true);
-                        //this->evaluateMove(this->boardArray[y-1][x-1]);
+                        movement.SetMovement(this->boardArray[y][x], this->boardArray[y-1][x-1]);
+                        moves.push_back(movement);
                     }
 
                     if((y-1 >= 0) && (x+1 <= 7) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y-1][x+1]))){
                         this->boardArray[y][x].setAvaliable(true);
-                        //this->evaluateMove(this->boardArray[y-1][x+1]);
+                        movement.SetMovement(this->boardArray[y][x], this->boardArray[y-1][x+1]);
+                        moves.push_back(movement);
                     }
 
                     if((y+1 <= 7) && (x-1 >= 0) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y+1][x-1]))){
                         this->boardArray[y][x].setAvaliable(true);
-                        //this->evaluateMove(this->boardArray[y+1][x-1]);
+                        movement.SetMovement(this->boardArray[y][x], this->boardArray[y+1][x-1]);
+                        moves.push_back(movement);
                     }
 
                     if((y+1 <= 7) && (x+1 <= 7) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y+1][x+1]))){
                         this->boardArray[y][x].setAvaliable(true);
-                        //this->evaluateMove(this->boardArray[y+1][x+1]);
+                        movement.SetMovement(this->boardArray[y][x], this->boardArray[y+1][x+1]);
+                        moves.push_back(movement);
                     }
                 } else if(this->boardArray[y][x].GetChequer().GetType() == king){
                     for (int i = 1; i < 8; ++i) {
 
                         if((y-i >= 0) && (x-i >=0) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y-i][x-i]))){
                             this->boardArray[y][x].setAvaliable(true);
-                            break;
+                            movement.SetMovement(this->boardArray[y][x], this->boardArray[y-i][x-i]);
+                            moves.push_back(movement);
                         } else if((y-i >= 0) && (x+i <=7) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y-i][x+i]))){
                             this->boardArray[y][x].setAvaliable(true);
-                            break;
+                            movement.SetMovement(this->boardArray[y][x], this->boardArray[y-i][x+i]);
+                            moves.push_back(movement);
                         } else if((y+i <= 7) && (x-i >= 0) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y+i][x-i]))){
                             this->boardArray[y][x].setAvaliable(true);
-                            break;
+                            movement.SetMovement(this->boardArray[y][x], this->boardArray[y+i][x-i]);
+                            moves.push_back(movement);
                         }else if((y+i <= 7) && (x+i <= 7) && (this->IsMoveAvaliable(this->boardArray[y][x], this->boardArray[y+i][x+i]))){
                             this->boardArray[y][x].setAvaliable(true);
-                            break;
+                            movement.SetMovement(this->boardArray[y][x], this->boardArray[y+i][x+i]);
+                            moves.push_back(movement);
                         } else{
                             this->boardArray[y][x].setAvaliable(false);
                         }
@@ -78,6 +90,7 @@ void BoardController::GetAvaliableChequers(Color color) {
             }
         }
     }
+    return moves;
 }
 
 bool BoardController::IsCaptureAvalible(Cell from, Cell dest) {
@@ -276,6 +289,10 @@ void BoardController::SetIsChosen(bool is) {
 bool BoardController::IsChosen() {
     return isChosen;
 }
+
+//Cell &BoardController::GetBoard() {
+//    return &&boardArray;
+//}
 
 
 

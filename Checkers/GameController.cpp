@@ -8,6 +8,16 @@
 GameController::GameController() {
     this->turn = white;
     this->isChosen = false;
+
+    Cell cell;
+    std::vector<Cell> vector;
+
+    for (int y = 0; y < 8; ++y) {
+        this->boardArray.push_back(vector);
+        for (int x = 0; x < 8; ++x) {
+            this->boardArray[y].push_back(cell);
+        }
+    }
 }
 
 void GameController::SetBoardTexture(std::string boardTexture) {

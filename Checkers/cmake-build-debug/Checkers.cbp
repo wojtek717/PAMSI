@@ -88,6 +88,12 @@
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BoardController.h">
 			<Option target="Checkers"/>
 		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.cpp">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.h">
+			<Option target="Checkers"/>
+		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.cpp">
 			<Option target="Checkers"/>
 		</Unit>
@@ -110,6 +116,18 @@
 			<Option target="Checkers"/>
 		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/GameController.h">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.cpp">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Node.cpp">
+			<Option target="Checkers"/>
+		</Unit>
+		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Node.h">
 			<Option target="Checkers"/>
 		</Unit>
 		<Unit filename="/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/main.cpp">

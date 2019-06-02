@@ -4,6 +4,7 @@
 #include "ChequerType.h"
 #include "Cell.h"
 #include "GameController.h"
+#include "BotController.h"
 #include <vector>
 
 
@@ -13,6 +14,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(8*CELLSIZE,8*CELLSIZE,32),"Checkers");
 
     GameController gameController;
+    BotController botController;
     bool capture;
 
 
@@ -98,6 +100,10 @@ int main() {
             }
 
             window.display();
+            botController.ReadBoard(gameController.boardArray);
+            if(gameController.GetTurn() == black){
+                botController.MakeTree();
+            }
         }
     }
 
