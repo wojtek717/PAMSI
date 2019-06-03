@@ -19,6 +19,7 @@ public:
     Capture capture;
     bool IsCapture;
     std::vector<Node> subtree;
+    int points;
 
     Node(std::vector<std::vector<Cell>>, Movement movement);
     Node(std::vector<std::vector<Cell>>, Capture capture);

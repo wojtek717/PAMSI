@@ -144,7 +144,40 @@ void BotController::MakeTree() {
     }
 }
 
-void BotController::MakeAction() {
+Node BotController::MakeAction() {
+    int best = -999;
+     Node *bestNode;
 
+    for (int i = this->tree.size() - 1; i >= 0 ; --i) {
+        for (int j = this->tree[i].subtree.size() - 1; j >= 0; --j) {
+            best = -999;
+            for (int k = this->tree[i].subtree[j].subtree.size() - 1; k >= 0; --k) {
+                if(this->tree[i].subtree[j].subtree[k].points > best){
+                    best = this->tree[i].subtree[j].subtree[k].points;
+                }
+            }
+            this->tree[i].subtree[j].points = this->tree[i].subtree[j].points - best;
+        }
+    }
+
+    for (int i = this->tree.size() - 1; i >= 0 ; --i) {
+        best = -999;
+        for (int j = this->tree[i].subtree.size() - 1; j >= 0; --j) {
+
+            if(this->tree[i].subtree[j].points > best){
+                best = this->tree[i].subtree[j].points > best;
+            }
+        }
+        this->tree[i].points = this->tree[i].points - best;
+    }
+
+    best = -999;
+    for (auto &node : this->tree) {
+        if(node.points > best){
+            bestNode = &node;
+        }
+    }
+
+    return *bestNode;
 }
 

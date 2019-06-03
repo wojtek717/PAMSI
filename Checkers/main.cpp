@@ -102,6 +102,16 @@ int main() {
             botController.ReadBoard(gameController.boardArray);
             if(gameController.GetTurn() == black){
                 botController.MakeTree();
+                Node node = botController.MakeAction();
+
+                if(node.IsCapture){
+                    gameController.MakeCapture(node.capture.from, node.capture.dest);
+                }else
+                {
+                    gameController.MakeMove(node.movement.from, node.movement.dest);
+                    gameController.SetIsChosen(false);
+                    gameController.SwitchTurn();
+                }
             }
         }
     }

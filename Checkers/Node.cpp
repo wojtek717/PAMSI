@@ -9,6 +9,7 @@ Node::Node(std::vector<std::vector<Cell>> board, Movement movement) {
     this->movement = movement;
     this->simulatedBoard = board;
     this->IsCapture = false;
+    this->points = movement.score;
 
     this->capture = Capture();
 }
@@ -18,6 +19,7 @@ Node::Node(std::vector<std::vector<Cell>> board, Capture capture) {
     this->capture = capture;
     this->simulatedBoard = board;
     this->IsCapture = true;
+    this->points = capture.score;
 
     this->movement = Movement();
 }
