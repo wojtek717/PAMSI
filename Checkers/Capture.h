@@ -13,6 +13,7 @@ struct Capture {
     Cell dest;
     Cell capturePos;
     int score;
+    std::vector<Capture> nextCaptures;
 
     Capture(Cell from, Cell dest, Cell capturePos, bool isCapture);
     Capture();
@@ -20,6 +21,7 @@ struct Capture {
     void SetScore(int score);
     bool IsCapture();
     void SetIsCapture(bool isCapture);
+    void AddCapture(Capture nextCapture);
 
 private:
     bool isCapture;

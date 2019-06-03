@@ -263,6 +263,11 @@ void BoardController::MakeMove(Cell from, Cell dest) {
 }
 
 void BoardController::MakeCapture(Cell from, Cell dest) {
+
+    if((dest.GetX() - this->GetChosen().GetX()) == 0 || (dest.GetY() - this->GetChosen().GetY()) == 0){
+        return;
+    }
+
     int vecX = (dest.GetX() - this->GetChosen().GetX())/abs((dest.GetX() - this->GetChosen().GetX()));
     int vecY = (dest.GetY() - this->GetChosen().GetY())/abs((dest.GetX() - this->GetChosen().GetX()));
     Cell mid = this->GetBoardItem(dest.GetX() - vecX, dest.GetY() - vecY);

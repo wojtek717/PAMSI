@@ -14,6 +14,10 @@ Movement.h
 Capture.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Capture.h
 
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.cpp
+BotController.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.h
+
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BotController.h
 BoardController.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/BoardController.h
@@ -73,6 +77,8 @@ Cell.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Cell.h
 Movement.h
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Movement.h
+Capture.h
+/Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/Capture.h
 
 /Users/wojciechkonury/Google Drive/StudBaza/IV semestr/PAMSI lab/Checkers/main.cpp
 SFML/Graphics.hpp

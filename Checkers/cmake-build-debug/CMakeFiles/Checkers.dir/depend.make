@@ -56,6 +56,7 @@ CMakeFiles/Checkers.dir/Movement.cpp.o: ../Color.h
 CMakeFiles/Checkers.dir/Movement.cpp.o: ../Movement.cpp
 CMakeFiles/Checkers.dir/Movement.cpp.o: ../Movement.h
 
+CMakeFiles/Checkers.dir/Node.cpp.o: ../Capture.h
 CMakeFiles/Checkers.dir/Node.cpp.o: ../Cell.h
 CMakeFiles/Checkers.dir/Node.cpp.o: ../ChequerRep.h
 CMakeFiles/Checkers.dir/Node.cpp.o: ../ChequerType.h

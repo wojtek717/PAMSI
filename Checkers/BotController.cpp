@@ -59,22 +59,92 @@ int BotController::EvaluateCapture(Cell capturePos) {
 void BotController::MakeTree() {
     this->tree.clear();
 
-    bool capture = true;
     std::vector<Movement> movements;
+    std::vector<Capture> captures;
     std::vector<std::vector<Cell>> tempBoard = this->boardArray;
+    int i = 0;
 
 
 
 
-    movements = this->GetAvaliableChequers(black);
+    captures = this->GetAvalibleCapture(black);
+    if(captures.size() == 0){
+        //Brak bicia
+        movements = this->GetAvaliableChequers(black);
 
-    for (auto &movement : movements) {
-
-        this->MakeMove(movement.from, movement.dest);
-        movement.SetScore(this->EvaluateMove(movement.dest));
-        Node node = Node(this->boardArray, movement);
-        this->boardArray = tempBoard;
-        this->tree.push_back(node);
+        for (auto &movement : movements) {
+            this->MakeMove(movement.from, movement.dest);
+            movement.SetScore(this->EvaluateMove(movement.dest));
+            Node node = Node(this->boardArray, movement);
+            this->boardArray = tempBoard;
+            this->tree.push_back(node);
+        }
+    } else{
+        //Wystepuje bicie
+        for (auto &capture : captures){
+            this->MakeCapture(capture.from, capture.dest);
+            capture.SetScore(this->EvaluateCapture(capture.capturePos));
+            Node node = Node(this->boardArray, capture);
+            this->boardArray = tempBoard;
+            this->tree.push_back(node);
+        }
     }
+
+    i = 0;
+    for (auto &node : this->tree){
+        this->boardArray = node.simulatedBoard;
+        captures = this->GetAvalibleCapture(white);
+        if(captures.size() == 0){
+            //Brak bicia
+            movements = this->GetAvaliableChequers(white);
+
+            for (auto &movement : movements){
+                this->MakeMove(movement.from, movement.dest);
+                movement.SetScore(this->EvaluateMove(movement.dest));
+                Node node = Node(this->boardArray, movement);
+                this->tree[i].subtree.push_back(node);
+            }
+        }else{
+            //Wystepuje bicie
+            for (auto &capture : captures){
+                this->MakeCapture(capture.from, capture.dest);
+                capture.SetScore(this->EvaluateCapture(capture.capturePos));
+                Node node = Node(this->boardArray, capture);
+                this->tree[i].subtree.push_back(node);
+            }
+        }
+        i++;
+    }
+
+    for (int j = 0; j < this->tree.size(); ++j) {
+        for (int k = 0; k < this->tree[j].subtree.size(); ++k) {
+            this->boardArray = this->tree[j].subtree[k].simulatedBoard;
+            captures = this->GetAvalibleCapture(black);
+
+            if(captures.size() == 0){
+                //Brak bicia
+                movements = this->GetAvaliableChequers(black);
+
+                for (auto &movement : movements){
+                    this->MakeMove(movement.from, movement.dest);
+                    movement.SetScore(this->EvaluateMove(movement.dest));
+                    Node node = Node(this->boardArray, movement);
+                    this->tree[j].subtree[k].subtree.push_back(node);
+                }
+            }else{
+                //Wystepuje bicie
+                for (auto &capture : captures){
+                    this->MakeCapture(capture.from, capture.dest);
+                    capture.SetScore(this->EvaluateCapture(capture.capturePos));
+                    Node node = Node(this->boardArray, capture);
+                    this->tree[j].subtree[k].subtree.push_back(node);
+                }
+            }
+        }
+    }
+}
+
+void BotController::MakeAction() {
+
 }
 

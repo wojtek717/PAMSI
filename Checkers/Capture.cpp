@@ -10,6 +10,7 @@ Capture::Capture(Cell from, Cell dest, Cell capturePos, bool isCapture) {
     this->capturePos = capturePos;
     this->score = 0;
     this->isCapture = isCapture;
+    this->nextCaptures = std::vector<Capture>();
 }
 
 Capture::Capture() {
@@ -18,6 +19,7 @@ Capture::Capture() {
     this->capturePos = Cell();
     this->score = 0;
     this->isCapture = false;
+    this->nextCaptures = std::vector<Capture>();
 }
 
 void Capture::SetMovement(Cell from, Cell dest, Cell capturePos) {
@@ -36,4 +38,8 @@ bool Capture::IsCapture() {
 
 void Capture::SetIsCapture(bool isCapture) {
     this->isCapture = isCapture;
+}
+
+void Capture::AddCapture(Capture nextCapture) {
+    nextCaptures.push_back(nextCapture);
 }

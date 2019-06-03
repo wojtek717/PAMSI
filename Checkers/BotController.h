@@ -21,6 +21,7 @@ public:
     void ReadBoard(std::vector<std::vector<Cell>> gameBoard);
 
     void MakeTree();
+    void MakeAction();
 
     void Hide(int x, int y) override;
     void Show(int x, int y, ChequerRep chequer) override;
